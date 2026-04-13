@@ -1,0 +1,752 @@
+[
+    {
+        "id": "evan",
+        "name": "Evan",
+        "title": "Expedition Captain",
+        "faction": "Evan Expedition",
+        "role": "Defense",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Evan.webp",
+        "transcend": "Block Rate +14%",
+        "builds":[
+            {
+                "name": "TANK DEF-BASED",
+                "note": "Barrier scale off DEF",
+                "substats": ["DEF (%)", "Block Rate", "HP (%)", "Effect Resist", "DEF", "Speed"],
+                "weapon1": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_a.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_a.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-bulwark",
+                    "ringID3": "ring-of-tenacity",
+                    "ringID4": "ring-of-protection"
+                }
+            },
+            {
+                "name": "TANK BLOCK-BASED",
+                "note": "Block Rate has better mitigation than DEF",
+                "substats": ["DEF (%)", "Block Rate", "HP (%)", "Effect Resist", "DEF", "Speed"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-tenacity",
+                    "ringID3": "ring-of-bulwark",
+                    "ringID4": "ring-of-protection"
+                }
+            }
+        ]
+    },
+    {
+        "id": "karin",
+        "name": "Karin",
+        "title": "Saint",
+        "faction": "Evan Expedition",
+        "role": "Support",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Karin.webp",
+        "transcend": "DMG Taken Reduction +7%",
+        "builds":[
+            {
+                "name": "TANK BLOCK-BASED",
+                "note": "",
+                "substats": ["DEF (%)", "Block Rate", "HP (%)", "Effect Resist", "All ATK (%)", "HP"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "All ATK (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "All ATK (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-nature"
+                }
+            },
+            {
+                "name": "TANK ORCHESTRATOR",
+                "note": "",
+                "substats": ["DEF (%)", "Block Rate", "HP (%)", "Effect Resist", "All ATK (%)", "HP"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-nature"
+                }
+            }
+        ]
+    },
+    {
+        "id": "yuri",
+        "name": "Yuri",
+        "title": "Fox Chief",
+        "faction": "Evan Expedition",
+        "role": "Magic",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Yuri.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "BEGINNING GEARS",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "T10 IRON DEVOURER/ADVENT EXPEDITION",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "li",
+        "name": "Li",
+        "title": "Enraged Renegade Monk",
+        "faction": "Evan Expedition",
+        "role": "Universal",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Li.webp",
+        "transcend": "Block Rate +14%",
+        "builds":[
+            {
+                "name": "TANK BLOCK-BASED",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Resist", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "TANK DEF-BASED",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Resist", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_a.webp",
+                    "substat1": "Effect Resist",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_a.webp",
+                    "substat1": "Effect Resist",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "TANK EFFECT RESIST-BASED",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Resist", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Effect Resist",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Effect Resist",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            }
+        ]
+    },
+    {
+        "id": "yui",
+        "name": "Yui",
+        "title": "Battle Bard",
+        "faction": "Evan Expedition",
+        "role": "Support",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Yui.webp",
+        "transcend": "DMG Taken Reduction +7%",
+        "builds":[
+            {
+                "name": "HP-BASED",
+                "note": "Yui's heals scale based off HP",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Hit", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_a.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_a.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-health",
+                    "ringID4": "ring-of-nature"
+                }
+            },
+            {
+                "name": "BLOCK-BASED",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Hit", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-nature"
+                }
+            }
+        ]
+    },
+    {
+        "id": "ariel",
+        "name": "Ariel",
+        "title": "Divine Light's Blessing",
+        "faction": "Evan Expedition",
+        "role": "Magic",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Ariel.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "SUPPORT",
+                "note": "Used for her passive or Blind support in Rachel CR",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Resist", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-nature"
+                }
+            }
+        ]
+    },
+    {
+        "id": "jupy",
+        "name": "Jupy",
+        "title": "All-Piercing Arrow",
+        "faction": "Evan Expedition",
+        "role": "Attack",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Jupy.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "BEGINNING GEARS",
+                "note": "",
+                "substats": ["Crit DMG", "Weakness Hit", "Crit Rate", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "T10 DESTROYER GAZE/ADVENT EXPEDITION",
+                "note": "",
+                "substats": ["Crit DMG", "Weakness Hit", "Crit Rate", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "snipper",
+        "name": "Snipper",
+        "title": "Legendary Hunter",
+        "faction": "Evan Expedition",
+        "role": "Attack",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Snipper.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "BEGINNING GEARS",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "T10 OX KING RAID",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "hellenia",
+        "name": "Hellenia",
+        "title": "Crimson Comet",
+        "faction": "Evan Expedition",
+        "role": "Defense",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Hellenia.webp",
+        "transcend": "Block Rate +14%",
+        "builds":[
+            {
+                "name": "GENERAL",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Resist", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-tenacity"
+                }
+            }
+        ]
+    },
+    {
+        "id": "heavenia",
+        "name": "Heavenia",
+        "title": "Azure Comet",
+        "faction": "Evan Expedition",
+        "role": "Attack",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Heavenia.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "FIRE POWER UP DUNGEON",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Resist", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "All ATK (%)"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "All ATK (%)"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "All ATK (%)"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "All ATK (%)"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-nature"
+                }
+            }
+        ]
+    }
+]

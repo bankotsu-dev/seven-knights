@@ -1,0 +1,68 @@
+---
+import DungeonComp from "@components/seven-knights/DungeonComp.astro";
+import type { Dungeon } from "@/types/skr";
+
+interface Props {
+  dungeon: Dungeon;
+}
+
+const { dungeon } = Astro.props;
+---
+
+<div
+  class="hidden rounded-base bg-neutral-secondary-soft"
+  id={dungeon.id}
+  role="tabpanel"
+  aria-labelledby={dungeon.id+"-tab"}
+>
+  <div class="flex h-40 gap-2 text-sm  sm:text-base text-body transition-opacity duration-300 rounded-tl-4xl
+              bg-neutral-primary-soft border-2 border-gray-500 rounded-md shadow-xs md:mb-2">
+    <div class="h-full aspect-square flex-nowrap">
+      <img
+        src={"/7knights/dungeon/"+dungeon.bossImg}
+        alt={dungeon.boss}
+        class="w-full h-full object-cover overflow-hidden p-1"
+        draggable="false"
+      />
+    </div>
+    <div class="pr-4 flex flex-col pt-2 select-none text-white">
+      <h5 class="text-xl sm:text-2xl font-bold">{dungeon.boss}</h5>
+      {
+        dungeon.effects.map((effect) =>(
+          <p>{effect}</p>
+        ))
+      }
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+    {
+      dungeon.comps.map((comp)=>(
+        <DungeonComp comp={comp} />
+      ))
+    }
+  </div>
+
+  <div class="flex flex-wrap w-full font-bold rounded-xl border-2 border-gray-500 my-2">
+    <div class="p-2 overflow-hidden w-28 h-28 text-center content-center">
+      <h5 class="text-sm md:text-base lg:text-xl break-words select-none">
+        OTHER HEROES
+      </h5>
+    </div>
+    {
+      dungeon.otherHeroes?.map((hero) => (
+      <div class="p-1 flex flex-col items-center overflow-hidden h-full text-center select-none">
+        <p class="break-words text-sm md:text-base">{hero.role}</p>
+        <a href={`/seven-knights/heroes/${hero.url}`} class="mt-auto">
+          <img src={`/7knights/heroes/${hero.img}`}
+            alt={hero.img} 
+            class="w-28 aspect-square p-2" 
+            draggable="false"
+          />
+        </a>
+      </div>
+      ))
+    }
+  </div>
+
+</div>

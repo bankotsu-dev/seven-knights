@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+import RegionTableItem from "./RegionTableItem.astro";
+
+const dd_regiones = await getCollection("dd_regiones");
+---
+
+<div class="relative w-full">
+    <table class="w-full caption-bottom text-sm">
+        <caption class="mt-4 text-sm text-muted-foreground">Una lista de las regiones, no incluidas MODs por el momento.</caption>
+        <tbody class="border-0">
+            <!-- Regiones -->
+            {dd_regiones.map((region) => (
+                <RegionTableItem 
+                    nombre={ region.data.nombre } 
+                    img={ region.data.img } 
+                    desc={ region.data.desc }
+                    url={ region.data.url } 
+                />
+            ))}
+            <!-- /Regiones -->
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,272 @@
+[
+    {
+        "id": "leo",
+        "name": "Leo",
+        "title": "The Blacksand's Vengeance",
+        "faction": "Blazing Desert",
+        "role": "Attack",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Leo.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "PVE SUPPORT",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-thorns"
+                }
+            }
+        ]
+    },
+    {
+        "id": "cleo",
+        "name": "Cleo",
+        "title": "Gaze of Destruction",
+        "faction": "Dragon Ruins",
+        "role": "Magic",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Cleo.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "WATER POWER UP DUNGEON",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-the-viper"
+                }
+            }
+        ]
+    },
+    {
+        "id": "lania",
+        "name": "Lania",
+        "title": "Queen of the Blizzard Plains",
+        "faction": "Blizzard Plains",
+        "role": "Universal",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Lania.webp",
+        "transcend": "Weakness Chance +16%",
+        "builds":[
+            {
+                "name": "WATER POWER UP DUNGEON",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-the-snow"
+                }
+            }
+        ]
+    },
+    {
+        "id": "sarah",
+        "name": "Sarah",
+        "title": "Succubus Queen",
+        "faction": "Purgatory",
+        "role": "Support",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Sarah.webp",
+        "transcend": "DMG Taken Reduction +7%",
+        "builds":[
+            {
+                "name": "WATER POWER UP DUNGEON",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-guardian"
+                }
+            }
+        ]
+    },
+    {
+        "id": "knox",
+        "name": "Knox",
+        "title": "Commander of Hell",
+        "faction": "Purgatory",
+        "role": "Defense",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Knox.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "PVP",
+                "note": "",
+                "substats": ["Speed", "Effect Hit", "Block Rate", "HP (%)", "Effect Resist", "DEF (%)"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-accuracy"
+                }
+            },
+            {
+                "name": "GENERAL BLOCK",
+                "note": "",
+                "substats": ["Speed", "Effect Hit", "Block Rate", "HP (%)", "Effect Resist", "DEF (%)"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-accuracy"
+                }
+            }
+        ]
+    }
+]

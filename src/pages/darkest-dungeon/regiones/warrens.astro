@@ -1,0 +1,44 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from "../../../layouts/Layout.astro";
+import Title from "../../../components/Title.astro";
+import WarrensSupply from '@/components/darkest-dungeon/WarrensSupply.astro';
+
+const region = await getEntry("dd_regiones", "warrens");
+---
+
+<Layout>
+    <div>
+        <img
+            src={ region?.data.img }
+            alt={ region?.data.img }
+            class="w-full h-full object-cover"
+        />
+    </div>
+    <div class="p-2 md-p-8 italic text-end"><b>"{ region?.data.frase }"</b></div>
+
+    <div class="my-4 md:mx-8 lg:mx-16 xl:32">
+        <Title title={region?.data.nombre}></Title>
+        <div>{ region?.body }</div>
+        <Title title="Provisiones"></Title>
+        <div>
+            <p>
+                Al adentrarte en el Laberinto de Darkest Dungeon, te recomendamos llevar Antorchas adicionales para interactuar con el 
+                Curio que purga rasgos negativos. Por otro lado, como muchos Curios en esta región requieren Hierbas medicinales, 
+                es aconsejable llevar una buena cantidad de ellas.
+                <br><br>
+                Finalmente, puedes reducir la cantidad de Comida en tu inventario y priorizar más Hierbas medicinales, ya que varios 
+                Curios en el Laberinto te proporcionarán Comida.
+            </p>
+        </div>
+
+        <!-- Provisiones -->
+        <WarrensSupply />
+
+        <Title title="Jefes"></Title>
+        <p>Proximamente...</p>
+        <Title title="Curios"></Title>
+        <p>Proximamente...</p>
+
+    </div>
+</Layout>

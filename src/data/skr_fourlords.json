@@ -1,0 +1,365 @@
+[
+    {
+        "id": "ace",
+        "name": "Ace",
+        "title": "Master of the Leader Sword",
+        "faction": "Four Lords",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Ace.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "PVP",
+                "note": "Gains +64% Effect Hit at T6",
+                "substats": ["Speed", "Block Rate", "HP (%)", "Effect Hit", "DEF (%)", "Effect Resist"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "any-cc"
+                }
+            }
+        ]
+    },
+    {
+        "id": "rin",
+        "name": "Rin",
+        "title": "Empress of Dragons",
+        "faction": "Four Lords",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Rin.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "PVE DAMAGE DEALER",
+                "note": "Needs ATK of at least 3850 due to passive ATK-Based Crit Rate Boost up to 30%",
+                "substats": ["Speed", "Crit DMG", "Crit Rate", "Weakness Hit", "All ATK (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "PVP DAMAGE DEALER BOUNTY",
+                "note": "Needs ATK of at least 3850 due to passive ATK-Based Crit Rate Boost up to 30%",
+                "substats": ["Speed", "Crit DMG", "Crit Rate", "Weakness Hit", "All ATK (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "PVP DAMAGE DEALER AVENGER",
+                "note": "Needs ATK of at least 3850 due to passive ATK-Based Crit Rate Boost up to 30%",
+                "substats": ["Speed", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "sun-wukong",
+        "name": "Sun Wukong",
+        "title": "Victorious Fighting Buddha",
+        "faction": "Four Lords",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Sun_Wukong.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "TANK/UNIVERSAL SUPPORT",
+                "note": "-",
+                "substats": ["Crit Rate", "Block Rate", "All ATK (%)", "HP (%)", "DEF (%)", "Weakness Hit"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "All ATK (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-guardian",
+                    "ringID3": "ring-of-tenacity",
+                    "ringID4": "ring-of-death"
+                }
+            },
+            {
+                "name": "GENERAL/PVP DPS",
+                "note": "T6 has 100% Crit Rate. Focus will be on Weakness Hit. If used in PVE, opt for Crit DMG",
+                "substats": ["Weakness Hit", "All ATK (%)", "Crit DMG", "Block Rate", "Effect Resist", "Effect Hit"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "All ATK (%)"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "All ATK (%)"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "All ATK (%)"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "All ATK (%)"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-accuracy",
+                    "ringID3": "ring-of-tenacity",
+                    "ringID4": "any-cc"
+                }
+            },
+            {
+                "name": "CASTLE RUSH/ADVENT EXPEDITION",
+                "note": "T6 has 100% Crit Rate. Need at least 50% Weakness Hit",
+                "substats": ["Weakness Hit", "Crit DMG", "All ATK (%)", "All ATK", "Effect Resist", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": ""
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-vengeance",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "lu-bu",
+        "name": "Lu Bu",
+        "title": "Unrivaled",
+        "faction": "Four Lords",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Lu_Bu.webp",
+        "transcend": "Weakness Hit Chance +20%",
+        "builds":[
+            {
+                "name": "PVP-FOCUSED",
+                "note": "Push his Crit Rate as high as possible along with Weakness Hit",
+                "substats": ["Speed", "Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-annihilation",
+                    "ringID4": "ring-of-roar"
+                }
+            },
+            {
+                "name": "PVE-FOCUSED",
+                "note": "Can go for lesser Crit Rate & Weakness Hit at about 80% and have more Crit DMG",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-annihilation",
+                    "ringID2": "ring-of-vengeance",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    }
+]

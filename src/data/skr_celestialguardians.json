@@ -1,0 +1,552 @@
+[
+    {
+        "id": "trude",
+        "name": "Trude",
+        "title": "The Shield of the Seven Knights",
+        "faction": "Celestial Guardians",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Trude.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "PRE-T6",
+                "note": "Gets 50-60% Block Rate from passive",
+                "substats": ["Crit Rate", "Weakness Hit", "Block Rate", "Crit DMG", "All ATK (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-roar",
+                    "ringID3": "ring-of-tenacity",
+                    "ringID4": "ring-of-death"
+                }
+            },
+            {
+                "name": "OFFENSIVE BUILD",
+                "note": "100% Crit Rate at T6; Need 40% Block Rate as well (50% Block Rate without Skill Enhance)",
+                "substats": ["Weakness Hit", "Crit DMG", "Block Rate", "All ATK (%)", "Speed", "All ATK"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-roar",
+                    "ringID3": "ring-of-tenacity",
+                    "ringID4": "ring-of-death"
+                }
+            },
+            {
+                "name": "TANKY BUILD",
+                "note": "100% Crit Rate at T6; Need 40% Block Rate as well (50% Block Rate without Skill Enhance)",
+                "substats": ["Weakness Hit", "Crit DMG", "Block Rate", "All ATK (%)", "Speed", "All ATK"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-roar",
+                    "ringID3": "ring-of-tenacity",
+                    "ringID4": "ring-of-death"
+                }
+            }
+        ]
+    },
+    {
+        "id": "freyja",
+        "name": "Freyja",
+        "title": "Warrior of Peace",
+        "faction": "Celestial Guardians",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Freyja.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "T0",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-roar",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "PVP BOUNTY",
+                "note": "",
+                "substats": ["Speed", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-resurrection",
+                    "ringID4": "ring-of-roar"
+                }
+            },
+            {
+                "name": "PVP AVENGER",
+                "note": "",
+                "substats": ["Speed", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-resurrection",
+                    "ringID4": "ring-of-roar"
+                }
+            }
+        ]
+    },
+    {
+        "id": "radgrid",
+        "name": "Radgrid",
+        "title": "Prophet of Self-Interest",
+        "faction": "Celestial Guardians",
+        "role": "Defense",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Radgrid.webp",
+        "transcend": "Block Rate +18%",
+        "builds":[
+            {
+                "name": "DMG REDUCTION-FOCUSED",
+                "note": "",
+                "substats": ["DEF (%)", "Block Rate", "DEF", "HP (%)", "Effect Resist", "Speed"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-protection",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "SHIELD-FOCUSED",
+                "note": "Barrier scales off DEF",
+                "substats": ["DEF (%)", "Block Rate", "DEF", "HP (%)", "Effect Resist", "Speed"],
+                "weapon1": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-protection",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "SHIELD-FOCUSED",
+                "note": "More HP = Win when outlasting other Tank Teams",
+                "substats": ["HP (%)", "HP", "DEF (%)", "DEF", "Effect Resist", "Speed"],
+                "weapon1": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "armor2": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-nature",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            }
+        ]
+    },
+    {
+        "id": "reginleif",
+        "name": "Reginleif",
+        "title": "Keeper of Vows",
+        "faction": "Celestial Guardians",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Reginleif.webp",
+        "transcend": "Weakness Chance +20%",
+        "builds":[
+            {
+                "name": "PVE DPS",
+                "note": "Get Crit Rate if not T6",
+                "substats": ["Crit DMG", "Weakness Hit", "Speed", "All ATK (%)", "Effect Hit", "Effect Resist"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-annihilation",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "PVP DPS",
+                "note": "Use Assassin/Orchestrator if not T6",
+                "substats": ["Speed", "Weakness Hit", "Crit DMG", "All ATK (%)", "Effect Hit", "Effect Resist"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-concentration",
+                    "ringID3": "ring-of-accuracy",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "SUPPORT",
+                "note": "For Paralysis, Cleanse and Passive only",
+                "substats": ["Speed", "Effect Hit", "Effect Resist", "DEF (%)", "HP (%)", "-"],
+                "weapon1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-accuracy",
+                    "ringID3": "ring-of-resistance",
+                    "ringID4": "any-cc"
+                }
+            }
+        ]
+    },
+    {
+        "id": "randgrid",
+        "name": "Randgrid",
+        "title": "Final Pride",
+        "faction": "Celestial Guardians",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Randgrid.webp",
+        "transcend": "Weakness Chance +20%",
+        "builds":[
+            {
+                "name": "PVP BOUNTY",
+                "note": "",
+                "substats": ["Speed", "Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "Effect Resist"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "PVP ASSASSIN",
+                "note": "",
+                "substats": ["Speed", "Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "Effect Resist"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    }
+]

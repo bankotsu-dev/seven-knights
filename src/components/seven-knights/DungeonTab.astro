@@ -1,0 +1,25 @@
+---
+interface Props {
+    dungeon: string;
+}
+const { dungeon } = Astro.props;
+---
+
+<div class="flex-1 flex items-center justify-center" role="presentation">
+  <button
+    id={dungeon+"-tab"}
+    data-tabs-target={"#"+dungeon}
+    type="button"
+    role="tab"
+    aria-controls={dungeon}
+    aria-selected="false"
+    class="group relative transition-all duration-300 hover:z-10 mx-2
+           hover:scale-105 hover:shadow-xl hover:p-1 aria-selected:scale-105 aria-selected:p-1"
+  >
+    <img
+      src={"/7knights/dungeon/"+dungeon+"Dungeon.webp"}
+      class="h-auto w-full transition-all duration-300 group-hover:brightness-110 group-hover:contrast-110"
+      draggable="false"
+    />
+  </button>
+</div>

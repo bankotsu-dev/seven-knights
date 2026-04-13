@@ -1,0 +1,798 @@
+[
+    {
+        "id": "rudy",
+        "name": "Rudy",
+        "title": "High Guardian",
+        "faction": "Seven Knights",
+        "role": "Defense",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Rudy.webp",
+        "transcend": "Block Rate +18%",
+        "builds":[
+            {
+                "name": "PVP",
+                "note": "Aim for 100% Block and high Effect Resistance",
+                "substats": ["Block Rate", "DEF (%)", "Effect Resist", "HP (%)", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "HP (%)"
+                },
+                "armor1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "Effect Resist"
+                },
+                "armor2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "Effect Resist"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "GENERAL BLOCK",
+                "note": "-",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Resist", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "GENERAL DEF",
+                "note": "-",
+                "substats": ["Block Rate", "DEF (%)", "Effect Resist", "HP (%)", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_a.webp",
+                    "substat1": "Effect Resist",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Guardian",
+                    "image": "/7knights/equipment/guardian_a.webp",
+                    "substat1": "Effect Resist",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            }  
+        ]
+    },
+    {
+        "id": "kris",
+        "name": "Kris",
+        "title": "Ruler of Purgatory",
+        "faction": "Seven Knights",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Kris.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "PVP",
+                "note": "-",
+                "substats": ["Speed", "Effect Hit", "Block Rate", "HP (%)", "Effect Resist", "DEF (%)"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-accuracy"
+                }
+            },
+            {
+                "name": "GENERAL BLOCK",
+                "note": "-",
+                "substats": ["Speed", "Effect Hit", "Block Rate", "HP (%)", "Effect Resist", "DEF (%)"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-accuracy"
+                }
+            },
+            {
+                "name": "INFINITE TOWER HEALER",
+                "note": "-",
+                "substats": ["All ATK (%)", "Block Rate", "Effect Hit", "All ATK", "HP (%)", "DEF (%)"],
+                "weapon1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-accuracy"
+                }
+            }
+        ]
+    },
+    {
+        "id": "eileene",
+        "name": "Eileene",
+        "title": "Empress of Fodina",
+        "faction": "Seven Knights",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Eileene.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "PVP CC",
+                "note": "-",
+                "substats": ["Speed", "Effect Hit", "Block Rate", "Effect Resist","DEF (%)", "HP (%)"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "HP (%)"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "Effect Resist"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "Effect Resist"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "any-cc"
+                }
+            },
+            {
+                "name": "GENERAL SUPPORT",
+                "note": "Support unt with her passive",
+                "substats": ["Speed", "Block Rate", "Effect Hit", "Effect Resist", "DEF (%)", "HP (%)"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "any-cc"
+                }
+            }
+        ]
+    },
+    {
+        "id": "rachel",
+        "name": "Rachel",
+        "title": "Phoenix Incarnate",
+        "faction": "Seven Knights",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Rachel.webp",
+        "transcend": "Weakness Chance +20%",
+        "builds":[
+            {
+                "name": "GENERAL SUPPORT",
+                "note": "Support unit with her passive and debuff",
+                "substats": ["Block Rate", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Speed"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "HP (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "Effect Resist"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "Effect Resist"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "-"
+                }
+            },
+            {
+                "name": "SUB DAMAGE DEALER",
+                "note": "Secondary DPS",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Speed", "All ATK"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-vengeance",
+                    "ringID4": "ring-of-fortune"
+                }
+            }
+        ]
+    },
+    {
+        "id": "dellons",
+        "name": "Dellons",
+        "title": "Ruler of Death",
+        "faction": "Seven Knights",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Dellons.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "SUB DAMAGE DEALER",
+                "note": "-",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Speed", "All ATK"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-authority",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "SUB DAMAGE DEALER",
+                "note": "-",
+                "substats": ["Weakness Hit", "Crit Rate", "Crit DMG", "All ATK (%)", "Speed", "All ATK"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-authority",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "SUPPORT",
+                "note": "Support unt with her passive and CC",
+                "substats": ["Block Rate", "Effect Hit", "HP (%)", "Speed", "DEF (%)", "Effect Resist"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-guardian"
+                }
+            }
+        ]
+    },
+    {
+        "id": "spike",
+        "name": "Spike",
+        "title": "Blizzard Tyrant",
+        "faction": "Seven Knights",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Spike.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "HP-CENTERED TANK + CC",
+                "note": "Gains Guts at T2",
+                "substats": ["HP (%)", "Effect Resist", "Effect Hit", "Block Rate", "DEF (%)", "HP"],
+                "weapon1": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_p.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "armor1": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "GENERAL BLOCK",
+                "note": "Gains Guts at T2",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Effect Resist", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            }
+        ]
+    },
+    {
+        "id": "jave",
+        "name": "Jave",
+        "title": "Guardian of the Dragons",
+        "faction": "Seven Knights",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Jave.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "FARMING (CRIT)",
+                "note": "Select main stat depending on Crit Rate needs",
+                "substats": ["Crit DMG", "Crit Rate", "Weakness Hit", "All ATK (%)", "Speed", "All ATK"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-annihilation",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "FARMING (AVENGER)",
+                "note": "-",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Speed", "All ATK"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-annihilation",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "vanessa",
+        "name": "Vanessa",
+        "title": "Witness of the Ephemeral",
+        "faction": "Seven Knights",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Vanessa.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "PVP SUPPORT",
+                "note": "Survivability is most important for passive, some Effect Hit helps ensure cooldown increase applies",
+                "substats": ["Speed", "Block Rate", "Effect Hit", "Effect Resist", "HP (%)", "HP"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-guardian"
+                }
+            },
+            {
+                "name": "SUB DAMAGE DEALER",
+                "note": "-",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Speed", "All ATK"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-annihilation",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "CC-CENTERED",
+                "note": "-",
+                "substats": ["Speed", "Crit DMG", "Weakness Hit", "All ATK (%)", "Effect Hit", "All ATK"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-health"
+                }
+            }
+        ]
+    }
+]

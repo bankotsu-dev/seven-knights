@@ -1,0 +1,96 @@
+---
+const { comp } = Astro.props;
+---
+
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mt-2 text-center font-bold rounded-xl border-2 border-gray-500 select-none">
+    <div class="p-2 overflow-hidden">
+      <h5 class="text-sm md:text-base lg:text-xl break-words">
+        { comp.name }
+      </h5>
+      <img src={`/7knights/assets/${comp.formation}`}
+          alt={comp.formation} 
+          class="mx-auto w-24 object-scale-down" 
+          draggable="false" />
+    </div>
+
+    <div class="p-1 flex flex-col items-center overflow-hidden h-full">
+      <p class="break-words text-sm md:text-base">{comp.hero1.role}</p>
+      <a href={`/seven-knights/heroes/${comp.hero1.url}`} class="mt-auto relative">
+        <img src={`/7knights/heroes/${comp.hero1.img}`}
+          alt={comp.hero1.url} 
+          class="w-28 aspect-square object-scale-down pb-2" 
+          draggable="false"
+        />
+        <img src={`/7knights/assets/${comp.hero1.icnSet}`}
+          alt={comp.hero1.icnSet} 
+          class="w-6 aspect-square absolute bottom-2 left-1 z-50 m-1"
+          draggable="false"
+        />
+      </a>
+    </div>
+
+    <div class="p-1 flex flex-col items-center overflow-hidden h-full">
+      <p class="break-words text-sm md:text-base">{comp.hero2.role}</p>
+      <a href={`/seven-knights/heroes/${comp.hero2.url}`} class="mt-auto relative">
+        <img src={`/7knights/heroes/${comp.hero2.img}`}
+          alt={comp.hero2.url} 
+          class="w-28 aspect-square object-scale-down pb-2"
+          draggable="false"
+        />
+        <img src={`/7knights/assets/${comp.hero2.icnSet}`}
+          alt={comp.hero2.icnSet} 
+          class="w-6 aspect-square absolute bottom-2 left-1 z-50 m-1"
+          draggable="false"
+        />
+      </a>
+    </div>
+
+    <div class="p-1 flex flex-col items-center overflow-hidden h-full">
+      <p class="break-words text-sm md:text-base">{comp.hero3.role}</p>
+      <a href={`/seven-knights/heroes/${comp.hero3.url}`} class="mt-auto relative">
+        <img src={`/7knights/heroes/${comp.hero3.img}`}
+          alt={comp.hero3.url} 
+          class="w-28 aspect-square object-scale-down pb-2"
+          draggable="false"
+        />
+        <img src={`/7knights/assets/${comp.hero3.icnSet}`}
+          alt={comp.hero3.icnSet} 
+          class="w-6 aspect-square absolute bottom-2 left-1 z-50 m-1"
+          draggable="false"
+        />
+      </a>
+    </div>
+
+    <div class="p-1 flex flex-col items-center overflow-hidden h-full">
+      <p class="break-words text-sm md:text-base">{comp.hero4.role}</p>
+      <a href={`/seven-knights/heroes/${comp.hero4.url}`} class="mt-auto relative">
+        <img src={`/7knights/heroes/${comp.hero4.img}`}
+          alt={comp.hero4.url} 
+          class="w-28 aspect-square object-scale-down pb-2"
+          draggable="false"
+        />
+        <img src={`/7knights/assets/${comp.hero4.icnSet}`}
+          alt={comp.hero4.icnSet} 
+          class="w-6 aspect-square absolute bottom-2 left-1 z-50 m-1"
+          draggable="false"
+        />
+      </a>
+    </div>
+
+    <div class="p-1 flex flex-col items-center overflow-hidden h-full">
+      <p class="break-words text-sm md:text-base">{comp.hero5.role}</p>
+      <a href={`/seven-knights/heroes/${comp.hero5.url}`} class="mt-auto relative">
+        <img src={`/7knights/heroes/${comp.hero5.img}`}
+          alt={comp.hero5.url} 
+          class="w-28 aspect-square object-scale-down pb-2"
+          draggable="false"
+        />
+        <img src={`/7knights/assets/${comp.hero5.icnSet}`}
+          alt={comp.hero5.icnSet} 
+          class="w-6 aspect-square absolute bottom-2 left-1 z-50 m-1"
+          draggable="false"
+        />
+      </a>
+    </div>
+
+</div>

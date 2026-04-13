@@ -1,0 +1,44 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from "../../../layouts/Layout.astro";
+import Title from "../../../components/Title.astro";
+
+const region = await getEntry("dd_regiones", "farmstead");
+---
+
+<Layout>
+    <div>
+        <img
+            src={ region?.data.img }
+            alt={ region?.data.img }
+            class="w-full h-full object-cover"
+        />
+    </div>
+    <div class="p-2 md-p-8 italic text-end"><b>"{ region?.data.frase }"</b></div>
+
+    <div class="my-4 md:mx-8 lg:mx-16 xl:32">
+        <Title title={region?.data.nombre}></Title>
+        <div>{ region?.body }</div>
+        <Title title="Provisiones"></Title>
+        <div>
+            <p>
+                Al entrar en la Alquería de Darkest Dungeon, no es necesario llevar Antorchas ni Palas, ya que no se utilizan en esta zona. Sin embargo, 
+                la Comida es importante para acampar en el Curio exclusivo de esta Mazmorra durante las misiones de Veterano y Campeón. Ten en cuenta 
+                que no podrás acampar en la misión de Aprendiz.
+                <br><br>
+                Lleva tantos objetos de combate como puedas, como Vendas, Antídotos, Hierbas medicinales, Llaves esqueleto, Agua bendita y Láudano, 
+                ya que con los nuevos Distritos, muchos de estos objetos otorgan mejoras significativas en las resistencias de tus Héroes.
+                <br><br>
+                Es crucial recordar que no recibirás frascos de Sangre como recompensa en ningún combate o Curio, lo que aumenta el riesgo de 
+                llevar Héroes con la Maldición Carmesí, especialmente si planeas continuar más allá de El Durmiente.
+            </p>
+        </div>
+        
+
+        <Title title="Jefes"></Title>
+        <p>Proximamente...</p>
+        <Title title="Curios"></Title>
+        <p>Proximamente...</p>
+
+    </div>
+</Layout>

@@ -1,0 +1,740 @@
+[
+    {
+        "id": "rook",
+        "name": "Rook",
+        "title": "Royal Guard",
+        "faction": "Terra",
+        "role": "Defense",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Rook.webp",
+        "transcend": "Block Rate +18%",
+        "builds":[
+            {
+                "name": "GENERAL",
+                "note": "",
+                "substats": ["HP (%)", "Block Rate", "Crit DMG", "All ATK (%)", "HP", "DEF (%)"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "HP (%)"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "PVP",
+                "note": "",
+                "substats": ["HP (%)", "Crit DMG", "All ATK (%)", "HP", "DEF (%)", "Block Rate"],
+                "weapon1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "HP (%)"
+                },
+                "armor2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "HP (%)"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-health",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "T6",
+                "note": "T6 passive Block Rate Boost scales with HP; 10000 HP for 20% Block Rate",
+                "substats": ["HP (%)", "Crit DMG", "All ATK (%)", "HP", "DEF (%)", "Block Rate"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "HP (%)"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "HP (%)"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-health",
+                    "ringID4": "ring-of-resistance"
+                }
+            }
+        ]
+    },
+    {
+        "id": "chancellor",
+        "name": "Chancellor",
+        "title": "Commander of the Guard",
+        "faction": "Terra",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Chancellor.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "GENERAL SUPPORT",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-guardian",
+                    "ringID3": "ring-of-nature",
+                    "ringID4": "ring-of-protection"
+                }
+            },
+            {
+                "name": "PVP/GUILD WAR",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-guardian",
+                    "ringID3": "ring-of-nature",
+                    "ringID4": "ring-of-protection"
+                }
+            }
+        ]
+    },
+    {
+        "id": "may",
+        "name": "May",
+        "title": "Deliverer of Love",
+        "faction": "Terra",
+        "role": "Attack",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/May.webp",
+        "transcend": "Effect Hit Rate +18%",
+        "builds":[
+            {
+                "name": "SUPPORT",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-thorns"
+                }
+            }
+        ]
+    },
+    {
+        "id": "alice",
+        "name": "Alice",
+        "title": "Romantic",
+        "faction": "Terra",
+        "role": "Support",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Alice.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "PVP V1",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "Effect Resist", "DEF (%)", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            },
+            {
+                "name": "PVE/PVP V2",
+                "note": "",
+                "substats": ["HP (%)", "Block Rate", "Effect Resist", "DEF (%)", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Paladin",
+                    "image": "/7knights/equipment/paladin_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-nature",
+                    "ringID2": "ring-of-guardian",
+                    "ringID3": "ring-of-resistance",
+                    "ringID4": "ring-of-protection"
+                }
+            },
+            {
+                "name": "PVP V3",
+                "note": "Try to push for high Block Rate with substats",
+                "substats": ["Block Rate", "HP (%)", "Effect Resist", "DEF (%)", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            }
+        ]
+    },
+    {
+        "id": "aragon",
+        "name": "Aragon",
+        "title": "Commander of the Alliance",
+        "faction": "Terra",
+        "role": "Defense",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Aragon.webp",
+        "transcend": "Block Rate +18%",
+        "builds":[
+            {
+                "name": "PVP/GUILD WAR V1",
+                "note": "",
+                "substats": ["Block Rate", "DEF (%)", "HP (%)", "DEF", "HP", "Effect Hit"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-guardian",
+                    "ringID3": "ring-of-protection",
+                    "ringID4": "ring-of-nature"
+                }
+            },
+            {
+                "name": "PVP/GUILD WAR V2",
+                "note": "",
+                "substats": ["Block Rate", "DEF (%)", "HP (%)", "DEF", "HP", "Effect Hit"],
+                "weapon1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "DEF (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-guardian",
+                    "ringID3": "ring-of-protection",
+                    "ringID4": "ring-of-nature"
+                }
+            }
+        ]
+    },
+    {
+        "id": "noho",
+        "name": "Noho",
+        "title": "Author of History",
+        "faction": "Terra",
+        "role": "Magic",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Noho.webp",
+        "transcend": "DMG Taken Reduction +7%",
+        "builds":[
+            {
+                "name": "SUPPORT",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-nature"
+                }
+            }
+        ]
+    },
+    {
+        "id": "chloe",
+        "name": "Chloe",
+        "title": "Summon Shop Girl",
+        "faction": "Terra",
+        "role": "Support",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Chloe.webp",
+        "transcend": "DMG Taken Reduction +7%",
+        "builds":[
+            {
+                "name": "SUPPORT",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-nature"
+                }
+            }
+        ]
+    },
+    {
+        "id": "biscuit",
+        "name": "Biscuit",
+        "title": "Fiery Blacksmith",
+        "faction": "Terra",
+        "role": "Support",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Biscuit.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "SUPPORT - SURVIVAL PRIORITY",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-guardian",
+                    "ringID3": "ring-of-nature",
+                    "ringID4": "ring-of-protection"
+                }
+            },
+            {
+                "name": "SUPPORT - DAMAGE PRIORITY V1",
+                "note": "Offensive alternative to help clear CR wave",
+                "substats": ["Crit Rate", "Crit DMG", "All ATK (%)", "HP (%)", "DEF (%)", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-siege"
+                }
+            },
+            {
+                "name": "SUPPORT - DAMAGE PRIORITY V2",
+                "note": "Offensive alternative to help clear CR wave",
+                "substats": ["Crit Rate", "Crit DMG", "All ATK (%)", "HP (%)", "DEF (%)", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-siege"
+                }
+            }
+        ]
+    },
+    {
+        "id": "deo",
+        "name": "Deo",
+        "title": "Wings of Darkness & Ranch",
+        "faction": "Terra",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Deo.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "PVE V1",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-fortune",
+                    "ringID2": "ring-of-concentration",
+                    "ringID3": "ring-of-vengeance",
+                    "ringID4": "any-cc"
+                }
+            },
+            {
+                "name": "PVE V2",
+                "note": "",
+                "substats": ["Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-fortune",
+                    "ringID2": "ring-of-concentration",
+                    "ringID3": "ring-of-vengeance",
+                    "ringID4": "any-cc"
+                }
+            }
+        ]
+    }
+]

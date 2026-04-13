@@ -1,0 +1,44 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from "../../../layouts/Layout.astro";
+import Title from "../../../components/Title.astro";
+import WealdSupply from '@/components/darkest-dungeon/WealdSupply.astro';
+
+const region = await getEntry("dd_regiones", "weald");
+---
+
+<Layout>
+    <div>
+        <img
+            src={ region?.data.img }
+            alt={ region?.data.img }
+            class="w-full h-full object-cover"
+        />
+    </div>
+    <div class="p-2 md-p-8 italic text-end"><b>"{ region?.data.frase }"</b></div>
+
+    <div class="my-4 md:mx-8 lg:mx-16 xl:32">
+        <Title title={region?.data.nombre}></Title>
+        <div>{ region?.body }</div>
+        <Title title="Provisiones"></Title>
+        <div>
+            <p>
+                Al explorar la Foresta de Darkest Dungeon, es recomendable llevar algunas Palas adicionales, aunque solo un Curio 
+                interactúa con ellas, puedes obtener valiosos Tesoros y Herencias. Por otro lado, puedes considerar reducir la cantidad 
+                de Comida para llevar más Hierbas medicinales, ya que existe un Curio que nos puede proporcionar mucha Comida.
+                <br><br>
+                Por último, es altamente recomendable llevar Vendas y Antídotos extra, ya que los Bandidos pueden causar Hemorragia y 
+                muchos enemigos infligen Peste, por lo que con estas provisiones podemos mermar mucho daño en nuestros Héroes.
+            </p>
+        </div>
+
+        <!-- Provisiones -->
+        <WealdSupply />
+
+        <Title title="Jefes"></Title>
+        <p>Proximamente...</p>
+        <Title title="Curios"></Title>
+        <p>Proximamente...</p>
+
+    </div>
+</Layout>

@@ -1,0 +1,46 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import HeroBuild from "@components/seven-knights/HeroBuild.astro";
+import type { Hero } from "@/types/skr";
+import Title from "@components/Title.astro";
+import { factionNames } from "@/data/skr_factions";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+
+  const heroes = (
+    await Promise.all(factionNames.map(name => getCollection(name)))
+  ).flat();
+
+  return heroes.map((hero) => ({
+    params: {
+      hero: hero.id,
+    },
+    props: {
+      hero,
+    },
+  }));
+};
+
+interface Props {
+  hero: Hero;
+}
+
+const { hero } = Astro.props;
+---
+
+<Layout>
+  <section>
+    <Title title={ hero.data.name } />
+    {
+      hero.data.builds.map((build) => (
+        <HeroBuild
+          build={build}
+          portrait={hero.data.portrait}
+          transcend={hero.data.transcend}
+        />
+      ))
+    }
+  </section>
+</Layout>

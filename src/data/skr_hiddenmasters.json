@@ -1,0 +1,297 @@
+[
+    {
+        "id": "klahan",
+        "name": "Klahan",
+        "title": "Muay Thai Master",
+        "faction": "Hidden Masters",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Klahan.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "FARMER ASSASSIN",
+                "note": "Speed is needed to go first against the mobs. Also 100% Crit Rate is a MUST",
+                "substats": ["Crit Rate", "Crit DMG", "Speed", "Weakness Hit", "All ATK (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-annihilation",
+                    "ringID2": "ring-of-fortune",
+                    "ringID3": "ring-of-concentration",
+                    "ringID4": "ring-of-vengeance"
+                }
+            },
+            {
+                "name": "FARMER AVENGER",
+                "note": "Speed is needed to go first against the mobs. Also 100% Crit Rate is a MUST",
+                "substats": ["Crit Rate", "Crit DMG", "Speed", "Weakness Hit", "All ATK (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-annihilation",
+                    "ringID2": "ring-of-fortune",
+                    "ringID3": "ring-of-concentration",
+                    "ringID4": "ring-of-vengeance"
+                }
+            }
+        ]
+    },
+    {
+        "id": "kagura",
+        "name": "Kagura",
+        "title": "Guardian of the Eight Serpents Sword",
+        "faction": "Hidden Masters",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Kagura.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "PVP",
+                "note": "Max ATK to bait enemy Kyle's Eyes of the Strong; Kagura's Heal also scales off ATK",
+                "substats": ["Speed", "All ATK (%)", "Effect Hit", "Effect Resist", "Weakness Hit", "HP"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "All ATK (%)"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-accuracy"
+                }
+            }
+        ]
+    },
+    {
+        "id": "miho",
+        "name": "Miho",
+        "title": "The Girl Turned Empress",
+        "faction": "Hidden Masters",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Miho.webp",
+        "transcend": "Weakness Chance +20%",
+        "builds":[
+            {
+                "name": "BEGINNING GEARS",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "CASTLE RUSH/ADVENT EXPEDITION",
+                "note": "Adjust Crit Rate depending on whether Biscuit/Chloe/Orly is in team",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "amelia",
+        "name": "Amelia",
+        "title": "Hero",
+        "faction": "Hidden Masters",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Amelia.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "PVP/GUILD WAR",
+                "note": "Max ATK to bait enemy Kyle's Eyes of the Strong",
+                "substats": ["Speed", "All ATK (%)", "Effect Hit", "Effect Resist", "DEF (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "any-cc"
+                }
+            },
+            {
+                "name": "CC BUILD",
+                "note": "Max ATK to bait enemy Kyle's Eyes of the Strong",
+                "substats": ["Speed", "All ATK (%)", "Effect Hit", "Effect Resist", "DEF (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "any-cc"
+                }
+            }
+        ]
+    }
+]

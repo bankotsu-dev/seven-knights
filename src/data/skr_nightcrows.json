@@ -1,0 +1,212 @@
+[
+    {
+        "id": "taka",
+        "name": "Taka",
+        "title": "Night Crow",
+        "faction": "Night Crows",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Taka.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "BEGINNING GEARS",
+                "note": "-",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "CASTLE RUSH/ADVENT EXPEDITION",
+                "note": "Aim for 45% Weakness Hit",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "orly",
+        "name": "Orly",
+        "title": "Avatar of White Magic",
+        "faction": "Night Crows",
+        "role": "Support",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Orly.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "MAGIC SUPPORT",
+                "note": "-",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "HP", "DEF", "Speed"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-tenacity",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-nature"
+                }
+            }
+        ]
+    },{
+        "id": "aquila",
+        "name": "Aquila",
+        "title": "Final Executioner",
+        "faction": "Night Crows",
+        "role": "Defense",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Aquila.webp",
+        "transcend": "Block Rate +18%",
+        "builds":[
+            {
+                "name": "DEATH SUPPORT",
+                "note": "-",
+                "substats": ["Block Rate", "Effect Hit", "HP (%)", "DEF (%)", "HP", "Speed"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-accuracy"
+                }
+            },
+            {
+                "name": "GENERAL BLOCK",
+                "note": "-",
+                "substats": ["Block Rate", "Effect Hit", "HP (%)", "DEF (%)", "HP", "Speed"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "HP (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-accuracy"
+                }
+            }
+        ]
+    }
+]

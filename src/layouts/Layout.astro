@@ -1,0 +1,43 @@
+---
+import { ClientRouter } from "astro:transitions";
+import SidebarAlt from "@/components/SidebarAlt.astro";
+import "../styles/global.css";
+---
+
+
+<!doctype html>
+<html lang="es" class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Bitácora del Jugador</title>
+		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+
+		<ClientRouter />
+	</head>
+	<body>
+		<SidebarAlt />
+		<main class="sm:ml-64">
+			<slot />
+		</main>
+		
+		<!-- Flowbite JS -->
+		<script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+		<script>
+		import { initFlowbite } from 'flowbite';
+
+		document.addEventListener('astro:page-load', () => {
+			initFlowbite();
+		});
+		</script>
+	</body>
+</html>
+
+<style is:global>
+	
+	html {
+		font-family: system-ui, sans-serif;
+		background: #1e2734;
+		color: #c4cad4;
+	}
+</style>

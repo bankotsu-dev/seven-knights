@@ -1,0 +1,49 @@
+[
+    {
+        "id": "nombre",
+        "name": "nombre",
+        "title": "título",
+        "faction": "facción",
+        "role": "rol",
+        "grade": "grade",
+        "portrait": "/7knights/heroes/.webp",
+        "transcend": "",
+        "builds":[
+            {
+                "name": "build",
+                "note": "",
+                "substats": [],
+                "weapon1": {
+                    "type": "",
+                    "image": "",
+                    "substat1": "",
+                    "substat2": ""
+                },
+                "weapon2": {
+                    "type": "",
+                    "image": "",
+                    "substat1": "",
+                    "substat2": ""
+                },
+                "armor1": {
+                    "type": "",
+                    "image": "",
+                    "substat1": "",
+                    "substat2": ""
+                },
+                "armor2": {
+                    "type": "",
+                    "image": "",
+                    "substat1": "",
+                    "substat2": ""
+                },
+                "rings": {
+                    "ringID1": "",
+                    "ringID2": "",
+                    "ringID3": "",
+                    "ringID4": ""
+                }
+            }
+        ]
+    }
+]

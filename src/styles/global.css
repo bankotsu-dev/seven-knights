@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "flowbite/src/themes/default";
+
+@plugin "@tailwindcss/typography";
+@plugin "flowbite/plugin";
+
+@source "../../node_modules/flowbite";

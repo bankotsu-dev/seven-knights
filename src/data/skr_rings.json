@@ -1,0 +1,200 @@
+[
+    {
+        "id": "any-cc",
+        "name": "Any CC",
+        "effect": "Any CC Ring",
+        "image": "/7knights/rings/any_cc.webp"
+    },
+    {
+        "id": "ring-of-resurrection",
+        "name": "Ring of Resurrection",
+        "effect": "Revive with 100% HP 1 time upon falling in battle. (Does not stack with hero passives)",
+        "image": "/7knights/rings/ring_of_resurrection.webp"
+    },
+    {
+        "id": "ring-of-immortality",
+        "name": "Ring of Immortality",
+        "effect": "Grants Immortality for 3 turns upon fallin in battle. (Does not stack with hero passives)",
+        "image": "/7knights/rings/ring_of_immortality.webp"
+    },
+    {
+        "id": "ring-of-authority",
+        "name": "Ring of Authority",
+        "effect": "Guts: Grants a Barrier equal to 150% of Attack for 4 turns upon triggering Guts. [Unremovable] (Does not stack with hero passives)",
+        "image": "/7knights/rings/ring_of_authority.webp"
+    },
+    {
+        "id": "ring-of-roar",
+        "name": "Ring of Roar",
+        "effect": "Start battles with a Barrier equal to 90% of the caster's Attack. [Duration: 2 Turn(s)] [Once per Round, Does not stack with hero passives]",
+        "image": "/7knights/rings/ring_of_roar.webp"
+    },
+    {
+        "id": "ring-of-bulwark",
+        "name": "Ring of Bulwark",
+        "effect": "Start battles with a Barrier equal to 100% of the caster's Defense. [Duration: 2 Turn(s)] [Once per Round, Does not stack with hero passives]",
+        "image": "/7knights/rings/ring_of_bulwark.webp"
+    },
+    {
+        "id": "ring-of-health",
+        "name": "Ring of Health",
+        "effect": "Start battles with a Barrier equal to 18% of the caster's Max HP. [Duration: 2 Turn(s)] [Once per Round, Does not stack with hero passives]",
+        "image": "/7knights/rings/ring_of_health.webp"
+    },
+    {
+        "id": "ring-of-subjugation",
+        "name": "Ring of Subjugation",
+        "effect": "Start battles with a 12% Boss Damage Boost",
+        "image": "/7knights/rings/ring_of_subjugation.webp"
+    },
+    {
+        "id": "ring-of-siege",
+        "name": "Ring of Siege",
+        "effect": "Start battles with a 10% Single - Triple-Target Attack Damage Boost",
+        "image": "/7knights/rings/ring_of_siege.webp"
+    },
+    {
+        "id": "ring-of-annihilation",
+        "name": "Ring of Annihilation",
+        "effect": "Start battles with a 10% Quadruple - Quintuple-Target Attack Damage Boost",
+        "image": "/7knights/rings/ring_of_annihilation.webp"
+    },
+    {
+        "id": "ring-of-tenacity",
+        "name": "Ring of Tenacity",
+        "effect": "Heals HP equal to 18% of the caster's Max HP when HP falls to 50% or lower. [Once por Battle, Accesories first]",
+        "image": "/7knights/rings/ring_of_tenacity.webp"
+    },
+    {
+        "id": "ring-of-magic",
+        "name": "Ring of Magic",
+        "effect": "12% chance to remove 1 buff upon using a basic attack",
+        "image": "/7knights/rings/ring_of_magic.webp"
+    },
+    {
+        "id": "ring-of-time",
+        "name": "Ring of Time",
+        "effect": "12% chance to reduce buff durations by 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_time.webp"
+    },
+    {
+        "id": "ring-of-chance",
+        "name": "Ring of Chance",
+        "effect": "10% chance to inflict Stun for 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_chance.webp"
+    },
+    {
+        "id": "ring-of-curses",
+        "name": "Ring of Curses",
+        "effect": "12% chance to inflict Silence for 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_curses.webp"
+    },
+    {
+        "id": "ring-of-death",
+        "name": "Ring of Death",
+        "effect": "12% chance to inflict Death for 3 turns upon using a basic attack",
+        "image": "/7knights/rings/ring_of_death.webp"
+    },
+    {
+        "id": "ring-of-doom",
+        "name": "Ring of Doom",
+        "effect": "10% chance to inflict Paralysis for 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_doom.webp"
+    },
+    {
+        "id": "ring-of-brilliance",
+        "name": "Ring of Brilliance",
+        "effect": "10% chance to inflict Shock for 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_brilliance.webp"
+    },
+    {
+        "id": "ring-of-horror",
+        "name": "Ring of Horror",
+        "effect": "12% chance to inflict Blind for 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_horror.webp"
+    },
+    {
+        "id": "ring-of-the-Snow",
+        "name": "Ring of the Snow",
+        "effect": "12% chance to inflict Freeze for 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_the_snow.webp"
+    },
+    {
+        "id": "ring-of-medusa",
+        "name": "Ring of Medusa",
+        "effect": "12% chance to inflict Petrify for 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_medusa.webp"
+    },
+    {
+        "id": "ring-of-dreams",
+        "name": "Ring of Dreams",
+        "effect": "12% chance to inflict Sleep for 1 turn upon using a basic attack",
+        "image": "/7knights/rings/ring_of_dreams.webp"
+    },
+    {
+        "id": "ring-of-thorns",
+        "name": "Ring of Thorns",
+        "effect": "15% chance to inflict Bleed for 2 turns upon using a basic attack",
+        "image": "/7knights/rings/ring_of_thorns.webp"
+    },
+    {
+        "id": "ring-of-the-salamander",
+        "name": "Ring of the Salamander",
+        "effect": "15% chance to inflict Burn for 2 turns upon using a basic attack",
+        "image": "/7knights/rings/ring_of_the_salamander.webp"
+    },
+    {
+        "id": "ring-of-the-viper",
+        "name": "Ring of the Viper",
+        "effect": "15% chance to inflict Poison for 2 turns upon using a basic attack",
+        "image": "/7knights/rings/ring_of_the_viper.webp"
+    },
+    {
+        "id": "ring-of-vengeance",
+        "name": "Ring of Vengeance",
+        "effect": "Start battles with +6% Damage",
+        "image": "/7knights/rings/ring_of_vengeance.webp"
+    },
+    {
+        "id": "ring-of-protection",
+        "name": "Ring of Protection",
+        "effect": "Start battles with +10% Defense",
+        "image": "/7knights/rings/ring_of_protection.webp"
+    },
+    {
+        "id": "ring-of-fortune",
+        "name": "Ring of Fortune",
+        "effect": "Start battles with +10% Crit Rate",
+        "image": "/7knights/rings/ring_of_fortune.webp"
+    },
+    {
+        "id": "ring-of-guardian",
+        "name": "Ring of Guardian",
+        "effect": "Start battles with +10% Block Rate",
+        "image": "/7knights/rings/ring_of_guardian.webp"
+    },
+    {
+        "id": "ring-of-concentration",
+        "name": "Ring of Concentration",
+        "effect": "Start battles with +12% Weakness Hit Chance",
+        "image": "/7knights/rings/ring_of_concentration.webp"
+    },
+    {
+        "id": "ring-of-nature",
+        "name": "Ring of Nature",
+        "effect": "Start battles with +10% HP",
+        "image": "/7knights/rings/ring_of_nature.webp"
+    },
+    {
+        "id": "ring-of-accuracy",
+        "name": "Ring of Accuracy",
+        "effect": "Start battles with +15% Effect Hit Rate",
+        "image": "/7knights/rings/ring_of_accuracy.webp"
+    },
+    {
+        "id": "ring-of-resistance",
+        "name": "Ring of Resistance",
+        "effect": "Start battles with +15%  Effect Resistance",
+        "image": "/7knights/rings/ring_of_resistance.webp"
+    }
+]

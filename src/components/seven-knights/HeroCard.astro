@@ -1,0 +1,72 @@
+---
+import type { Hero } from "@/types/skr";
+
+interface Props {
+  hero: Hero;
+  icon: string;
+}
+
+const { hero, icon } = Astro.props;
+const uid = crypto.randomUUID();
+
+let bcolor = "";
+let bgcolor = "";
+switch (hero.data?.grade) {
+  case "Legendary":
+    bcolor = "border-amber-500";
+    bgcolor = "bg-amber-500";
+    break;
+  case "Rare":
+    bcolor = "border-indigo-500";
+    bgcolor = "bg-indigo-500";
+    break;
+  case "Uncommon":
+    bcolor = "border-green-500";
+    bgcolor = "bg-green-500";
+    break;
+  case "Common":
+    bcolor = "border-gray-500";
+    bgcolor = "bg-gray-500";
+    break;
+  default:
+    bcolor = "border-red-500";
+    bgcolor = "bg-red-500";
+}
+
+---
+
+<a
+  class={`w-20 h-20 md:w-22 md:h-22 aspect-square ${bgcolor} rounded-tl-2xl rounded-br-2xl p-0.5`}
+  href={`/seven-knights/heroes/${hero.id}`}
+  data-popover-target={`popover${uid}`}
+>
+  <img
+    src={hero.data.portrait}
+    alt={hero.data.name}
+    class="w-full h-full object-cover overflow-hidden"
+    draggable="false"
+  />
+</a>
+<div
+  data-popover
+  id={`popover${uid}`}
+  role="tooltip"
+  class={`absolute z-50 invisible flex h-40 gap-2 text-sm text-body transition-opacity duration-300
+  border ${bcolor} rounded-md shadow-xs opacity-0 bg-gray-900`}
+>
+  <div class="h-full aspect-square flex-nowrap">
+    <img
+      src={hero.data.portrait}
+      alt={hero.data.name}
+      class="w-full h-full object-cover overflow-hidden p-1"
+      draggable="false"
+    />
+  </div>
+  <div class="pr-4 flex flex-col pt-2 select-none">
+    <p class="text-lg text-cyan-300">{hero.data.title}</p>
+    <h4 class="font-bold text-3xl text-cyan-300">{hero.data.name}</h4>
+    <p class="text-xl flex items-center mt-2 text-white"><span class="pr-1"><img src={`/7knights/assets/${icon}`} alt={icon} class="w-5 h-5" /></span>{hero.data.faction}</p>
+    <p class="text-xl flex items-center mt-2"><span class="pr-1"><img src={`/7knights/assets/Icn_${hero.data.role}.webp`} alt={icon} class="w-6 h-6" /></span></p>
+  </div>
+  <div data-popper-arrow class={`${bgcolor}`}></div>
+</div>

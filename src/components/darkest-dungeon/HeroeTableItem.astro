@@ -1,0 +1,35 @@
+---
+const { nombre, desc, portrait, guild_header } = Astro.props;
+---
+
+<tr class="transition-colors hover:bg-gray-700">
+    <td class="p-2 lg:p-4 align-middle">
+        <div class="flex max-h-screen items-center justify-center">
+            <div class="relative flex w-full  flex-row rounded-xl bg-clip-border text-white">
+                <div class="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-non bg-clip-border text-white">
+                    <img
+                        src={ guild_header }
+                        width={300}
+                        height={300}
+                        alt={ guild_header }
+                    />
+                </div>
+                <div class="p-6">
+                    <h6 class="mb-4 block font-sans text-lg font-semibold leading-relaxed tracking-normal text-cyan-400 antialiased">
+                        { nombre }
+                    </h6>
+                    <img
+                        src={ portrait }
+                        width={85}
+                        height={85}
+                        alt={ portrait }
+                        class="my-8"
+                    />
+                    <p class="mb-8 block font-sans text-base font-normal leading-relaxed text-white antialiased">
+                        <span class="text-2xl">"</span>{ desc }<span class="text-2xl">"</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </td>
+</tr>

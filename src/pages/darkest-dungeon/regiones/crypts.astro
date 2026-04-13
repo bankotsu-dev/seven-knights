@@ -1,0 +1,43 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from "../../../layouts/Layout.astro";
+import Title from "../../../components/Title.astro";
+import CryptsSupply from "../../../components/darkest-dungeon/CryptsSupply.astro";
+
+const region = await getEntry("dd_regiones", "crypts");
+---
+
+<Layout>
+    <div>
+        <img
+            src={ region?.data.img }
+            alt={ region?.data.img }
+            class="w-full h-full object-cover"
+        />
+    </div>
+    <div class="p-2 md-p-8 italic text-end"><b>"{ region?.data.frase }"</b></div>
+
+    <div class="my-4 md:mx-8 lg:mx-16 xl:32">
+        <Title title={region?.data.nombre}></Title>
+        <div>{ region?.body }</div>
+        <Title title="Provisiones"></Title>
+        <div>
+            <p>
+                Al explorar las Ruinas en Darkest Dungeon, es crucial llevar suficiente Comida, ya que no encontrarás Curios que te la proporcionen, no querrás 
+                quedarte sin provisiones en medio de los pasillos de la expedición. Por otro lado, asegúrate de incluir Agua bendita y Llaves esqueleto en tu 
+                inventario, ya que muchos Curios en esta región requieren de estas provisiones.
+                <br><br>
+                Por último, puedes reducir la cantidad de Hierbas medicinales, Vendas y Antivenenos, ya que no son tan necesarios aquí.
+            </p>
+        </div>
+
+        <!-- Provisiones -->
+        <CryptsSupply />
+
+        <Title title="Jefes"></Title>
+        <p>Proximamente...</p>
+        <Title title="Curios"></Title>
+        <p>Proximamente...</p>
+
+    </div>
+</Layout>

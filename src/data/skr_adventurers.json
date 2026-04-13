@@ -1,0 +1,471 @@
+[
+    {
+        "id": "karon",
+        "name": "Karon",
+        "title": "Guardian of Nature",
+        "faction": "Adventurers",
+        "role": "Support",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Karon.webp",
+        "transcend": "DMG Taken Reduction +7%",
+        "builds":[
+            {
+                "name": "OX KING RAID",
+                "note": "Karon's heal scales based off ATK",
+                "substats": ["Block Rate", "All ATK (%)", "HP (%)", "DEF (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-guardian"
+                }
+            },
+            {
+                "name": "HEAL-FOCUSED",
+                "note": "Karon's heal scales based off ATK",
+                "substats": ["Block Rate", "All ATK (%)", "HP (%)", "DEF (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-guardian"
+                }
+            }
+        ]
+    },
+    {
+        "id": "victoria",
+        "name": "Victoria",
+        "title": "Pirate Queen",
+        "faction": "Adventurers",
+        "role": "Universal",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Victoria.webp",
+        "transcend": "DMG Taken Reduction +7%",
+        "builds":[
+            {
+                "name": "IRON DEVOURER RAID",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-tenacity"
+                }
+            }
+        ]
+    },
+    {
+        "id": "lucy",
+        "name": "Lucy",
+        "title": "Exotic Spiritualist",
+        "faction": "Adventurers",
+        "role": "Support",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Lucy.webp",
+        "transcend": "DMG Taken Reduction +7%",
+        "builds":[
+            {
+                "name": "IRON DEVOURER RAID",
+                "note": "descripción",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-protection"
+                }
+            }
+        ]
+    },
+    {
+        "id": "velika",
+        "name": "Velika",
+        "title": "Flames of Darkness",
+        "faction": "Adventurers",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Velika.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "SUPPORT",
+                "note": "",
+                "substats": ["Block Rate", "HP (%)", "Crit Rate", "Crit DMG", "All ATK (%)", "Speed"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-guardian"
+                }
+            },
+            {
+                "name": "SUB DPS",
+                "note": "",
+                "substats": ["Crit DMG", "Crit Rate", "Weakness Hit", "All ATK (%)", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "sylvia",
+        "name": "Sylvia",
+        "title": "Necromancer",
+        "faction": "Adventurers",
+        "role": "Magic",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Sylvia.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "GENERAL",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "joker",
+        "name": "Joker",
+        "title": "Master Illusionist",
+        "faction": "Adventurers",
+        "role": "Magic",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Joker.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "LIGHT POWER UP DUNGEON",
+                "note": "Used against DMG Nullification enemies. Any DoT accessory helps",
+                "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-thorns"
+                }
+            }
+        ]
+    },
+    {
+        "id": "xiao",
+        "name": "Xiao",
+        "title": "Masterless One",
+        "faction": "Adventurers",
+        "role": "Attack",
+        "grade": "Rare",
+        "portrait": "/7knights/heroes/Xiao.webp",
+        "transcend": "Crit Rate +14%",
+        "builds":[
+            {
+                "name": "POWER UP DUNGEON",
+                "note": "Avenger set increase Bleed DMG on Bosses",
+                "substats": ["All ATK (%)", "All ATK", "Speed", "Crit Rate", "DEF (%)", "HP (%)"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-thorns",
+                    "ringID2": "ring-of-the-salamander",
+                    "ringID3": "ring-of-the-viper",
+                    "ringID4": "ring-of-guardian"
+                }
+            },
+            {
+                "name": "CASTLE RUSH",
+                "note": "High Weakness Hit to focus attack on Kris",
+                "substats": ["Weakness Hit", "All ATK (%)", "All ATK", "Speed", "DEF (%)", "HP (%)"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "All ATK (%)"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "All ATK (%)"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-concentration",
+                    "ringID4": "ring-of-guardian"
+                }
+            },
+            {
+                "name": "BARRIER PROVIDER",
+                "note": "Barrier and Healing scales with ATK",
+                "substats": ["All ATK (%)", "All ATK", "Speed", "DEF (%)", "HP (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "All ATK (%)"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-concentration",
+                    "ringID4": "ring-of-guardian"
+                }
+            }
+        ]
+    }
+]

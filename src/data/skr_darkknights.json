@@ -1,0 +1,529 @@
+[
+    {
+        "id": "silvesta",
+        "name": "Silvesta",
+        "title": "Purifier of Destruction",
+        "faction": "Dark Knights",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Silvesta.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "CRIT-INCLINED",
+                "note": "-",
+                "substats": ["Speed", "Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-tenacity"
+                }
+            },
+            {
+                "name": "WEAKNESS-INCLINED",
+                "note": "-",
+                "substats": ["Speed", "Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-tenacity"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mercure",
+        "name": "Mercure",
+        "title": "Shadow Knight of Chaos",
+        "faction": "Dark Knights",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Mercure.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "GENERAL",
+                "note": "Magic Reflux DMG cannot exceed 90% of caster's ATK so boosting ATK allows bigger DMG",
+                "substats": ["Speed", "Effect Hit", "All ATK (%)", "Effect Resist", "All ATK", "DEF (%)"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-roar"
+                }
+            },
+            {
+                "name": "MAGIC REFLUX CHANCE",
+                "note": "-",
+                "substats": ["Speed", "Effect Hit", "All ATK (%)", "Effect Resist", "All ATK", "DEF (%)"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-immortality",
+                    "ringID4": "ring-of-roar"
+                }
+            }
+        ]
+    },
+    {
+        "id": "colt",
+        "name": "Colt",
+        "title": "Military Official",
+        "faction": "Dark Knights",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Colt.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "EFFECT-BASED",
+                "note": "Gains Guts at T2; Spellweaver for better Bomb chances",
+                "substats": ["Speed", "All ATK (%)", "Effect Hit", "Block Rate", "All ATK", "HP (%)"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-accuracy",
+                    "ringID4": "any-cc"
+                }
+            },
+            {
+                "name": "ATK-BASED",
+                "note": "Gains Guts at T2; ATK for better Bomb DMG",
+                "substats": ["Speed", "All ATK (%)", "Effect Hit", "Block Rate", "All ATK", "HP (%)"],
+                "weapon1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-immortality",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-accuracy",
+                    "ringID4": "any-cc"
+                }
+            }
+        ]
+    },
+    {
+        "id": "platin",
+        "name": "Platin",
+        "title": "High Priest of Darkness",
+        "faction": "Dark Knights",
+        "role": "Support",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Platin.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "PVP",
+                "note": "Aim for 100% Block even with DMG Taken Reduction",
+                "substats": ["Block Rate", "DEF (%)", "Effect Resist", "HP (%)", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-health",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-death"
+                }
+            },
+            {
+                "name": "GENERAL BLOCK",
+                "note": "-",
+                "substats": ["Block Rate", "DEF (%)", "Effect Resist", "HP (%)", "DEF", "HP"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "DEF (%)"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-health",
+                    "ringID3": "ring-of-nature",
+                    "ringID4": "ring-of-death"
+                }
+            }
+        ]
+    },
+    {
+        "id": "branze-bransel",
+        "name": "Branze & Bransel",
+        "title": "Guardians of the Ruins",
+        "faction": "Dark Knights",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Branze_Bransel.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "DMG FOCUSED AVENGER",
+                "note": "-",
+                "substats": ["Speed", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "any-cc"
+                }
+            },
+            {
+                "name": "DMG FOCUSED BOUNTY",
+                "note": "Aim for high Crit Rate & Weakness Hit",
+                "substats": ["Speed", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit Rate"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "any-cc"
+                }
+            }
+        ]
+    },
+    {
+        "id": "pallanus",
+        "name": "Pallanus",
+        "title": "Destroyed Glory",
+        "faction": "Dark Knights",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Pallanus.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "SURVIVAL-FOCUSED",
+                "note": "-",
+                "substats": ["Block Rate", "Crit Rate", "Crit DMG", "Effect Resist", "DEF (%)", "HP (%)"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "DMG Taken",
+                    "substat2": "Block Rate"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "any-cc"
+                }
+            },
+            {
+                "name": "DMG FOCUSED VANGUARD",
+                "note": "T6",
+                "substats": ["Crit Rate", "Crit DMG", "Speed", "All ATK (%)", "All ATK", "Effect Resist"],
+                "weapon1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-annihilation",
+                    "ringID4": "ring-of-fortune"
+                }
+            },
+            {
+                "name": "DMG FOCUSED ASSASSIN",
+                "note": "T6",
+                "substats": ["Crit Rate", "Crit DMG", "Speed", "All ATK (%)", "All ATK", "Effect Resist"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-annihilation",
+                    "ringID4": "ring-of-fortune"
+                }
+            }
+        ]
+    }
+]

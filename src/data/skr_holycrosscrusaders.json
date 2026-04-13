@@ -1,0 +1,412 @@
+[
+    {
+        "id": "ruri",
+        "name": "Ruri",
+        "title": "Bullets of Judgment",
+        "faction": "Holy Cross Crusaders",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Ruri.webp",
+        "transcend": "Weakness Chance +20%",
+        "builds":[
+            {
+                "name": "CASTLE RUSH/ADVENT EXPEDITION (PRE T4)",
+                "note": "",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "CASTLE RUSH/ADVENT EXPEDITION",
+                "note": "T2 passive (+39 Weakness Hit), T4 (+20% Crit Rate), Biscuit buff (+54 Weakness Hit)",
+                "substats": ["Crit Rate", "Crit DMG", "All ATK (%)", "All ATK", "Speed", "-"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-vengeance"
+                }
+            }
+        ]
+    },
+    {
+        "id": "nia",
+        "name": "Nia",
+        "title": "Magitech Engineer",
+        "faction": "Holy Cross Crusaders",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Nia.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "builds":[
+            {
+                "name": "PVP/GUILD WAR",
+                "note": "Passive gives +40% Effect Hit Rate; Passive gives Barrier that scales with ATK",
+                "substats": ["Speed", "Block Rate", "HP (%)", "Effect Resist", "DEF (%)", "All ATK (%)"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-accuracy"
+                }
+            }
+        ]
+    },
+    {
+        "id": "espada",
+        "name": "Espada",
+        "title": "Demon Hunter",
+        "faction": "Holy Cross Crusaders",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Espada.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "OX KING RAID",
+                "note": "Aim for 45% Weakness Hit Chance",
+                "substats": ["Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "T15 OX KING RAID",
+                "note": "Aim for 45% Weakness Hit Chance",
+                "substats": ["Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "shane",
+        "name": "Shane",
+        "title": "Sealer of Demons",
+        "faction": "Holy Cross Crusaders",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Shane.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "DESTROYER GAZE RAID",
+                "note": "Aim for 59% Crit Rate and 20% Weakness Hit Chance (Biscuit & Rachel)",
+                "substats": ["Crit DMG", "Crit Rate", "Weakness Hit", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "T15 DESTROYER GAZE RAID/CASTLE RUSH/ADVENT EXPEDITION",
+                "note": "Aim for 59% Crit Rate and 20% Weakness Hit Chance (Biscuit & Rachel)",
+                "substats": ["Crit DMG", "Weakness Hit", "Crit Rate", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "sieg",
+        "name": "Sieg",
+        "title": "Master of the Demonic Sword",
+        "faction": "Holy Cross Crusaders",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Sieg.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "BULKY SUPPORT",
+                "note": "Healing scales with ATK but this build gives him more bulk",
+                "substats": ["All ATK (%)", "Crit Rate", "Crit DMG", "Weakness Hit", "Block Rate", "All ATK"],
+                "weapon1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": ""
+                },
+                "weapon2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": ""
+                },
+                "armor1": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Gatekeeper",
+                    "image": "/7knights/equipment/gatekeeper_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-concentration",
+                    "ringID4": "ring-of-roar"
+                }
+            },
+            {
+                "name": "OFFENSIVE SUPPORT",
+                "note": "Healing scales with ATK",
+                "substats": ["All ATK (%)", "Crit Rate", "Crit DMG", "Weakness Hit", "Block Rate", "All ATK"],
+                "weapon1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": ""
+                },
+                "weapon2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_p.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": ""
+                },
+                "armor1": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Vanguard",
+                    "image": "/7knights/equipment/vanguard_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-concentration",
+                    "ringID4": "ring-of-roar"
+                }
+            },
+            {
+                "name": "SUB DPS",
+                "note": "",
+                "substats": ["Weakness Hit", "Crit DMG", "Crit Rate", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-resurrection",
+                    "ringID3": "ring-of-concentration",
+                    "ringID4": "ring-of-fortune"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+import HeroeTableItem from "./HeroeTableItem.astro";
+
+const dd_clases = await getCollection("dd_clases");
+---
+
+<div class="relative w-full">
+    <table class="w-full caption-bottom text-sm">
+        <caption class="mt-4 text-sm text-muted-foreground">Una lista de las clases, no incluidas MODs ni DLCs por el momento.</caption>
+        <tbody class="border-0">
+            <!-- Heroes -->
+                {(dd_clases.map((clase) => (
+                    <HeroeTableItem 
+                        nombre={ clase.data.nombre } 
+                        desc={ clase.data.desc } 
+                        portrait={ clase.data.portrait } 
+                        guild_header={ clase.data.guild_header }
+                    />
+                )))}
+            <!-- /Heroes -->
+        </tbody>
+    </table>
+</div>

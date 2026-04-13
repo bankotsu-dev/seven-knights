@@ -1,0 +1,48 @@
+---
+import type { Ring } from "@/types/skr";
+
+interface Props {
+  ring: Ring;
+}
+
+const { ring } = Astro.props;
+const uid = crypto.randomUUID();
+---
+
+<div
+  class="p-1 rounded-md hover:bg-zinc-700 transition"
+  data-popover-target={"popover-" + uid}
+>
+  <img
+    src={ring?.image}
+    alt={ring?.id || "ring"}
+    class="w-14 h-14 sm:w-16 sm:h-16 object-cover rounded"
+    draggable="false"
+  />
+</div>
+
+<div
+  data-popover
+  id={"popover-" + uid}
+  role="tooltip"
+  class="absolute z-50 invisible flex h-42 gap-2 text-sm text-body transition-opacity duration-300
+         bg-gray-900 border border-gray-500 rounded-md shadow-xs opacity-0"
+>
+  <div class="h-full aspect-1/1 flex-nowrap p-2">
+    <img
+      src={ring.image}
+      alt={ring.name}
+      class="w-full h-full object-cover overflow-hidden p-1"
+      draggable="false"
+    />
+  </div>
+
+  <div class="pr-4 flex flex-col pt-2">
+    <h4 class="font-bold text-2xl text-cyan-300">{ring.name}</h4>
+    <p class="text-base mt-2 max-w-xs break-words">
+      {ring.effect}
+    </p>
+  </div>
+
+  <div data-popper-arrow class="bg-gray-500"></div>
+</div>

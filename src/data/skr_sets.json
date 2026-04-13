@@ -1,0 +1,65 @@
+[
+    {
+        "id": "Vanguard",
+        "effect1": "2 Set: All Attack Power +20%",
+        "effect2": "4 Set: All Attack Power +45%",
+        "effect3": "Effect Hit Rate +20%",
+        "icon": "/7knights/assets/vanguard_icon.webp"
+    },
+    {
+        "id": "Bounty",
+        "effect1": "2 Set: Weakness Hit Chance +15%",
+        "effect2": "4 Set: Weakness Hit Chance +35%",
+        "effect3": "Weakness Hit Damage +35%",
+        "icon": "/7knights/assets/bounty_icon.webp"
+    },
+    {
+        "id": "Paladin",
+        "effect1": "2 Set: HP +17%",
+        "effect2": "4 Set: HP +40%",
+        "effect3": "Incoming Healing Boost +20%",
+        "icon": "/7knights/assets/paladin_icon.webp"
+    },
+    {
+        "id": "Gatekeeper",
+        "effect1": "2 Set: Block Rate +15%",
+        "effect2": "4 Set: Block Rate +30%",
+        "effect3": "Block Damage Reduction +10%",
+        "icon": "/7knights/assets/gatekeeper_icon.webp"
+    },
+    {
+        "id": "Guardian",
+        "effect1": "2 Set: Defense +20%",
+        "effect2": "4 Set: Defense +45%",
+        "effect3": "Effect Resistance +20%",
+        "icon": "/7knights/assets/guardian_icon.webp"
+    },
+    {
+        "id": "Assassin",
+        "effect1": "2 Set: Crit Rate +15%",
+        "effect2": "4 Set: Crit Rate +30%",
+        "effect3": "Ignore Defense +15%",
+        "icon": "/7knights/assets/assassin_icon.webp"
+    },
+    {
+        "id": "Avenger",
+        "effect1": "2 Set: Damage Dealt +15%",
+        "effect2": "4 Set: Damage Dealt +30%",
+        "effect3": "Boss Damage +40%",
+        "icon": "/7knights/assets/avenger_icon.webp"
+    },
+    {
+        "id": "Spellweaver",
+        "effect1": "2 Set: Effect Hit Rate +17%",
+        "effect2": "4 Set: Effect Hit Rate +35%",
+        "effect3": "Effect Probability +10%",
+        "icon": "/7knights/assets/spellwaver_icon.webp"
+    },
+    {
+        "id": "Orchestrator",
+        "effect1": "2 Set: Effect Resistance +17%",
+        "effect2": "4 Set: Effect Resistance +35%",
+        "effect3": "Start battles with 1 turn of Crowd Control Immunity",
+        "icon": "/7knights/assets/orchestrator_icon.webp"
+    }
+]

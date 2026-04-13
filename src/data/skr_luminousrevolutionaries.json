@@ -1,0 +1,248 @@
+[
+    {
+        "id": "kyrielle",
+        "name": "Kyrielle",
+        "title": "Revolutionary",
+        "faction": "Luminous Revolutionaries",
+        "role": "Magic",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Kyrielle.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "GENERAL",
+                "note": "-",
+                "substats": ["Speed", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "PARALYSIS FOCUSED",
+                "note": "Weakness Hit can help with T2 Chain Attack",
+                "substats": ["Speed", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "Effect Hit",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "T2 DAMAGE DEALER",
+                "note": "Weakness Hit can help with T2 Chain Attack",
+                "substats": ["Speed", "Crit Rate", "Crit DMG", "Weakness Hit", "All ATK (%)", "Effect Hit"],
+                "weapon1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_m.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Bounty",
+                    "image": "/7knights/equipment/bounty_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-immortality",
+                    "ringID3": "ring-of-roar",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "elysia",
+        "name": "Elysia",
+        "title": "Revolutionary Commander",
+        "faction": "Luminous Revolutionaries",
+        "role": "Universal",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Elysia.webp",
+        "transcend": "DMG Taken Reduction +10%",
+        "builds":[
+            {
+                "name": "GENERAL",
+                "note": "Turn 1 CC Immunity allows Elysia to cleanse CC from party",
+                "substats": ["Speed", "Block Rate", "HP (%)", "Effect Resist", "Effect Hit", "DEF (%)"],
+                "weapon1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "weapon2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_p.webp",
+                    "substat1": "HP (%)",
+                    "substat2": "Effect Hit"
+                },
+                "armor1": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Orchestrator",
+                    "image": "/7knights/equipment/orchestrator_a.webp",
+                    "substat1": "Block Rate",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-resurrection",
+                    "ringID2": "ring-of-authority",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "ring-of-resistance"
+                }
+            }
+        ]
+    },
+    {
+        "id": "ryan",
+        "name": "Ryan",
+        "title": "Demonic Sword of Justice",
+        "faction": "Luminous Revolutionaries",
+        "role": "Attack",
+        "grade": "Legendary",
+        "portrait": "/7knights/heroes/Ryan.webp",
+        "transcend": "Crit Rate +18%",
+        "builds":[
+            {
+                "name": "BEGINNING GEARS",
+                "note": "-",
+                "substats": ["Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_p.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Crit Rate"
+                },
+                "armor1": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Assassin",
+                    "image": "/7knights/equipment/assassin_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            },
+            {
+                "name": "CASTLE RUSH/ADVENT EXPEDITION",
+                "note": "-",
+                "substats": ["Crit Rate", "Weakness Hit", "Crit DMG", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Crit Rate",
+                    "substat2": "Crit DMG"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_p.webp",
+                    "substat1": "Weakness Hit",
+                    "substat2": "Crit DMG"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from "../../../layouts/Layout.astro";
+import Title from "../../../components/Title.astro";
+import CoveSupply from "../../../components/darkest-dungeon/CoveSupply.astro";
+
+const region = await getEntry("dd_regiones", "cove");
+---
+
+<Layout>
+    <div>
+        <img
+            src={ region?.data.img }
+            alt={ region?.data.img }
+            class="w-full h-full object-cover"
+        />
+    </div>
+    <div class="p-2 md-p-8 italic text-end"><b>"{ region?.data.frase }"</b></div>
+
+    <div class="my-4 md:mx-8 lg:mx-16 xl:32">
+        <Title title={region?.data.nombre}></Title>
+        <div>{ region?.body }</div>
+        <Title title="Provisiones"></Title>
+        <div>
+            <p>
+                Al adentrarte en la Cala de Darkest Dungeon, es muy recomendable llevar varias Hierbas medicinales para interactuar con el Curio 
+                que purga rasgos negativos y conseguir Comida extra. También considera llevar varias Palas, ya que, además de despejar escombros, 
+                te serán útiles para abrir Cofres en esta región.
+                <br><br>
+                Finalmente, asegúrate de llevar suficientes Vendas para curar Hemorragia, ya que algunos enemigos aplican Sangrado de manera implacable.
+            </p>
+        </div>
+
+        <!-- Provisiones -->
+        <CoveSupply />
+
+        <Title title="Jefes"></Title>
+        <p>Proximamente...</p>
+        <Title title="Curios"></Title>
+        <p>Proximamente...</p>
+
+    </div>
+</Layout>
