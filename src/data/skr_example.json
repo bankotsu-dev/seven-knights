@@ -8,6 +8,60 @@
         "grade": "grade",
         "portrait": "/7knights/heroes/.webp",
         "transcend": "",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes//basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "",
+                    "effects": []
+                }
+            ],
+            "enhancement": [],
+            "transcendence2": [],
+            "transcendence6": []
+        },
+        "skill1":{
+            "name": "",
+            "image": "/7knights/heroes//skill_1.webp",
+            "cd": 0,
+            "effects": [
+                {
+                    "desc": "",
+                    "effects": []
+                }
+            ],
+            "enhancement": [],
+            "transcendence2": [],
+            "transcendence6": []
+        },
+        "skill2":{
+            "name": "",
+            "image": "/7knights/heroes//skill_2.webp",
+            "cd": 0,
+            "effects": [
+                {
+                    "desc": "",
+                    "effects": []
+                }
+            ],
+            "enhancement": [],
+            "transcendence2": [],
+            "transcendence6": []
+        },
+        "passive":{
+            "name": "",
+            "image": "/7knights/heroes//passive.webp",
+            "effects": [
+                {
+                    "desc": "",
+                    "effects": []
+                }
+            ],
+            "enhancement": [],
+            "transcendence2": [],
+            "transcendence6": []
+        },
         "builds":[
             {
                 "name": "build",

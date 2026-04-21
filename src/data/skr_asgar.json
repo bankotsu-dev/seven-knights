@@ -6,8 +6,81 @@
         "faction": "Blazing Desert",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Leo.webp",
+        "portrait": "/7knights/heroes/leo/Leo.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/leo/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "40% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Slice and Dice",
+            "image": "/7knights/heroes/leo/skill_1.webp",
+            "cd": 66,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 230% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Defense Reduction by 29%. [Duration: 5 Turn(s)].",
+                        "100% chance to inflict Bleed. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 270% of Physical Attack.",
+                "Increases Effect: Defense Reduction to 39%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Lion's Roar",
+            "image": "/7knights/heroes/leo/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 120% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Damage Reduction by 11%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 145% of Physical Attack.",
+                "Increases Effect: Damage Reduction to 13%."
+            ],
+            "transcendence2": ["Adds Effect: Life Drain. [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Beastly Endurance",
+            "image": "/7knights/heroes/leo/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Death Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Death Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 24% All Attack Boost. [Self] [Duration: 3 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Revives with 80% HP upon falling in battle. [Self] [1 Time(s) per Battle]."]
+        },
         "builds":[
             {
                 "name": "PVE SUPPORT",
@@ -53,8 +126,77 @@
         "faction": "Dragon Ruins",
         "role": "Magic",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Cleo.webp",
+        "portrait": "/7knights/heroes/cleo/Cleo.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/cleo/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "40% chance to inflict Poison. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Deadly Poison",
+            "image": "/7knights/heroes/cleo/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 120% of Magic Attack 1 time(s).",
+                        "75% chance to inflict Poison. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 145% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% chance to inflict 25% Physical Attack Reduction. [Duration: 3 Turn(s)]."]
+        },
+        "skill2":{
+            "name": "Petrifying Gaze",
+            "image": "/7knights/heroes/cleo/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 120% of Magic Attack 1 time(s).",
+                        "50% chance to inflict Petrify. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 145% of Magic Attack.",
+                "Increases Chance: Petrify chance becomes 60%."
+            ],
+            "transcendence2": ["Adds Effect: 85% chance to inflict Poison. [Duration: 2 Turn(s)]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Gorgon's Gaze",
+            "image": "/7knights/heroes/cleo/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Silence Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Silence Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 31% Magic Attack Boost. [Self] [Duration: 3 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "WATER POWER UP DUNGEON",
@@ -100,11 +242,74 @@
         "faction": "Blizzard Plains",
         "role": "Universal",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Lania.webp",
+        "portrait": "/7knights/heroes/lania/Lania.webp",
         "transcend": "Weakness Chance +16%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/lania/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Ice Shard",
+            "image": "/7knights/heroes/lania/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 285% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Freeze. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 340% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 35% Magic Attack Boost. [Self] [Duration: 5 Turn(s)]."]
+        },
+        "skill2":{
+            "name": "Blizzard",
+            "image": "/7knights/heroes/lania/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 95% of Magic Attack 1 time(s).",
+                        "60% chance to inflict Freeze. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 115% of Magic Attack."],
+            "transcendence2": ["Increases Chance: Freeze chance becomes 70%."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Ruler of Ice",
+            "image": "/7knights/heroes/lania/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Freeze Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Freeze Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 46% Effect Hit Rate Boost. [Self] [Duration: 3 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
-                "name": "WATER POWER UP DUNGEON",
+                "name": "FIRE POWER UP DUNGEON",
                 "note": "",
                 "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
                 "weapon1": {
@@ -147,11 +352,77 @@
         "faction": "Purgatory",
         "role": "Support",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Sarah.webp",
+        "portrait": "/7knights/heroes/sarah/Sarah.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/sarah/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Demon's Charm",
+            "image": "/7knights/heroes/sarah/skill_1.webp",
+            "cd": 63,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 95% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Defense Reduction by 20%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Defense Reduction to 24%."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 13% Damage Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Demon's Kiss",
+            "image": "/7knights/heroes/sarah/skill_2.webp",
+            "cd": 63,
+            "effects": [
+                {
+                    "desc": "3 Allies",
+                    "effects": ["Grants 2 Buff Removal(s)."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 34% Defense Boost. [Duration: 3 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To All Allies."]
+        },
+        "passive":{
+            "name": "Demonic Pact",
+            "image": "/7knights/heroes/sarah/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Damage Resistance by 12%. [Always Active]."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Sleep Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Sleep Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)].",
+                        "Removes 2 debuff(s) when HP falls to 30% or lower. [1 Time(s) per Battle].",
+                        "Heals HP equal to 10% of the caster's Max HP when HP falls to 30% or lower. [1 Time(s) per Battle]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Damage Resistance to 16%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
-                "name": "WATER POWER UP DUNGEON",
+                "name": "ADVENT EXPEDITION",
                 "note": "",
                 "substats": ["Block Rate", "HP (%)", "DEF (%)", "Speed", "HP", "DEF"],
                 "weapon1": {
@@ -194,8 +465,77 @@
         "faction": "Purgatory",
         "role": "Defense",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Knox.webp",
+        "portrait": "/7knights/heroes/knox/Knox.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/knox/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 12% of the caster's Max HP 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 60% of Physical Attack plus 14% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Infernal Shield",
+            "image": "/7knights/heroes/knox/skill_1.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants All Damage Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Taunt. [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "3 Allies",
+                    "effects": ["Grants Continuous Healing. [Heals HP equal to 15% of the caster's Max HP every turn] [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Healing: Continuous Healing amoun becomes 20% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Hell Strike",
+            "image": "/7knights/heroes/knox/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 80% of Physical Attack plus 19% of the caster's Max HP 1 time(s).",
+                        "100% chance to inflict Effect Resist Reduction by 37%. [Duration: 3 Turn(s)].",
+                        "35% chance to inflict Death. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Chance: Death chance becomes 40%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Knight of Hell",
+            "image": "/7knights/heroes/knox/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Death Effect Probability Boost by 25%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants a Barrier equal to 39% of the caster's Max HP. [Duration: 3 Turn(s)] [Once per Round]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Barrier absorption becomes 45% of Max HP."],
+            "transcendence2": ["Adds Effect: 34% Effect Resist Reduction. [All Enemies] [Always Active]."],
+            "transcendence6": ["Adds Effect: Barrier equal to 39% of the caster's Max HP when HP falls to 50% or lower. [Duration: 3 Turn(s)] [Once per Battle]."]
+        },
         "builds":[
             {
                 "name": "PVP",

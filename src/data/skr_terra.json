@@ -6,8 +6,69 @@
         "faction": "Terra",
         "role": "Defense",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Rook.webp",
+        "portrait": "/7knights/heroes/rook/Rook.webp",
         "transcend": "Block Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/rook/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 12% of the caster's Max HP 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 60% of Physical Attack plus 14% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Javelin",
+            "image": "/7knights/heroes/rook/skill_1.webp",
+            "cd": 108,
+            "effects": [
+                {
+                    "desc": "1 Enemy (Back Row First)",
+                    "effects": ["Deals damage equal to 315% of Physical Attack plus 75% of the caster's Max HP 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 380% of Physical Attack plus 91% of the caster's Max HP."],
+            "transcendence2": ["Adds Effect: 100% Crit Rate Boost."],
+            "transcendence6": ["Adds Effect: 11% HP Alteration."]
+        },
+        "skill2":{
+            "name": "Fortify",
+            "image": "/7knights/heroes/rook/skill_2.webp",
+            "cd": 133,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants a Barrier equal to 31% of the caster's Max HP. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Turns: Barrier duration becomes 3 turn(s)."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Castle Guard",
+            "image": "/7knights/heroes/rook/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Block Rate Boost by 19%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Damage Resistance by 16%. [Always Active]"]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Block Rate Boost to 23%.",
+                "Increases Effect: Damage Resistance to 20%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -123,8 +184,86 @@
         "faction": "Terra",
         "role": "Universal",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Chancellor.webp",
+        "portrait": "/7knights/heroes/chancellor/Chancellor.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/chancellor/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 60% of Defense 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 60% of Physical Attack plus 70% of Defense."],
+            "transcendence2": [],
+            "transcendence6": []
+        },
+        "skill1":{
+            "name": "Pulverize",
+            "image": "/7knights/heroes/chancellor/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "1 Enemy (By Highest No. of Buffs)",
+                    "effects": [
+                        "100% chance to inflict 3 Buff Removal(s).",
+                        "100% chance to inflict Defense Reduction by 34%. [Duration: 5 Turn(s)].",
+                        "Deals damage equal to 120% of Physical Attack plus 135% of Defense 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 145% of Physical Attack plus 165% of Defense.",
+                "Increases Effect: Defense Reduction to 44%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Earthsplitter",
+            "image": "/7knights/heroes/chancellor/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies (Back Row First)",
+                    "effects": [
+                        "Deals damage equal to 75% of Physical Attack plus 85% of Defense 1 time(s).",
+                        "100% chance to inflict Increased Miss Chance by 48%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 85% of Physical Attack plus 100% of Defense.",
+                "Increases Effect: Increased Miss Chance to 60%."
+            ],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 24% All Attack Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Intimidating Presence",
+            "image": "/7knights/heroes/chancellor/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Heals HP equal to 165% of the caster's Defense when HP falls to 50% or lower. [1 Time(s) per Battle]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts Damage Reduction by 11%. [Always Active]."]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals 1,285 Fixed damage 1 time(s) upon using any attack 3 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Damage Reduction to 13%.",
+                "Increases Damage: To 1,930 Fixed damage."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: All Damage Immunity when HP falls to 50% or lower. [Self] [Duration: 2 Turn(s)] [Once per Battle]."]
+        },
         "builds":[
             {
                 "name": "GENERAL SUPPORT",
@@ -205,8 +344,81 @@
         "faction": "Terra",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/May.webp",
+        "portrait": "/7knights/heroes/may/May.webp",
         "transcend": "Effect Hit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/may/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Ducky Gun",
+            "image": "/7knights/heroes/may/skill_1.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "Enemy with the Highest Attack",
+                    "effects": [
+                        "Deals damage equal to 95% of Physical Attack.",
+                        "100% chance to inflict Blind. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Turns: Blind duration becomes 4 turn(s).",
+                "Adds Effect: 100% chance to inflict 29% Physical Vulnerability. [Duration: 5 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Full Blast",
+            "image": "/7knights/heroes/may/skill_2.webp",
+            "cd": 98,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 38% of Physical Attack 3 time(s).",
+                        "35% chance to inflict Burn. [Duration: 2 Turn(s)].",
+                        "35% chance to inflict Poison. [Duration: 2 Turn(s)].",
+                        "35% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Chance: Burn chance becomes 40%.",
+                "Increases Chance: Poison chance becomes 40%.",
+                "Increases Chance: Bleed chance becomes 40%."
+            ],
+            "transcendence2": null,
+            "transcendence6": [
+                "Increases Effect: To 2 Burn stack(s).",
+                "Increases Effect: To 2 Poison stack(s).",
+                "Increases Effect: To 2 Bleed stack(s)."
+            ]
+        },
+        "passive":{
+            "name": "Strong Face",
+            "image": "/7knights/heroes/may/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Physical Damage Boost by 11%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Physical Damage Boost to 15%."],
+            "transcendence2": ["Adds Effect: Barrier equal to 160% if the caster's Physical Attack. [Self] [Duration: 3 Turn(s)][ Once per Round]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SUPPORT",
@@ -252,8 +464,72 @@
         "faction": "Terra",
         "role": "Support",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Alice.webp",
+        "portrait": "/7knights/heroes/alice/Alice.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/alice/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": ["Adds Effect: 15% Continuous Healing. [Ally with Lowest Current HP (Excluding Self)] [Duration: 1 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Secret Door",
+            "image": "/7knights/heroes/alice/skill_1.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Defense Boost by 31%. [Duration: 3 Turn(s)].",
+                        "Grants Continuous Healing. [Heals HP equal to 15% of the caster's Max HP every turn] [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Defense Boost to 39%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 36% Incoming Healing Boost. [Duration: 3 Turn(s)]."]
+        },
+        "skill2":{
+            "name": "Mystery Card",
+            "image": "/7knights/heroes/alice/skill_2.webp",
+            "cd": 109,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 29% of the caster's Max HP."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes equal to 33% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Hopeless Romantic",
+            "image": "/7knights/heroes/alice/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Defense Boost by 31%. [Duration: 1 Turn(s)]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Getting attacked by an enemy has a 25% chance of healing HP equal to 9% of the caster's Max HP."]
+                }
+            ],
+            "enhancement": [
+                "Increases Turns: Defense Boost duration becomes 2 turn(s).",
+                "Increases Healing: HP Recovery amount becomes equal to 10% of the caster's Max HP."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP V1",
@@ -369,8 +645,59 @@
         "faction": "Terra",
         "role": "Defense",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Aragon.webp",
+        "portrait": "/7knights/heroes/aragon/Aragon.webp",
         "transcend": "Block Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/aragon/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 60% of Defense 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Adds Effect: Skill Cooldown Reduction of 9s upon using a basic attack. [Self]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1": null,
+        "skill2":{
+            "name": "Giganto Mortar",
+            "image": "/7knights/heroes/aragon/skill_2.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 110% of Physical Attack plus 130% of Defense 1 time(s).",
+                        "60% chance to inflict Stun. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 130% of Physical Attack plus 150% of Defense.",
+                "Increases Chance: Stun chance becomes 70%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Veteran's Savvy",
+            "image": "/7knights/heroes/aragon/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts All Attack Reduction by 13%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Getting attacked by an enemy has a 25% chance of healing HP equal to 40% of the caster's Defense."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes 45% of Defense."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 27% Crit Rate Reduction upon using a skill 1 time(s). [All Enemies] [Duration: 2 Turn(s)]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP/GUILD WAR V1",
@@ -451,8 +778,65 @@
         "faction": "Terra",
         "role": "Magic",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Noho.webp",
+        "portrait": "/7knights/heroes/noho/Noho.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/noho/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Magic Attack plus 12% of the caster's Max HP 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 60% of Magic Attack plus 14% of the caster's Max HP"],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Righting the Record",
+            "image": "/7knights/heroes/noho/skill_1.webp",
+            "cd": 77,
+            "effects": [
+                {
+                    "desc": "2 Enemies",
+                    "effects": ["35% HP Alteration."]
+                }
+            ],
+            "enhancement": ["Increases Effect: HP Alteration to 25%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Tome of Destruction",
+            "image": "/7knights/heroes/noho/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies (By Highest No. of Buffs)",
+                    "effects": [
+                        "Deals damage equal to 80% of Magic Attack plus 19% of the caster's Max HP 1 time(s).",
+                        "100% chance to inflict 2 Buff Removal(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 95% of Magic Attack plus 22% of the caster's Max HP."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 16% All Attack Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Mightier than the Sword",
+            "image": "/7knights/heroes/noho/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Magic Attack Boost by 19%. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Attack Boost to 23%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Barrier equal to 32% of the caster's Max HP upon using a skill 1 time(s). [Self] [Duration: 3 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "SUPPORT",
@@ -498,8 +882,71 @@
         "faction": "Terra",
         "role": "Support",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Chloe.webp",
+        "portrait": "/7knights/heroes/chloe/Chloe.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/chloe/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Kitty Gratitude",
+            "image": "/7knights/heroes/chloe/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 90% of Magic Attack 3 time(s).",
+                        "100% chance to inflict Unable to Recover. [Duration: 4 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 108% of Magic Attack."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 2 Buff Removal(s)."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Cleaning Time",
+            "image": "/7knights/heroes/chloe/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants All Attack Boost by 15%. [Duration: 3 Turn(s)].",
+                        "Grants 2 Debuff Removal(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: All Attack Boost to 20%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 27% Crit Rate Boost. [Duration: 3 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Kitty Dance",
+            "image": "/7knights/heroes/chloe/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Shock Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Shock Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Healing: Heals HP equal to 22% of Max HP upon using a skill 1 time(s). [Self]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SUPPORT",
@@ -545,8 +992,71 @@
         "faction": "Terra",
         "role": "Support",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Biscuit.webp",
+        "portrait": "/7knights/heroes/biscuit/Biscuit.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/biscuit/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Magic Attack plus 60% of Defense 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 100% chance to inflict 6% Damage Reduction. [Duration: 2 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Equipment Enhancement",
+            "image": "/7knights/heroes/biscuit/skill_1.webp",
+            "cd": 120,
+            "effects": [
+                {
+                    "desc": "Ally with the Highest Attack",
+                    "effects": [
+                        "Grants Boss Damage Boost by 33%. [Duration: 5 Turn(s)].",
+                        "Grants Weakness Hit Chance Boost by 44%. [Duration: 5 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Boss Damage Boost to 40%.",
+                "Increases Effect: Weakness Hit Chance Boost to 54%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To 2 Allies with the highest Attack."]
+        },
+        "skill2":{
+            "name": "Leap Attack",
+            "image": "/7knights/heroes/biscuit/skill_2.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "3 Enemies (By Highest No. of Buffs)",
+                    "effects": [
+                        "100% chance to inflict 2 Buff Removal(s).",
+                        "Deals Defense-Ignoring damage equal to 100% of Magic Attack plus 115% of Defense 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 115% of Magic Attack plus 135% of Defense."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Blacksmith's Enhancement",
+            "image": "/7knights/heroes/biscuit/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts Defense Reduction by 20%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Defense Reduction to 24%."],
+            "transcendence2": ["Adds Effect: 20% Quintuple-Target Attack Resistance. [All Allies] [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SUPPORT - SURVIVAL PRIORITY",
@@ -662,8 +1172,82 @@
         "faction": "Terra",
         "role": "Attack",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Deo.webp",
+        "portrait": "/7knights/heroes/deo/Deo.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/deo/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "40% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Physical Attack.",
+                "Increases Chance: Bleed chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Roulette Man",
+            "image": "/7knights/heroes/deo/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Crit Damage Boost by 40%. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Crit Damage Boost to 49%."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 30% All Attack Reduction. [3 Enemies] [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Pizza Eclipse",
+            "image": "/7knights/heroes/deo/skill_2.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 145% of Physical Attack 1 time(s).",
+                        "Deals additional damage equal to 65% of Physical Attack upon landing a Critical Hit."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 55% of the caster's Physical Attack."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 170% of Physical Attack.",
+                "Increases Healing: HP Recovery amount becomes 65% of Physical Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Head of Unity Trading",
+            "image": "/7knights/heroes/deo/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Silence Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Silence Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)].",
+                        "Grants 1 stack(s) of [7-Dish Meal Set] upon using any attack 1 time(s). [Decreases Physical damage taken by 4%] [Max 7 Stack(s"
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: [7-Dish Meal Set] reduces Physical damage taken by 5%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Grants a Barrier equal to 55% of the caster's Physical Attack upon using a skill 1 time(s). [Duration: 2 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "PVE V1",

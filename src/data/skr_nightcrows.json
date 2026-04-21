@@ -6,8 +6,74 @@
         "faction": "Night Crows",
         "role": "Attack",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Taka.webp",
+        "portrait": "/7knights/heroes/taka/Taka.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/taka/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "Deals additional damage equal to 45% of Physical Attack when the target's current HP is 30% or lower."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage; To 120% of Physical Attack.",
+                "Increases Damage: When the target's current HP is 30% or lower, damage becomes equal to 55% of Physical Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Wind Cutter",
+            "image": "/7knights/heroes/taka/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 145% of Physical Attack 1 time(s). [Additional 37% Crit Damage]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Crit Damage to 46%.",
+                "Increases Damage: To 170% of Physical Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Dance of Death",
+            "image": "/7knights/heroes/taka/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 145% of Physical Attack 1 time(s).",
+                        "Deals additional damage equal to 260% of Physical Attack when the target's current HP is 30% or lower."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 170% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignore Defense."]
+        },
+        "passive":{
+            "name": "Hawk's Talons",
+            "image": "/7knights/heroes/taka/passive.webp",
+            "effects": [
+                {
+                    "desc": "3 Enemies (By Highest Attack Level)",
+                    "effects": ["Using any attack 2 time(s) has a 100% chance to inflict 2 stack(s) of Hawk's Talons. [Increases Physical damage taken by 3%] [Max 8 Stack(s)]."]
+                }
+            ],
+            "enhancement": ["Adds Effect: All Damage Nullification upon using a skill 1 time(s). [Ends After: Taking 1 Hit(s)]."],
+            "transcendence2": ["Increases Effect: [Hawk's Talons] increases Physical damage taken to 4%."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "BEGINNING GEARS",
@@ -87,9 +153,80 @@
         "title": "Avatar of White Magic",
         "faction": "Night Crows",
         "role": "Support",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Orly.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/orly/Orly.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/orly/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Magic Attack plus 12% of the caster's Max HP 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 15% Continuous Healing. [Ally with Lowest Current HP (Excluding Self)] [Duration: 1 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Noble Meteor",
+            "image": "/7knights/heroes/orly/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 60% of Magic Attack plus 14% of the caster's Max HP 1 time(s).",
+                        "100% chance to inflict 2 Buff Removal(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 100% chance to inflict 36% Defense Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Lightstream",
+            "image": "/7knights/heroes/orly/skill_2.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Deals damage equal to 20% of Magic Attack plus 5% of the caster's Max HP 2 time(s)."]
+                },
+                {
+                    "desc": "Allies (Self, Magic)",
+                    "effects": ["Grants a Barrier equal to 19% of the caster's Max HP. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 22% of Magic Attack plus 6% of the caster's Max HP.",
+                "Increases Effect: Barrier absorption becomes 23% of Max HP."
+            ],
+            "transcendence2": ["Adds Effect: 2 Debuff Removal(s). [Self, Magic Allies]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "All-Seeing Light",
+            "image": "/7knights/heroes/orly/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants a Barrier equal to 39% of the caster's Max HP. [Duration: 3 Turn(s)] [Once per Round]."]
+                },
+                {
+                    "desc": "Allies (Self, Magic)",
+                    "effects": [
+                        "Grants Crit Rate Boost by 17%. [Always Active].",
+                        "Grants Crit Damage Boost by 25%. [Always Active]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Barrier absorption becomes 45% of max HP."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: All Damage Nullification upon using a skill 1 time(s). [Self, Magic Allies] [Ends After: Taking 1 Hit(s)]."]
+        },
         "builds":[
             {
                 "name": "MAGIC SUPPORT",
@@ -133,9 +270,90 @@
         "title": "Final Executioner",
         "faction": "Night Crows",
         "role": "Defense",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Aquila.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/aquila/Aquila.webp",
         "transcend": "Block Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/aquila/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 12% of the caster's Max HP 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 60% of Physical Attack plus 14% of the caster's Max HP.",
+                "Adds Effect: Grants a Barrier equal to 8% of the caster's Max HP. [2 Allies with the Lowest Current HP (Excluding Self)] [Duration: 2 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Merciless Storm",
+            "image": "/7knights/heroes/aquila/skill_1.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 13% of Physical Attack plus 3% of the caster's Max HP 2 time(s).",
+                        "60% chance Death Turn Reduction becomes 1 turn(s) during each attack.",
+                        "100% chance to inflict Weakness Hit Chance Reduction by 22%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Chance: Death Turn Reduction chance becomes 70%.",
+                "Increases Effect: Weakness Hit Chance Reduction to 30%."
+            ],
+            "transcendence2": ["Adds Effect: 28% Damage Resistance. [Self] [Duration: 5 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Shroud of Darkness",
+            "image": "/7knights/heroes/aquila/skill_2.webp",
+            "cd": 91,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants a Barrier equal to 22% of the caster's Max HP. [Duration: 2 Turn(s)].",
+                        "Grants 1 Debuff Removal(s)."
+                    ]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 30% of Physical Attack plus 7% of the caster's Max HP 1 time(s).",
+                        "35% chance to inflict Death. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Chance: Death chance becomes 40%.",
+                "Increases Effect: Barrier absorption becomes 25% of Max HP."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Shepherd of Darkness",
+            "image": "/7knights/heroes/aquila/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Death Effect Probability Boost by 25%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Heals HP equal to 34% of the caster's Max HP when HP falls to 50% or lower. [2 Time(s) per Battle]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: HP Recovery amount becomes equal to 40% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Link. [All Allies] [Duration: 3 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "DEATH SUPPORT",

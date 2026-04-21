@@ -5,9 +5,86 @@
         "title": "Master of the Leader Sword",
         "faction": "Four Lords",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Ace.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/ace/Ace.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/ace/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Lunar Slash",
+            "image": "/7knights/heroes/ace/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies (By Highest No. of Buffs)",
+                    "effects": [
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "Deals Defense-Ignoring damage equal to 70% of Physical Attack 2 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 85% of Physical Attack."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 56% Incoming Healing Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Blossom Slash",
+            "image": "/7knights/heroes/ace/skill_2.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 140% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Physical Vulnerability by 17%. [Duration: 3 Turn(s)].",
+                        "100% chance to inflict Block Rate Reduction by 25%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Block Rate Reduction to 33%.",
+                "Add Effect: 2 Debuff Removal(s). [3 Allies]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Unwavering Command",
+            "image": "/7knights/heroes/ace/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Inflicts Defense Reduction by 20%. [Always Active].",
+                        "Inflicts Incoming Healing Reduction by 44%. [Always Active]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Guts. [Once per Battle].",
+                        "Grants a Barrier equal to 135% of the caster's Physical Attack upon triggering Guts. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Defense Reduction to 24%.",
+                "Increases Effect: Barrier absorption becomes equal to 155% of Physical Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 64% Effect Hit Rate Boost. [Self] [Always Active]."]
+        },
         "builds":[
             {
                 "name": "PVP",
@@ -52,9 +129,86 @@
         "title": "Empress of Dragons",
         "faction": "Four Lords",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Rin.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/rin/Rin.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/rin/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "45% chance to inflict Confusion. [Lasts for: 1 Hit(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Increases Chance: Confusion chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Dragon's Descent",
+            "image": "/7knights/heroes/rin/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": [
+                        "Deals damage equal to 62% of Magic Attack 2 time(s).",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Damage: Each attack deals additional damage equal to 37% of Magic Attack upon landing a Critical Hit."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Resets the cooldown of [Dragon's Descent] upon defeating an enemy with damage from this skill."]
+        },
+        "skill2":{
+            "name": "Dragon's Wrath",
+            "image": "/7knights/heroes/rin/skill_2.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": [
+                        "Deals damage equal to 70% of Magic Attack 2 time(s).",
+                        "Each attack deals additional damage equal to 30% of Magic Attack when the target's current HP is 50% or higher.",
+                        "100% chance to inflict Confusion. [Last for: 2 Hit(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 90% of Magic Attack.",
+                "Increases Damage: When the target's current HP is 50% or higher, each attack deals damage equal to 42% of Magic Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Crimson Scales",
+            "image": "/7knights/heroes/rin/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Revives with 80% HP upon falling in battle. [Once per Battle].",
+                        "Grants a Barrier equal to 67% of the caster's Magic Attack upon using a skill 1 time(s). [Duration: 3 Turn(s)].",
+                        "Grants Attack-Based Crit Rate Boost. [Increases Crit Rate by 3% for every 350 Attack. (Max Increase: 27%)] [Always Active]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Attack-Based Crit Rate max becomes 33%."],
+            "transcendence2": [
+                "Increases Effect: HP gained upon revival becomes 100%.",
+                "Adds Effect: All Damage Nullification upon revival. [Ends After: Taking 2 Hit(s)]."
+            ],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVE DAMAGE DEALER",
@@ -169,9 +323,124 @@
         "title": "Victorious Fighting Buddha",
         "faction": "Four Lords",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Sun_Wukong.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/sun-wukong/Sun_Wukong.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/sun-wukong/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of magic Attack 1 time(s)",
+                        "30% chance to inflict Petrify. [Duration: 1 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Single Enemy (Clone)",
+                    "effects": [
+                        "Deals damage equal to 60% of Magic Attack 2 time(s). [Additional 50% Crit Rate].",
+                        "30% chance to inflict Petrify. [Duration: 1 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 130% of Magic Attack.",
+                "Increases Damage: To 70% of Magic Attack. [Clone]"
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Crit Rate to 100%. [Clone]."]
+        },
+        "skill1":{
+            "name": "Jumbo Pole",
+            "image": "/7knights/heroes/sun-wukong/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 53% of Magic Attack 3 time(s)."]
+                },
+                {
+                    "desc": "3 Enemies (Clone)",
+                    "effects": [
+                        "Each attack grants an additional 10% Damage Boost each time the number of targets is reduced by 1.",
+                        "Deals Defense-Ignoring damage equal to 86% of Magic Attack plus 6% of the target's Max HP 3 time(s). (HP-Based damage limited to 100% of caster's Attack) [Aditional 50% Crit Rate]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 53% of Magic Attack.",
+                "Increases Damage: To 102% of Magic Attack plus 7% of the target's Max HP."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Crit Rate to 100%. [Clone]."]
+        },
+        "skill2":{
+            "name": "Clone Beatdown",
+            "image": "/7knights/heroes/sun-wukong/skill_2.webp",
+            "cd": 91,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 43% of Magic Attack 3 time(s).",
+                        "40% chance to inflic Petrify. [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Damage Resistance by 11%. [Duration 3 Turn(s)]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Clone. [Duration: 5 Turn(s)].",
+                        "Grants Crowd Control Immunity. [Duration: 3 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Enemies (Clone)",
+                    "effects": [
+                        "100% chance to inflict Block Rate Reduction by 25%. [Duration: 3 Turn(s)].",
+                        "Each attack grants an additional 5% Damage Boost each time the number of targets is reduced by 1.",
+                        "Deals Defense-Ignoring damage equal to 68% of Magic Attack 3 time(s). [Additional 50% Crit Rate]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Damage Resistance to 15%.",
+                "Increases Damage: To 82% of Magic Attack. [Clone].",
+                "Increases Effect: Block Rate Reduction to 33%. [Clone]."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Crit Rate to 100%. [Clone]."]
+        },
+        "passive":{
+            "name": "Final CLone",
+            "image": "/7knights/heroes/sun-wukong/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Guts. [Once per Battle].",
+                        "Grants a Barrier equal to 135% of the caster's Magic Attack upon triggering Guts. [Duration: 3 Turn(s)].",
+                        "Grants Attack-Based Defense Boost. [Increases Defense by 125 for every 300 Attack. (Max Increase: 1,125)] [Always Active].",
+                        "Reduces skill cooldowns by 10s upon being hit by an enemy's attack."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 35% of the caster's Magic Attack upon using a skill 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Barrier absorption becomes equal to 155% of Magic Attack.",
+                "Increases Healing: HP Recovery amount becomes 45% of Magic Attack."
+            ],
+            "transcendence2": ["Adds Healing: Heals HP equal to 95% of the acster's Magic Attack when HP falls to 50% or lower. [All Allies] [1 Time(s) per Battle]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "TANK/UNIVERSAL SUPPORT",
@@ -286,9 +555,104 @@
         "title": "Unrivaled",
         "faction": "Four Lords",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Lu_Bu.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/lu-bu/Lu_Bu.webp",
         "transcend": "Weakness Hit Chance +20%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/lu-bu/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "2 Enemies",
+                    "effects": [
+                        "Deals damage equal to 80% of Physical Attack 1 time(s).",
+                        "Grants an additional 40% Damage Boost each time the number of targets is reduced by 1."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 100% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Bloody Whirlwind",
+            "image": "/7knights/heroes/lu-bu/skill_1.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 57% of Physical Attack 2 time(s).",
+                        "Each attack deals additional damage equal to 25% of Physical Attack upon landing a Weakness Hit.",
+                        "45% chance to inflict Stun. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 67% of Physical Attack.",
+                "Increases Chance: Stun chance becomes 55%."
+            ],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 29% Defense Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence6": [
+                "Adds Healing: Heals HP equal to 40% of Physical Attack. [Self, 1 Ally (Back Row First)]",
+                "Adds Effect: Grants 10% Defense Efficiency Boost. [Self, 1 Ally (Back Row First)] [Duration: 3 Turn(s)]."
+            ]
+        },
+        "skill2":{
+            "name": "Crimson Gale's Advance",
+            "image": "/7knights/heroes/lu-bu/skill_2.webp",
+            "cd": 112,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals Defense-Ignoring damage equal to 52% of Physical Attack 2 time(s).",
+                        "Each attack deals additional Defense-Ignoring damage equal to 27% of Physical Attack upon landing a Weakness Hit.",
+                        "Activates again up to 1 time(s) with 100% power upon defeating an enemy with this skill."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 60% of Physical Attack.",
+                "Increases Damage: To 32% of Physical Attack upon landing a Weakness Hit."
+            ],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 29% Defense Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence6": [
+                "Adds Healing: Heals HP equal to 40% of Physical Attack. [Self, 1 Ally (Back Row First)]",
+                "Adds Effect: Grants 10% Defense Efficiency Boost. [Self, 1 Ally (Back Row First)] [Duration: 3 Turn(s)]."
+            ]
+        },
+        "passive":{
+            "name": "Superhuman Strength",
+            "image": "/7knights/heroes/lu-bu/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Starting battles with at least 3 Attack hero(es) on your team grants Blessing. [Caps damage taken from a single hit to 40% of Max HP] [Always Active].",
+                        "Revives with 80% HP upon falling in battle. [Once per Battle].",
+                        "Resets skills cooldowns upon Revival. [Once per Battle]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Reckless Valor. [Increases Physical Attack by 31% but decreases Magic Attack by 90%] [Always Active]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "100 chance to inflict 1 stack(s) of [Mark: Heaven Schorcher Halberd's Rage] upon either using a basic attack 2 time(s) or a skill 1 time(s). [Max 2 Stack(s)] (If deployed to a team with 3 or more Attack heroes).",
+                        "Deals damage equal to 45% of Physical Attack 1 time(s) upon either using a basic attack 2 time(s) or a skill 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Blessing cap becomes 25% of Max HP.",
+                "Increases Effect: HP gained upon revival becomes 100%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP-FOCUSED",

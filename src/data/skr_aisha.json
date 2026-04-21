@@ -6,8 +6,82 @@
         "faction": "Moonlit Isle",
         "role": "Support",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Lina.webp",
+        "portrait": "/7knights/heroes/lina/Lina.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/lina/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Adds Healing: Heals HP equal to 7% of the caster's Max HP. [Ally with Lowest Current HP (Excluding Self)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Marching Anthem",
+            "image": "/7knights/heroes/lina/skill_1.webp",
+            "cd": 114,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Heals HP equal to 21% of the caster's Max HP.",
+                        "Grants Continuous Healing. [Heals HP equal to 15% of the caster's Max HP every turn] [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes equal to 24% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Inspiring Melody",
+            "image": "/7knights/heroes/lina/skill_2.webp",
+            "cd": 120,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Damage Boost by 23%. [Duration: 3 Turn(s)]."]
+                },
+                {
+                    "desc": "Front Row Enemies",
+                    "effects": ["100% chance to inflict Defense Reduction by 34%. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Damage Boost to 28%."],
+            "transcendence2": null,
+            "transcendence6": [
+                "Changes Number of Targets: To All Enemies.",
+                "Increases Effect: Defense Reduction to 41%."
+            ]
+        },
+        "passive":{
+            "name": "Dissonance",
+            "image": "/7knights/heroes/lina/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Effect Resist Boost by 28%."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants a Barrier equal to 39% of the caster's Max HP. [Duration: 3 Turn(s)] [Once per Round]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Effect Resist Boost to 34%.",
+                "Increases Effect: Barrier absorption becomes 45% of Max HP."
+            ],
+            "transcendence2": ["Adds Effect: 34% Crit Damage Boost. [All Allies] [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP",
@@ -123,8 +197,66 @@
         "faction": "Moonlit Isle",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Catty.webp",
+        "portrait": "/7knights/heroes/catty/Catty.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/catty/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Claw Attack",
+            "image": "/7knights/heroes/catty/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 230% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Unable to Recover. [Duration: 4 Turn(s)].",
+                        "100% chance to inflict Physical Vulnerability by 22%. [Duration: 5 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 270% of Physical Attack."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 33% Block Rate Reduction. [Duration: 5 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Expose Weakness",
+            "image": "/7knights/heroes/catty/skill_2.webp",
+            "cd": 64,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Crit Rate Boost by 21%. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Crit Rate Boost to 27%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 32% Weaknees Hit Chance Boost. [Duration: 3 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Sharp Claws",
+            "image": "/7knights/heroes/catty/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Physical Attack Boost by 25%. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Physical Attack Boost to 31%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -170,8 +302,77 @@
         "faction": "Moonlit Isle",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Jin.webp",
+        "portrait": "/7knights/heroes/jin/Jin.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/jin/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Explosive Fist",
+            "image": "/7knights/heroes/jin/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 120% of Physical Attack 1 time(s)",
+                        "Deals Fixed damage equal to 775 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 145% of Physical Attack.",
+                "Increases Damage: To 1,100 Fixed damage."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Extreme Fist",
+            "image": "/7knights/heroes/jin/skill_2.webp",
+            "cd": 98,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 145% of Physical Attack 1 time(s).",
+                        "55% chance to inflict Stun. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 175% of Magic Attack.",
+                "Increases Chance: Stun chance becomes 65%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Extreme Training",
+            "image": "/7knights/heroes/jin/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Silence Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Silence Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 27% Crit Rate Boost. [Self] [Always Active]."],
+            "transcendence2": ["Adds Effect: Grants a Barrier equal to 160% of the caster's Physical Attack when HP falls to 50% or lower. [Self] [Duration: 3 Turn(s)] [Once per Battle]."],
+            "transcendence6": ["Adds Effect: 31% Physical Attack Boost. [Self] [Duration: 3 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -252,8 +453,71 @@
         "faction": "Moonlit Isle",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Rei.webp",
+        "portrait": "/7knights/heroes/rei/Rei.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/rei/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Swift Death",
+            "image": "/7knights/heroes/rei/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 47% of Physical Attack 2 time(s).",
+                        "Each attack has a 40% chance to inflict Poison. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: Pierce."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Hail of Blades",
+            "image": "/7knights/heroes/rei/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 47% of Physical Attack 2 time(s).",
+                        "Each attack has a 40% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 57% of Physical Attack."],
+            "transcendence2": ["Adds Effect: Each attack has a 55% chance to inflict Poison. [Duration: 2 Turn(s)]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Hide",
+            "image": "/7knights/heroes/rei/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Camouflage. [Duration: 2 Turn(s)].",
+                        "Grants Physical Attack Boost by 25%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Turns: Camouflage duration becomes 3 turn(s)."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Physical Attack Boost to 31%."]
+        },
         "builds":[
             {
                 "name": "WATER/DARK POWER UP DUNGEON",
@@ -319,7 +583,7 @@
                     "substat2": "-"
                 },
                 "rings": {
-                    "ringID1": "ring-of-anihilation",
+                    "ringID1": "ring-of-annihilation",
                     "ringID2": "ring-of-fortune",
                     "ringID3": "ring-of-concentration",
                     "ringID4": "ring-of-vengeance"
@@ -334,8 +598,82 @@
         "faction": "Moonlit Isle",
         "role": "Magic",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Daisy.webp",
+        "portrait": "/7knights/heroes/daisy/Daisy.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/daisy/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Dancing Fan",
+            "image": "/7knights/heroes/daisy/skill_1.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 270% of Magic Attack 1 time(s).",
+                        "Deals damage equal to 20% of the target's Max HP 1 time(s). (HP-Based damage limited to 350% of caster's Attack)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 330% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Damage: To 26% of the target's Max HP. (HP-Based damage limited to 700% of caster's Attack)."]
+        },
+        "skill2":{
+            "name": "Butterfly Flames",
+            "image": "/7knights/heroes/daisy/skill_2.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Magic Attack Boost by 27%. [Duration: 3 Turn(s)]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "100% chance to inflict 1 Buff Removal(s).",
+                        "Deals damage equal to 130% of Magic Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Magic Attack Boost to 33%.",
+                "Increases Damage: To 155% of Magic Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Nimble Steps",
+            "image": "/7knights/heroes/daisy/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Petrify Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Petrify Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "2 Allies with the Highest Attack",
+                    "effects": ["Grants Magic Attack Boost by 21%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Attack Boost to 27%."],
+            "transcendence2": ["Adds Effect: Grants a Barrier equal to 55% of the caster's Magic Attack upon using a skill 2 time(s). [All Allies] [Duration: 2 Turn(s)]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "OX RAID",
@@ -368,7 +706,7 @@
                 "rings": {
                     "ringID1": "ring-of-authority",
                     "ringID2": "ring-of-fortune",
-                    "ringID3": "ring-if-annihilation",
+                    "ringID3": "ring-of-annihilation",
                     "ringID4": "ring-of-vengeance"
                 }
             },
@@ -403,7 +741,7 @@
                 "rings": {
                     "ringID1": "ring-of-authority",
                     "ringID2": "ring-of-fortune",
-                    "ringID3": "ring-if-annihilation",
+                    "ringID3": "ring-of-annihilation",
                     "ringID4": "ring-of-vengeance"
                 }
             }
@@ -416,8 +754,78 @@
         "faction": "Western Aisha",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Soi.webp",
+        "portrait": "/7knights/heroes/soi/Soi.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/soi/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "40% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Heartpiercer",
+            "image": "/7knights/heroes/soi/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 315% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Bleed. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 375% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% chance to inflict Buff Duration Reduction. [Reduced by: 3 Turn(s)]."]
+        },
+        "skill2":{
+            "name": "Hawk Attack",
+            "image": "/7knights/heroes/soi/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies (By Highest No. of Buffs)",
+                    "effects": [
+                        "Deals damage equal to 120% of Physical Attack 1 time(s)",
+                        "100% chance to inflict 2 Buff Removal(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 145% of Physical Attack."],
+            "transcendence2": ["Adds Damage: Increases damage dealt by 15% each time the number of targets is reduced by 1."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Aerial Scouting",
+            "image": "/7knights/heroes/soi/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Quintuple-Target Attack Resistance by 11%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Effect Hit Rate Boost by 31%. [Always Active]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Quintuple-Target Attack Resistance to 15%.",
+                "Increases Effect: Effect Hit Rate Boost to 40%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -463,8 +871,69 @@
         "faction": "Western Aisha",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Feng_Yan.webp",
+        "portrait": "/7knights/heroes/feng-yan/Feng_Yan.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/feng-yan/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Colossal Strike",
+            "image": "/7knights/heroes/feng-yan/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 155% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 190% of Physical Attack."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 24% Defense Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Thousand Blades",
+            "image": "/7knights/heroes/feng-yan/skill_2.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 175% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 210% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignore Defense."]
+        },
+        "passive":{
+            "name": "Blade Barrier",
+            "image": "/7knights/heroes/feng-yan/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants All Damage Immunity. [Duration: 2 Turn(s)]."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Freeze Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Freeze Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 40% Crit Damage Boost. [Self] [Always Active]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "GENERAL BLOCK",
@@ -580,8 +1049,68 @@
         "faction": "Western Aisha",
         "role": "Magic",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Ling_Ling.webp",
+        "portrait": "/7knights/heroes/ling-ling/Ling_Ling.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/ling-ling/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": ["Adds Healing: Heals HP equal to 45% of Magic Attack. [Self]."],
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Ki Orb",
+            "image": "/7knights/heroes/ling-ling/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 30% of Magic Attack 7 time(s).",
+                        "100% chance to inflict Damage Reduction by 15%. [Duration: 5 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Damage Reduction to 20%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Raging Dragon",
+            "image": "/7knights/heroes/ling-ling/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 20% of Magic Attack 5 time(s).",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 25% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Ki Absorption",
+            "image": "/7knights/heroes/ling-ling/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Effect Hit Rate Boost by 19%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Effect Hit Rate Boost to 25%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Granst a Barrier equal to 45% of the caster's Magic Attack upon using a skill 1 time(s). [Duration: 2 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "SUPPORT",
@@ -697,8 +1226,69 @@
         "faction": "Western Aisha",
         "role": "Attack",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Bai_Long.webp",
+        "portrait": "/7knights/heroes/bai-long/Bai_Long.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/bai-long/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Tenfold Flash Strike",
+            "image": "/7knights/heroes/bai-long/skill_1.webp",
+            "cd": 81,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals Defense-Ignoring damage equal to 340% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 410% of Physical Attack."],
+            "transcendence2": ["Adds Healing: Heals HP equal to 30% of Physical Attack. [All Allies]."],
+            "transcendence6": ["Increases Effect: Defense Ignore Efficiency Boost by 65%."]
+        },
+        "skill2":{
+            "name": "Nunchuck Storm",
+            "image": "/7knights/heroes/bai-long/skill_2.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals Defense-Ignoring damage equal to 475% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 575% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Defense Ignore Efficiency Boost by 65%."]
+        },
+        "passive":{
+            "name": "Return of a Legend",
+            "image": "/7knights/heroes/bai-long/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Crit Rate Boost by 27%. [Always Active].",
+                        "Grants Defense Ignore Efficiency Boost by 5%. [Always Active].",
+                        "Grants Pinnacle of Martial Arts. [Decreases Physical damage taken by 29%, but increases Magic damage taken by 90%] [Always Active]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Crit Rate Boost to 33%.",
+                "Increases Effect: Defense Ignore Efficiency Boost by 10%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "DPS",
@@ -744,8 +1334,85 @@
         "faction": "Eastern Aisha",
         "role": "Magic",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Yu_Shin.webp",
+        "portrait": "/7knights/heroes/yu-shin/Yu_Shin.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/yu-shin/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Effect Resist Reduction by 13%. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Increases Effect: Effect Resist Reduction to 16%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Thunder Wolf",
+            "image": "/7knights/heroes/yu-shin/skill_1.webp",
+            "cd": 81,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 80% of Magic Attack 2 time(s).",
+                        "Each attack has a 40% chance to inflict Paralysis. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 92% of Magic Attack."],
+            "transcendence2": ["Adds Effect: 2 Debuff Removal(s). [3 Allies]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Lightning Strike",
+            "image": "/7knights/heroes/yu-shin/skill_2.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 115% of Magic Attack 1 time(s).",
+                        "45% chance to inflict Paralysis. [Duration: 2 Turn(s)].",
+                        "100% chance to inflict Incoming Healing Reduction by 44%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 135% of Magic Attack.",
+                "Increases Chance: Paralysis chance becomes 55%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Incoming Healing Reduction to 75%."]
+        },
+        "passive":{
+            "name": "Sage's Teachings",
+            "image": "/7knights/heroes/yu-shin/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants All Damage Immunity. [Duration: 2 Turn(s)]."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Effect Hit Rate Boost by 28%. [Always Active]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Turns: All Damage Immunity duration becomes 3 turn(s).",
+                "Increases Effect: Effect Hit Rate Boost to 34%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP",
@@ -826,8 +1493,86 @@
         "faction": "Eastern Aisha",
         "role": "Attack",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Bi_Dam.webp",
+        "portrait": "/7knights/heroes/bi-dam/Bi_Dam.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/bi-dam/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "2 Enemies",
+                    "effects": [
+                        "Deals damage equal to 55% of Physical Attack 1 time(s).",
+                        "35% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 65% of Physical Attack.",
+                "Increases Chance: Bleed chance becomes 40%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Mega Arrow",
+            "image": "/7knights/heroes/bi-dam/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 72% of Physical Attack 2 time(s).",
+                        "Each attack has a 55% chance to inflict Bleed. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 85% of Physical Attack.",
+                "Increases Chance: Bleed chance becomes 60%."
+            ],
+            "transcendence2": [
+                "Reduces Cooldown: To 55s.",
+                "Adds Effect: 100% chance to inflict Bleed on a target inflicted with [Bleed]. [Duration: 3 Turn(s)]."
+            ],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Explosive Arrows",
+            "image": "/7knights/heroes/bi-dam/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 175% of Physical Attack 1 time(s).",
+                        "Detonates Bleed stacks at 120% of their power. [Max 3 Stack(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 205% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Damage: Bleed Explosion power becomes 150%."]
+        },
+        "passive":{
+            "name": "Hwarang Blood",
+            "image": "/7knights/heroes/bi-dam/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Physical Damage Boost by 29% upon using any attack 3 time(s). [Duration: 3 Turn(s)].",
+                        "Heals HP equal to 50% of the caster's Physical Attack upon using any attack 3 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Physical Damage Boost to 35%.",
+                "Increases Healing: HP Recovery amount becomes 55% of Physical Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -908,8 +1653,82 @@
         "faction": "Eastern Aisha",
         "role": "Universal",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Bai_Jiao.webp",
+        "portrait": "/7knights/heroes/bai-jiao/Bai_Jiao.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/bai-jiao/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "40% chance to inflict Poison. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 40% chance to inflict Bleed. [Duration: 2 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Centipede Poison",
+            "image": "/7knights/heroes/bai-jiao/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 90% of Magic Attack 3 time(s).",
+                        "Each attack has a 60% chance to inflict Poison. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 110% of Magic Attack.",
+                "Adds Effect: 100% chance to inflict Unable to Recover. [Duration: 4 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Increases Chance: Poison chance becomes 70%."]
+        },
+        "skill2":{
+            "name": "Fiendish Decree",
+            "image": "/7knights/heroes/bai-jiao/skill_2.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 80% of Magic Attack 3 time(s).",
+                        "Each attack has a 60% chance to inflict Bleed. [Duration: 3 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants 1 Debuff Removal(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 110% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Chance: Bleed chance becomes 70%."]
+        },
+        "passive":{
+            "name": "Dark Incantations",
+            "image": "/7knights/heroes/bai-jiao/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants All Damage Immunity. [Duration: 2 Turn(s)]."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 32% of the caster's Magic Attack upon using any attack 2 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Turns: All Damage Immunity duration becomes 3 turn(s)."],
+            "transcendence2": ["Adds Effect: 22% Effect Probability Boost. [Self]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "DOT DAMAGE BOOSTED",
@@ -990,8 +1809,84 @@
         "faction": "Eastern Aisha",
         "role": "Magic",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Xiao_Qiao.webp",
+        "portrait": "/7knights/heroes/xiao-qiao/Xiao_Qiao.webp",
         "transcend": "Weakness Chance +20%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/xiao-qiao/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Sprout Attack",
+            "image": "/7knights/heroes/xiao-qiao/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals Defense-Ignoring damage equal to 270% of Magic Attack 1 time(s).",
+                        "Deals additional Defense-Ignoring damage equal to 215% of Magic Attack upon landing a Weakness Hit."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants 2 Debuff Removal(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 330% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Lucid Dream",
+            "image": "/7knights/heroes/xiao-qiao/skill_2.webp",
+            "cd": 108,
+            "effects": [
+                {
+                    "desc": "2 Allies with the Highest Attack",
+                    "effects": ["Grants Magic Attack Boost by 25%. [Duration: 3 Turn(s)]."]
+                },
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals Defense-Ignoring damage equal to 340% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Magic Vulnerability by 26%. [Duration: 5 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Attack Boost to 31%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 46% Crit Damage Boost. [2 Allies with the Highest Attack] [Duration: 3 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Battlefield Princess",
+            "image": "/7knights/heroes/xiao-qiao/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Paralysis Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Paralysis Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)].",
+                        "Grants a Barrier equal to 45% of the caster's Magic Attack upon using a skill 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Magic Damage Boost by 24%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Damage Boost to 29%."],
+            "transcendence2": ["Adds Effect: 39% Weakness Hit Chance Boost. [Self] [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SUPPORT",
@@ -1066,14 +1961,193 @@
         ]
     },
     {
+        "id": "nezha",
+        "name": "Nezha",
+        "title": "Monstrous Strength",
+        "faction": "Eastern Aisha",
+        "role": "Magic",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/nezha/Nezha.webp",
+        "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/nezha/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                },
+                {
+                    "desc": "Allies (Self, Ally with the Highest ATK)",
+                    "effects": ["Reduces skill cooldowns by 8s."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Flowwer Dance",
+            "image": "/7knights/heroes/nezha/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 175% of Magic Attack 1 time(s). (Damage increases by an amount equal to up 50% of the target's lost HP)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 225% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Tidal Wave",
+            "image": "/7knights/heroes/nezha/skill_2.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 260% of Magic Attack 1 time(s). (Damage increases by an amount equal to up 50% of the target's lost HP)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 335% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignore Defense."]
+        },
+        "passive":{
+            "name": "Lotus's Protection",
+            "image": "/7knights/heroes/nezha/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants All Damage Immunity when HP falls to 50% or lower. [Duration: 2 Turn(s)] [Once per Battle].",
+                        "Grants Crit Rate Boost by 27%. [Always Active]."
+                    ]
+                },
+                {
+                    "desc": "Allies (Magic)",
+                    "effects": ["Grants Triple-Target Attack Damage Boost by 28%. [Always Active]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Crit Rate Boost to 33%.",
+                "Increases Effect: Triple-Target Attack Damage by 33%."
+            ],
+            "transcendence2": ["Adds Effect: Grants a Barrier equal to 55% of the caster's Magic Attack upon using a skill 1 time(s). [Duration: 2 Turn(s)]."],
+            "transcendence6": null
+        },
+        "builds":[
+            {
+                "name": "CASTLE RUSH/ADVENT EXPEDITION",
+                "note": "",
+                "substats": ["Crit DMG", "Weakness Hit", "Crit Rate", "All ATK (%)", "All ATK", "Speed"],
+                "weapon1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "weapon2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_m.webp",
+                    "substat1": "Crit DMG",
+                    "substat2": "Weakness Hit"
+                },
+                "armor1": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor2": {
+                    "type": "Avenger",
+                    "image": "/7knights/equipment/avenger_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "rings": {
+                    "ringID1": "ring-of-subjugation",
+                    "ringID2": "ring-of-siege",
+                    "ringID3": "ring-of-fortune",
+                    "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
         "id": "asura",
         "name": "Asura",
         "title": "Imperial Guard",
         "faction": "Santuary of Darkness",
         "role": "Universal",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Asura.webp",
+        "portrait": "/7knights/heroes/asura/Asura.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/asura/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Spirit Blade",
+            "image": "/7knights/heroes/asura/skill_1.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 285% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Focus Target. [Duration: 4 Turn(s)].",
+                        "100% chance to inflict Defense Reduction by 29%. [Duration: 4 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Defense Reduction to 36%."],
+            "transcendence2": ["Increases Turns: Focus Target duration becomes 5 turn(s)."],
+            "transcendence6": ["Increases Turns: Defense Reduction duration becomes 5 turn(s)."]
+        },
+        "skill2":{
+            "name": "Spirit's Blessing",
+            "image": "/7knights/heroes/asura/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants a Barrier equal to 85% of the caster's Magic Attack. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Barrier absorption becomes equal to 100% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Sagacious Vision",
+            "image": "/7knights/heroes/asura/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Weakness Hit Chance Boost by 70%. [Always Active].",
+                        "Grants a Barrier equal to 115% of the caster's Magic Attack upon using a skill 1 time(s). [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Weakness Hit Chance Boost to 80%.",
+                "Increases Effect: Barrier absorption becomes equal to 135% of Magic Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "IRON DEVOURER RAID",
@@ -1119,8 +2193,68 @@
         "faction": "Santuary of Darkness",
         "role": "Magic",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Pascal.webp",
+        "portrait": "/7knights/heroes/pascal/Pascal.webp",
         "transcend": "Crit DMG +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/pascal/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Gate to the Abyss",
+            "image": "/7knights/heroes/pascal/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Resets the cooldown of [Titan of Calamities].",
+                        "Grants All Damage Nullification. [Ends After: Taking 1 Hit(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Stacks: All Damage Nullification ends after taking 2 hit(s)."],
+            "transcendence2": ["Reduces Cooldown: To 40s."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Titan of Calamities",
+            "image": "/7knights/heroes/pascal/skill_2.webp",
+            "cd": 150,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals Defense-Ignoring damage equal to 390% of Magic Attack 1 time(s). [Additional 50% Crit Rate]."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 470% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Crit Rate to 100%."]
+        },
+        "passive":{
+            "name": "Divine Authority",
+            "image": "/7knights/heroes/pascal/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Magic Attack Boost by 27%. [Always Active].",
+                        "Grants Crit Damage Boost by 40%. [Always Active]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Attack Boost to 33%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "IRON DEVOURER RAID (PRE T6)",
@@ -1201,8 +2335,79 @@
         "faction": "Heroes of the Three Kingdoms",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Zhao_Yun.webp",
+        "portrait": "/7knights/heroes/zhao-yun/Zhao_Yun.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/zhao-yun/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Tornado Thrust",
+            "image": "/7knights/heroes/zhao-yun/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 285% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Bleed. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 340% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Splitting Tornado Thrust",
+            "image": "/7knights/heroes/zhao-yun/skill_2.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 90% of Physical Attack 1 time(s).",
+                        "75% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Physical Damage Immunity. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Chance: Bleed chance becomes 85%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Protective Aura",
+            "image": "/7knights/heroes/zhao-yun/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Blind Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Blind Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Effect Resist Boost by 31%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Effect Resist Boost to 40%."],
+            "transcendence2": ["Adds Effect: Grants a Barrier equal to 100% of the caster's Physical Attack upon using a skill 1 time(s). [Self] [Duration: 3 Turn(s)]."],
+            "transcendence6": ["Adds Effect: Reduces skill cooldowns by 8s when hit by an enemy's attack. [Self]."]
+        },
         "builds":[
             {
                 "name": "BEGINNING GEARS",
@@ -1283,8 +2488,90 @@
         "faction": "Heroes of the Three Kingdoms",
         "role": "Support",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Diaochan.webp",
+        "portrait": "/7knights/heroes/diaochan/Diaochan.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/diaochan/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                },
+                {
+                    "desc": "Ally with Lowest Current HP (Excluding Self)",
+                    "effects": ["Heals HP equal to 6% of the caster's Max HP."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes equal to 7% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Forward March",
+            "image": "/7knights/heroes/diaochan/skill_1.webp",
+            "cd": 85,
+            "effects": [
+                {
+                    "desc": "3 Allies",
+                    "effects": ["Heals HP equal to 25% of the caster's Max HP."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes equal to 29% of the caster's Max HP."],
+            "transcendence2": ["Adds Effect: Resets skill cooldown if target type is Attack or Magic. [2 Allies (Excluding Self)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Song of Protection",
+            "image": "/7knights/heroes/diaochan/skill_2.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "2 Allies (Exluding Self)",
+                    "effects": ["Grants Crit Damage Boost by 43%. [Duration: 4 Turn(s)]."]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "85% chance to inflict Sleep. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Chance: Sleep chance becomes 100%.",
+                "Adds Effect: 30% All Attack Boost. [2 Allies (Exluding Self)] [Duration: 4 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% chance to inflict 78% Incoming Healing Reduction. [Duration: 3 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Blushing Moon's Smile",
+            "image": "/7knights/heroes/diaochan/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Max HP-Based Effect Hit Rate Boost. [Increases Effect Hit Rate by 5% for every 1,000 Max HP (Max Increase: 45%)] [Always Active].",
+                        "Grants a Barrier equal to 39% of the caster's Max HP. [Duration: 3 Turn(s)] [Once per Round]."
+                    ]
+                },
+                {
+                    "desc": "2 Allies (Excluding Self)",
+                    "effects": [
+                        "Grants the following effects if target type is Attack or Magic:",
+                        "Grants a Barrier equal to 20% of the caster's Max HP upon using a basic attack 1 time(s). [Duration: 2 Turn(s)].",
+                        "Grants Crowd Control Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Barrier absorption becomes 45% of Max HP. [Self].",
+                "Increases Effect: Barrier absorption becomes 22% of Max HP. [2 Allies (Excluding Self)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "HP-BASED",
@@ -1400,8 +2687,82 @@
         "faction": "Heroes of the Three Kingdoms",
         "role": "Universal",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Guan_Yu.webp",
+        "portrait": "/7knights/heroes/guan-yu/Guan_Yu.webp",
         "transcend": "Weakness Chance +20%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/guan-yu/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 30% chance to inflict Unable to Recover. [Duration: 2 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Crescent Dragon's Fury",
+            "image": "/7knights/heroes/guan-yu/skill_1.webp",
+            "cd": 68,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "100% chance to inflict 3 Buff Removal(s).",
+                        "Deals Defense-Ignoring damage equal to 390% of Physical Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 470% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% Crit Rate Boost."]
+        },
+        "skill2":{
+            "name": "Lead the Charge",
+            "image": "/7knights/heroes/guan-yu/skill_2.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants 2 Debuff Removal(s).",
+                        "Grants Continuous Healing for each debuff removed. [Heals HP equal to 15% of the caster's Max HP every turn] [Duration: 2 Turn(s)].",
+                        "Can be used only if the ally has a removable buff."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: All Damage Immunity. [Duration: 1 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Peerless Warrior",
+            "image": "/7knights/heroes/guan-yu/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Shock Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Shock Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Back Row Allies",
+                    "effects": [
+                        "Grants Physical Damage Boost by 20%. [Duration: 2 Turn(s)].",
+                        "Grants Physical Damage Boost by 20% upon using any attack 2 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Turn(s): Physical Damage Boost duration becomes 3 turn(s)."],
+            "transcendence2": [
+                "Adds Effecet: 40% Crit Damage Boost. [Back Row Allies] [Duration: 3 Turn(s)].",
+                "Adds Effect: 40% chance to grant Crit Damage Boost upon using any attack 2 time(s). [Back Row Allies] [Duration: 3 Turn(s)]."
+            ],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SUPPORT",

@@ -6,8 +6,72 @@
         "faction": "Evan Expedition",
         "role": "Defense",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Evan.webp",
+        "portrait": "/7knights/heroes/evan/Evan.webp",
         "transcend": "Block Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes//basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 60% of Defense 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 60% of Physical Attack plus 70% of Defense."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Swift Strikes",
+            "image": "/7knights/heroes//skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 145% of Physical Attack plus 165% of Defense 1 time(s).",
+                        "85% chance to inflict Stun. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Turns: Stun duration becomes 4 turn(s)."],
+            "transcendence2": [
+                "Increases Damage: To 170% of Physical Attack plus 200% of Defense.",
+                "Increases Chance: Stun chance becomes 100%."
+            ],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Shiel of Order",
+            "image": "/7knights/heroes//skill_2.webp",
+            "cd": 114,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants a Barrier equal to 110% of the caster's Defense. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Barrier absorption becomes 130% of Defense."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 21% Block Rate Boost. [Duration: 3 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Unbending Will",
+            "image": "/7knights/heroes//passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Defense Boost by 13%. [Always Active].",
+                        "Grants Stun Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Stun Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Defense Boost to 18%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "TANK DEF-BASED",
@@ -88,8 +152,68 @@
         "faction": "Evan Expedition",
         "role": "Support",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Karin.webp",
+        "portrait": "/7knights/heroes/karin/Karin.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/karin/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Heal",
+            "image": "/7knights/heroes/karin/skill_1.webp",
+            "cd": 83,
+            "effects": [
+                {
+                    "desc": "Single Ally",
+                    "effects": [
+                        "Heals HP equal to 200% of the caster's Magic Attack.",
+                        "Grants 2 Debuff Removal(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Healing: HP Recovery amount becomes 230% of Magic Attack.",
+                "Increases Effect: Debuff Removal count becomes 3."
+            ],
+            "transcendence2": ["Reduces Cooldown: To 61s."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Revive",
+            "image": "/7knights/heroes/karin/skill_2.webp",
+            "cd": 90,
+            "effects": [
+                {
+                    "desc": "Single Ally",
+                    "effects": ["Revives fallen target(s) with 50% HP."]
+                }
+            ],
+            "enhancement": ["Increases Effect: HP gained upon revival becomes 70%."],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To 2 Allies."]
+        },
+        "passive":{
+            "name": "Blessed Resurrection",
+            "image": "/7knights/heroes/karin/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Revives with 65% HP upon falling in battle. [Once per Battle]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: HP gained upon revival becomes 80%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "TANK BLOCK-BASED",
@@ -170,8 +294,71 @@
         "faction": "Evan Expedition",
         "role": "Magic",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Yuri.webp",
+        "portrait": "/7knights/heroes/yuri/Yuri.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/yuri/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "Landing a Critical Hit has a 100% chance to inflict Burn. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Energy Drain",
+            "image": "/7knights/heroes/yuri/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 285% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Burn. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 340% of Magic Attack."],
+            "transcendence2": ["Adds Effect: 29% Magic Damage Boost. [Self] [Duration: 5 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Magic Orb",
+            "image": "/7knights/heroes/yuri/skill_2.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals Defense-Ignoring damage equal to 285% of Magic Attack 1 time(s).",
+                        "Deals additional damage equal to 170% of Magic Attack against targets inflicted with [Burn]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 340% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Fox Charm",
+            "image": "/7knights/heroes/yuri/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Crit Rate Boost by 21%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Crit Rate Boost to 27%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Revives with 80% HP upon falling in battle. [1 Time(s) per Battle]."]
+        },
         "builds":[
             {
                 "name": "BEGINNING GEARS",
@@ -252,8 +439,78 @@
         "faction": "Evan Expedition",
         "role": "Universal",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Li.webp",
+        "portrait": "/7knights/heroes/li/Li.webp",
         "transcend": "Block Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/li/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 12% of the caster's Max HP 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 60% of Physical Attack plus 14% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Iron Physique",
+            "image": "/7knights/heroes/li/skill_1.webp",
+            "cd": 90,
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Physical Damage Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Taunt. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Turns: Grants Physical Damage Immunity. [Duration: 3 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": ["Reduces Cooldown: To 68s."]
+        },
+        "skill2":{
+            "name": "Annihilating Strike",
+            "image": "/7knights/heroes/li/skill_2.webp",
+            "cd": 90,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "28% HP Alteration.",
+                        "Deals damage equal to 120% of Physical Attack plus 29% of the caster's Max HP 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: HP Alteration to 11%."],
+            "transcendence2": ["Reduces Cooldown: To 68s."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Sign of Revenge",
+            "image": "/7knights/heroes/li/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "29% chance to do a Counterattack. [Always Active].",
+                        "Heals HP equal to 29% of the caster's Max HP when falls to 50% or lower. [1 Time(s) per Battle]."
+                    ]
+                },
+                {
+                    "desc": "Single Enemy When Counterattacking",
+                    "effects": [
+                        "Deals damage equal to 50% of Physical Attack plus 12% of the caster's Max HP 1 time(s).",
+                        "35% chance to inflict Stun. [Duration: 1 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Chance. Counterattack chance becomes 38%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "TANK BLOCK-BASED",
@@ -369,8 +626,68 @@
         "faction": "Evan Expedition",
         "role": "Support",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Yui.webp",
+        "portrait": "/7knights/heroes/yui/Yui.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/yui/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Magic Attack Reduction by 9%. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Attack Reduction to 11%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Healing Melody",
+            "image": "/7knights/heroes/yui/skill_1.webp",
+            "cd": 124,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Continuous Healing. [Heals HP equal to 15% of the caster's Max HP every turn] [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Turns: Continuous Healing duration becomes 3 turn(s)."],
+            "transcendence2": ["Adds Effect: 19% Physical Damage Boost. [Duration: 3 Turn(s)]."],
+            "transcendence6": ["Increases Effect: Physical Damage Boost to 24%."]
+        },
+        "skill2":{
+            "name": "Battle Melody",
+            "image": "/7knights/heroes/yui/skill_2.webp",
+            "cd": 112,
+            "effects": [
+                {
+                    "desc": "2 Allies",
+                    "effects": ["Revives fallen target(s) with 35% HP."]
+                }
+            ],
+            "enhancement": ["Increases Effect: HP gained upon revival becomes 45%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Battle Bard",
+            "image": "/7knights/heroes/yui/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Burn Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Burn Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Healing: Heals HP equal to 22% of Max HP upon using a skill 1 time(s). [Self]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "HP-BASED",
@@ -451,8 +768,72 @@
         "faction": "Evan Expedition",
         "role": "Magic",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Ariel.webp",
+        "portrait": "/7knights/heroes/ariel/Ariel.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/ariel/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Light's Judgment",
+            "image": "/7knights/heroes/ariel/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 120% of Magic Attack 1 time(s).",
+                        "75% chance to inflict Blind. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 145% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% chance to inflict 44% Increased Miss Chance. [Duration: 3 Turn(s)]."]
+        },
+        "skill2":{
+            "name": "Dazzling Light",
+            "image": "/7knights/heroes/ariel/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 120% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Defense Reduction by 20%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 145% of Magic Attack."],
+            "transcendence2": ["Increases Effect: Defense Reduction to 24%."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Blessing of God",
+            "image": "/7knights/heroes/ariel/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Burn Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Magic Damage Boost by 11%. [Always Active].",
+                        "Grants Burn Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Damage Boost to 15%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SUPPORT",
@@ -498,8 +879,85 @@
         "faction": "Evan Expedition",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Jupy.webp",
+        "portrait": "/7knights/heroes/jupy/Jupy.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/jupy/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "40% chance to inflict Poison. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Physical Attack.",
+                "Increases Chance: Poison chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Sniper Stance",
+            "image": "/7knights/heroes/jupy/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Sniper Stance. [Duration: 6 Turn(s)].",
+                        "Grants Crit Rate Boost by 37%. [Duration: 6 Turn(s)].",
+                        "Grants Camouflage. [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Single Enemy (Sniper Stance)",
+                    "effects": ["Deals damage equal to 370% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Crit Rate Boost to 45%.",
+                "Increases Damage: To 440% of Physical Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": [
+                "Increases Turns: Sniper Stance duration becomes 12 turn(s).",
+                "Increases Turns: Crit Rate Boost duration becomes 12 turn(s)."
+            ]
+        },
+        "skill2":{
+            "name": "Snipe",
+            "image": "/7knights/heroes/jupy/skill_2.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 315% of Physical Attack 1 time(s).",
+                        "Deals additional damage equal to 155% of Physical Attack while in [Sniper Stance]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 375% of Physical Attack."],
+            "transcendence2": ["Increases Damage: To 185% of Physical Attack while in [Sniper Stance]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Hawk's Eyes",
+            "image": "/7knights/heroes/jupy/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Crit Damage Boost by 31%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Crit Damage Boost to 40%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "BEGINNING GEARS",
@@ -580,8 +1038,68 @@
         "faction": "Evan Expedition",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Snipper.webp",
+        "portrait": "/7knights/heroes/snipper/Snipper.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/snipper/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Wild Shot",
+            "image": "/7knights/heroes/snipper/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 240% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Burn. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 290% of Physical Attack."],
+            "transcendence2": ["Reduces Cooldown: To 45s."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Death Sentence",
+            "image": "/7knights/heroes/snipper/skill_2.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Consumes 4 stack(s) of [Hunter's Expertise] to deal additional damage equal to 20% of the target's Max HP. [Limit: 1,000% of Snipper's Attack].",
+                        "Deals damage equal to 340% of Physical Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 410% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Damage: To 26% of the target's Max HP. (HP-Based damage limited to 1,300% of caster's Attack)."]
+        },
+        "passive":{
+            "name": "Hunter's Expertise",
+            "image": "/7knights/heroes/snipper/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants 1 stack(s) of Hunter's Expertise when 1 enemy falls in battle. [Increases Physical damage deal by 11%] [Max 4 Stack(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Physical Damage Boost to 23%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "BEGINNING GEARS",
@@ -662,8 +1180,73 @@
         "faction": "Evan Expedition",
         "role": "Defense",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Hellenia.webp",
+        "portrait": "/7knights/heroes/hellenia/Hellenia.webp",
         "transcend": "Block Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/hellenia/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 60% of Defense 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 60% of Physical Attack plus 70% of Defense."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Celestial Light",
+            "image": "/7knights/heroes/hellenia/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 55% of Defense 1 time(s)."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants 1 Debuff Removal(s)."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Debuff Removal count becomes 2."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 40% Increased Miss Chance. [All Enemies] [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Celestial Shield",
+            "image": "/7knights/heroes/hellenia/skill_2.webp",
+            "cd": 66,
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Magic Damage Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Taunt. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Turns: Magic Damage Immunity duration becomes 3 turn(s)."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Valkyrie's Presence",
+            "image": "/7knights/heroes/hellenia/passive.webp",
+            "effects": [
+                {
+                    "desc": "Ally with the Lowest Current HP",
+                    "effects": ["Getting attacked by an enemy 5 time(s) heals HP equal to 30% of the caster's Defense."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Defense Boost by 22%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes 35% of Defense."],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To 2 Allies with the lowest current HP."]
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -709,8 +1292,74 @@
         "faction": "Evan Expedition",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Heavenia.webp",
+        "portrait": "/7knights/heroes/heavenia/Heavenia.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/heavenia/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "45% chance to inflict Freeze. [Duration: 1 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Chance: Freeze chance becomes 50%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Sword of Judgment",
+            "image": "/7knights/heroes/heavenia/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 120% of Physical Attack 1 time(s).",
+                        "75% chance to inflict Freeze. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 145% of Physical Attack."],
+            "transcendence2": ["Increases Chance: Freeze chance becomes 85%."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Mighty Sword",
+            "image": "/7knights/heroes/heavenia/skill_2.webp",
+            "cd": 66,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 285% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 340% of Physical Attack.",
+                "Increases Effect: Buff Duration Reduction becomes 3 turn(s)."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Mana Cycling",
+            "image": "/7knights/heroes/heavenia/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Physical Attack Boost by 25%. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Physical Attack Boost to 31%."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: All Damage Immunity. [Duration: 2 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "FIRE POWER UP DUNGEON",

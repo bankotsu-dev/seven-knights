@@ -5,9 +5,83 @@
         "title": "The Shield of the Seven Knights",
         "faction": "Celestial Guardians",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Trude.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/trude/Trude.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/trude/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Physical Attack.",
+                "Adds Healing: Heals HP equal to 20% of Physical Attack. [Self]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Reckless Charge",
+            "image": "/7knights/heroes/trude/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": ["Deals damage equal to 125% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 150% of Physical Attack.",
+                "Adds Effect: Crowd Control Immunity. [Self] [Duration: 3 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Slash n' Bash",
+            "image": "/7knights/heroes/trude/skill_2.webp",
+            "cd": 76,
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Crit Damage Boost by 28%. [Duration: 3 Turn(s)]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Deals damage equal to 58% of Physical Attack 3 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 68% of Physical Attack.",
+                "Increases Effect: Crit Damage Boost to 37%."
+            ],
+            "transcendence2": ["Adds Effect: Grants a Barrier equal to 155% of Physical Attack. [Self] [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Battle High",
+            "image": "/7knights/heroes/trude/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Pain Endurance. [Upon taking direct damage exceeding 10% of Max HP, 75% of the damage will be taken over 5 turn(s)] [Always Active].",
+                        "Grants Block Rate Boost by 50%. [Always Active].",
+                        "Revives with 80% HP upon falling in battle. [Once per Battle]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Block Rate Boost to 60%.",
+                "Increases Effect: HP gained upon revival becomes 100%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% Crit Rate Boost. [Always Active]."]
+        },
         "builds":[
             {
                 "name": "PRE-T6",
@@ -122,9 +196,90 @@
         "title": "Warrior of Peace",
         "faction": "Celestial Guardians",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Freyja.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/freyja/Freyja.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/freyja/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Adds Effect: 50% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Noble Storm",
+            "image": "/7knights/heroes/freyja/skill_1.webp",
+            "cd": 112,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "100% chance to inflict 2 Buff Removal(s).",
+                        "100% chance to inflict 1 stack(s) of 11% Defense Reduction equal to the number of buffs removed. [Max 4 Stack(s)].",
+                        "Deals damage equal to 57% of Magic Attack 2 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 67% of Magic Attack.",
+                "Adds Effect: 75% chance to inflict Bleed. [Duration: 2 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Activates again up to 1 time(s) with 100% power upon defearing an enemy with this skill."]
+        },
+        "skill2":{
+            "name": "Golden Rain",
+            "image": "/7knights/heroes/freyja/skill_2.webp",
+            "cd": 120,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Consumes 4 stack(s) of [Divinity] to change HP Alteration to 52%.",
+                        "Deals Defense-Ignoring damage qual to 70% of Magic Attack 2 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: HP Alteration to 39%.",
+                "Increases Damage: To 80% of magic Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "",
+            "image": "/7knights/heroes/freyja/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Blessing. [Caps damage taken from a single hit to 40% of Max HP] [Always Active].",
+                        "Grants a Barrier equal to 160% of the caster's Magic Attack when HP falls to 50% or lower. [Duration: 3 Turn(s)] [Once per Battle].",
+                        "Grants 1 stack(s) of Divinity upon using any attack 1 time(s). [Max 6 Stack(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["If deployed to a team with 3 or more Magic heroes, grants Effect Hit Rate Boost by 31%. [Always Active]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Blessing cap becomes 25% of Max HP.",
+                "Increases Effect: Effect Hit Rate Boost to 37%."
+            ],
+            "transcendence2": ["Adds Effect: Grants 4 stack(s) of Divinity. [Self] [Max 6 Stack(s)]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "T0",
@@ -239,9 +394,101 @@
         "title": "Prophet of Self-Interest",
         "faction": "Celestial Guardians",
         "role": "Defense",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Radgrid.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/radgrid/Radgrid.webp",
         "transcend": "Block Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/radgrid/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 50% of Physical Attack plus 60% of Defense 1 time(s).",
+                        "100% chance to inflict All Attack Reduction by 7%. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 60% of Physical Attack plus 70% of Defense.",
+                "Increases Effect: All Attack Reduction to 9%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Rain of Spears",
+            "image": "/7knights/heroes/radgrid/skill_1.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 25% of Physical Attack plus 27% of Defense 2 time(s).",
+                        "Each attack has a 40% chance to inflict Burn. [Duration: 2 Turn(s)].",
+                        "100% chance to inflict Crit Rate Reduction by 19%. [Duration: 3 Turn(s)].",
+                        "100% chance to inflict Weakness Hit Chance Reduction by 22%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Crit Rate Reduction to 25%.",
+                "Increases Effect: Weakness Hit Chance Reduction to 30%."
+            ],
+            "transcendence2": [
+                "Increases Turns: Critical Hit Chance Reduction becomes 4 turn(s).",
+                "Increases Turns: Weakness Hit Chance Reduction becomes 4 turn(s)."
+            ],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Skies Ablaze",
+            "image": "/7knights/heroes/radgrid/skill_2.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": ["Deals damage equal to 42% of Physical Attack and 47% of Defense 2 time(s). (Damage increases by up to 100%, proportional to HP lost by self)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 50% of Physical Attack plus 55% of Defense.",
+                "Adds Effect: 100% chance to inflict 2 Buff Removal(s)."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Prepared Strategy",
+            "image": "/7knights/heroes/radgrid/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Defense Boost by 31%. [Always Active].",
+                        "Heals HP equal to 40% of the caster's Defense and grants a Barrier equal to 45% of caster's Defense upon being hit by an enemy's attack 3 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Back Row Allies (Universal)",
+                    "effects": ["Grants Protection. [Always Active]"]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "When allies are hit by an enemy's attack 5 time(s) grants the following effect:",
+                        "Deals Fixed, Piercing damage equal to 1,485 1 time(s).",
+                        "35% chance to inflict Burn. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Defense Boost to 39%.",
+                "Increases Effect: Barrier absorption becomes 55% of Defense."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Grants a Barrier equal to 45% of the caster's Defense upon being hit by an enemy's attack 3 time(s). [Back Row Allies (Universal)] [Duration: 2 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "DMG REDUCTION-FOCUSED",
@@ -356,9 +603,88 @@
         "title": "Keeper of Vows",
         "faction": "Celestial Guardians",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Reginleif.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/reginleif/Reginleif.webp",
         "transcend": "Weakness Chance +20%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/reginleif/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "100% chance to inflict 1 stack(s) of Magic Vulnerability by 10%. [Max 4 Stack(s)] (Is deployed to a team with 5 or more Magic heroes)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Magic Attack."],
+            "transcendence2": ["Changes Number of Targets: To 2 Enemies."],
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Advent of Light",
+            "image": "/7knights/heroes/reginleif/skill_1.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "For each debuff on the target, deals additional damage equal to 9% of Magic Attack to each attack. [Max 8 Stack(s)].",
+                        "Deals damage equal to 65% of Magic Attack 2 time(s). [Additional 30% Crit Rate].",
+                        "100% chance to inflict 2 stack(s) of Magic Vulnerability by 10%. [Max 4 Stack(s)] (Is deployed to a team with 5 or more Magic heroes)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 75% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Crit Rate to 100%."]
+        },
+        "skill2":{
+            "name": "Interstellar Rift",
+            "image": "/7knights/heroes/reginleif/skill_2.webp",
+            "cd": 120,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 42% of Magic Attack plus 5% of the target's Max HP 3 time(s). [Additional 30% Crit Rate] (HP-Based damage limited to 50% of caster's Attack).",
+                        "100% chance to inflict 2 stack(s) of Magic Vulnerability by 10%. [Max 4 Stack(s)] (Is deployed to a team with 5 or more Magic heroes)."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 55% chance to inflict Paralysis. [Duration: 2 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Crit Rate to 100%."]
+        },
+        "passive":{
+            "name": "Secret of Harmony",
+            "image": "/7knights/heroes/reginleif/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants All Damage Immunity when HP falls to 70% or lower. [Duration: 2 Turn(s)] [Once per Battle].",
+                        "Revives with Immortality upon falling in battle. [Duration: 2 Turn(s)] [Once per Battle].",
+                        "Grants Final Judgment upon gaining Immortality. [All damage ignores 40% of the target's Defense, Increases the caster's Effect Resistance by 49% and resets skill cooldowns] [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts Incoming Healing Reduction by 44%. [Always Active]."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Heals HP equal to 32% of the caster's Magic Attack every time a basic attack is used 2 time(s) or a skill is ised 1 time(s). (If deployed to a team with 5 or more Magic heroes).",
+                        "Grants 1 Debuff Removal(s) every time a basic attack is used 2 time(s) or a skill is ised 1 time(s). (If deployed to a team with 5 or more Magic heroes)."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: 24% Defense Reduction. [Always Active]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVE DPS",
@@ -473,9 +799,92 @@
         "title": "Final Pride",
         "faction": "Celestial Guardians",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Randgrid.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/randgrid/Randgrid.webp",
         "transcend": "Weakness Chance +20%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/randgrid/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Promised Battlefield",
+            "image": "/7knights/heroes/randgrid/skill_1.webp",
+            "cd": 105,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 145% of Physical Attack 1 time(s)."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Weakness Hit Damage Boost by 31%. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 100% chance to inflict 25% Block Rate Reduction. [Duration: 3 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Undefeated Cavalier",
+            "image": "/7knights/heroes/randgrid/skill_2.webp",
+            "cd": 108,
+            "effects": [
+                {
+                    "desc": "1 Enemy (Front Row First)",
+                    "effects": [
+                        "Starting battles with at least 5 Attack heroes on your team grants 32% HP Alteration.",
+                        "Deals Piercing damage equal to 76% of Physical Attack 4 time(s).",
+                        "Each attack deals additional Piercing damage equal to 91% of Physical Attack when the target's Attack is lower than the caster's Attack."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 101% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Resets the cooldown of [Undefeated Cavalier] upon defeating an enemy with damage from this skill."]
+        },
+        "passive":{
+            "name": "Unrivaled Heroism",
+            "image": "/7knights/heroes/randgrid/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants All Damage Immunity. [Duration: 2 Turn(s)]",
+                        "Revives with Indomitable upon falling in battle. [Ends After: Taking 8 Hits(s)] [Once per Battle].",
+                        "Increases Indomitable effect's hit count by 1 hit(s) upon using a skill 1 time(s)."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants All Debuff Removal (Crowd Control) upon being inflicted with Crowd Control. [Once per Battle].",
+                        "Grants Crowd Control Immunity when a debuff is removed. [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Inflicts Defense Reduction by 20%. [Always Active].",
+                        "Inflicts Block Rate Reduction by 19%. [Always Active]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Defense Reduction to 24%.",
+                "Increases Effect: Block Rate Reduction to 23%."
+            ],
+            "transcendence2": ["Adds Effect: 39% Weakness Hit Chance Boost. [Self] [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP BOUNTY",
@@ -545,6 +954,137 @@
                     "ringID2": "ring-of-resurrection",
                     "ringID3": "ring-of-fortune",
                     "ringID4": "ring-of-concentration"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mist",
+        "name": "Mist",
+        "title": "Ultimate Ruler",
+        "faction": "Celestial Guardians",
+        "role": "Universal",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/mist/Mist.webp",
+        "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/mist/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Adds Effect: 40% chance to inflict Fear. [Duration: 1 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Awakened Beast",
+            "image": "/7knights/heroes/mist/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 57% of Magic Attack 2 time(s).",
+                        "35% chance to inflict Death. [Duration: 3 Turn(s)] (Inflicts Unremovable Death when target is inflicted with Fear)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 67% of Magic Attack.",
+                "Increases Chance: Death chance becomes 40%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To All Enemies."]
+        },
+        "skill2":{
+            "name": "Deadly Mist",
+            "image": "/7knights/heroes/mist/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": [
+                        "Deals damage equal to 57% of Magic Attack 2 time(s).",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "50% chance to inflict Fear. [Duration: 2 Turn(s)].",
+                        "35% chance to inflict Death when the target's Attack is lower than the caster's Attack. [Duration: 3 Turn(s)] (Inflicts Unremovable Death when target is inflicted with Fear)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 67% of Magic Attack.",
+                "Increases Chance: Death chance becomes 45%."
+            ],
+            "transcendence2": ["Adds Effect: All Damage Immunity. [Self] [Duration: 2 Turn(s)]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Rolling Destruction",
+            "image": "/7knights/heroes/mist/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Attack-Based Weakness Hit Chance Boost. [Increases Weakness Hit Chance by 3% for every 300 Attack. (Max increase: 27%)] [Always Active].",
+                        "Revives with 80% HP upon falling in battle. [Once per Battle]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Effect Hit Rate Boost by 28%. [Always Active].",
+                        "Grants Crowd Control Immunity upon using a skill 2 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: HP gained upon revival becomes 100%.",
+                "Increases Effect: Effect Hit Rate Boost to 34%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "builds":[
+            {
+                "name": "TEST",
+                "note": "",
+                "substats": ["All ATK (%)", "Effect Hit", "Speed", "Effect Resist", "All ATK", "Block Rate"],
+                "weapon1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "weapon2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_m.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "-"
+                },
+                "armor1": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "armor2": {
+                    "type": "Spellweaver",
+                    "image": "/7knights/equipment/spellweaver_a.webp",
+                    "substat1": "All ATK (%)",
+                    "substat2": "DMG Taken"
+                },
+                "rings": {
+                    "ringID1": "ring-of-authority",
+                    "ringID2": "ring-of-roar",
+                    "ringID3": "ring-of-guardian",
+                    "ringID4": "any-cc"
                 }
             }
         ]

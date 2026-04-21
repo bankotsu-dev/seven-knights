@@ -5,9 +5,94 @@
         "title": "Revolutionary",
         "faction": "Luminous Revolutionaries",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Kyrielle.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/kyrielle/Kyrielle.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/kyrielle/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Adds Effect: 35% chance to inflict Paralysis. [Duration: 1 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Regulus",
+            "image": "/7knights/heroes/kyrielle/skill_1.webp",
+            "cd": 75,
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants All Debuff Removal.",
+                        "Grants 1 stack(s) of Damage Boost by 40% for each debuff removed. [Max 4 Stack(s)]."
+                    ]
+                },
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 220% of Magic Attack 2 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 267% of Magic Attack."],
+            "transcendence2": ["Adds Effect: Activates again up to 1 time(s) with 100% power upon defeating an enemy with this skill."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Meteor Shower",
+            "image": "/7knights/heroes/kyrielle/skill_2.webp",
+            "cd": 92,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 57% of Magic Attack 2 time(s).",
+                        "Each attack has a 30% chance to inflict Paralysis. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 67% of Magic Attack.",
+                "Increases Chance: Paralysis chance becomes 35%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Festival of Stars",
+            "image": "/7knights/heroes/kyrielle/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants All Damage Nullification. [Ends After: Taking 3 Hit(s)].",
+                        "Grants Guts. [Once per Battle].",
+                        "Grants a Barrier equal to 135% of the caster's MAgic Attack upon triggering Guts. [Duration: 3 Turn(s)].",
+                        "Grants Speed-Based Attack Boost. [Increases Attack by 120 for every 7 Speed. (Max increase: 1,080)] [Always Active]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Magic Damage Boost by 17%. [Always Active]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Speed-Based Attack max increases to 1,320.",
+                "Increases Effect: Magic Damage Boost to 20%."
+            ],
+            "transcendence2": null,
+            "transcendence6": [
+                "Increases Effect: Barrier absorption becomes 155% of Magic Attack.",
+                "Adds Effect: Crowd Control Immunity. [Self] [Duration: 3 Turn(s)]."
+            ]
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -122,9 +207,88 @@
         "title": "Revolutionary Commander",
         "faction": "Luminous Revolutionaries",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Elysia.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/elysia/Elysia.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/elysia/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Heavenly Spark",
+            "image": "/7knights/heroes/elysia/skill_1.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 80% of Physical Attack 1 time(s).",
+                        "Deals Fixed damage equal to 775 1 time(s).",
+                        "50% chance to inflict Silence. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 1,285 Fixed damage.",
+                "Increases Chance: Silence chance becomes 60%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Starfall",
+            "image": "/7knights/heroes/elysia/skill_2.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "100% chance to inflict Increased Miss Chance by 36%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 115% of Physical Attack.",
+                "Increases Effect: Increased Miss Chance to 48%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Buff Duration Reduction becomes 3 turn(s)."]
+        },
+        "passive":{
+            "name": "Leader of the Revolution",
+            "image": "/7knights/heroes/elysia/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts Defense Reduction by 20%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants a Barrier equal to 160% of the caster's Physical Attack. [Duration: 3 Turn(s)] [Once per Round].",
+                        "Grants All Damage Immunity when HP falls to 50% or lower. [Duration: 2 Turn(s)] [Once per Battle]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants 2 Debuff Removal(s) upon using a skill 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Defense Reduction to 24%."],
+            "transcendence2": ["Adds Healing: Heals HP equal to 165% of the caster's Physical Attack when HP falls to 50% or lower. [Self] [1 Time(s) per Battle]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -169,9 +333,90 @@
         "title": "Demonic Sword of Justice",
         "faction": "Luminous Revolutionaries",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Ryan.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/ryan/Ryan.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/ryan/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                },
+                {
+                    "desc": "Allies (Self, Ally with the Highest ATK)",
+                    "effects": ["Reduces skill cooldowns by 8s."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Physical Attack.",
+                "Increases Effect: Skill Cooldown Reduction becomes 9s."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Go for the Head",
+            "image": "/7knights/heroes/ryan/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 130% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Blind. [Duration: 4 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Taunt. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 155% of Physical Attack.",
+                "Adds Effect: Physical Damage Immunity. [Self] [Duration: 2 Turn(s)]."
+            ],
+            "transcendence2": ["Adds Effect: Ignore Defense."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Gale Slash",
+            "image": "/7knights/heroes/ryan/skill_2.webp",
+            "cd": 105,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 145% of Physical Attack 1 time(s). (Damage increases by up to 50%, proportional to the target's lost HP).",
+                        "Deals additional damage equal to 230% of Physical Attack upon landing a Weakness Hit. (Damage increases by an amount equal to up to 50% of the target's lost HP)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 170% of Physical Attack.",
+                "Increases Damage: To 270% of Physical Attack upon landing a Weakness Hit."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignore Defense."]
+        },
+        "passive":{
+            "name": "Demonic Swordsman",
+            "image": "/7knights/heroes/ryan/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Triple-Target Attack Damage Boost by 25%. [Always Active].",
+                        "Grants Burn Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Burn Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Triple-Target Attack Damage by 31%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "BEGINNING GEARS",

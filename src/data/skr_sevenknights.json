@@ -5,9 +5,80 @@
         "title": "High Guardian",
         "faction": "Seven Knights",
         "role": "Defense",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Rudy.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/rudy/Rudy.webp",
         "transcend": "Block Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/rudy/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attack plus 60% of Defense 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 65% of Physical Attack plus 75% of Defense."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Charge",
+            "image": "/7knights/heroes/rudy/skill_1.webp",
+            "cd": 78,
+            "effects": [
+                {
+                    "desc": "1 Enemy (By Highest No. of Buffs)",
+                    "effects": [
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 3 Turn(s)].",
+                        "Deals damage equal to 170% of Physical Attack plus 195% of Defense 1 time(s).",
+                        "85% chance to inflict Stun. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 205% of Physical Attack plus 235% of Defense.",
+                "Increases Chance: Stun chance becomes 100%"
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Raise Shield",
+            "image": "/7knights/heroes/rudy/skill_2.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Link. [Duration: 2 Turn(s)].",
+                        "Grants 1 Debuff Removal(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Add Effect: Link reduction rate of 10%."],
+            "transcendence2": ["Increases Turns: Link duration becomes 3 turn(s)."],
+            "transcendence6": ["Adds Effect: Crowd Control Immunity. [Duration: 2 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Steadfast Shield",
+            "image": "/7knights/heroes/rudy/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Increases Defense by 20%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Decreases damage taken by 16%. [Always Active]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Defense Boost to 24%.",
+                "Increases Effect: Damage Resistance to 20%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP",
@@ -122,9 +193,93 @@
         "title": "Ruler of Purgatory",
         "faction": "Seven Knights",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Kris.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/kris/Kris.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/kris/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Physical Attack.",
+                "Add Effect: 20% chance to inflict Death. [Duration: 3 Turn(s).]"
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Dark Slash",
+            "image": "/7knights/heroes/kris/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 305% of Physical Attack 1 time(s).",
+                        "50% chance to inflict Death. [Duration: 3 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Granst a barrier equal to 135% of Physical Attack upon defeating an enemy whith this skill. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 370% of Physical Attack.",
+                "Increases Chance: Death chance becomes 60%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 30% chance to inflict Death. [Duration: 3 Turn(s)]."]
+        },
+        "skill2":{
+            "name": "Dark Whispers",
+            "image": "/7knights/heroes/kris/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "25% chance to inflict Death. [Duration: 3 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Granst a barrier equal to 135% of Physical Attack upon defeating an enemy whith this skill. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 115% of Physical Attack.",
+                "Increases Chance: Death chance becomes 30%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Soul Drain",
+            "image": "/7knights/heroes/kris/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants a Barrier equal to 160% of the caster's Physical Attack. [Duration: 3 Turn(s)].",
+                        "Revives with Immortality upon falling in battle. [Duration: 2 Turn(s)] [Once por Battle]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 20% of the caster's Physical Attack when an enemy falls in battle."]
+                }
+            ],
+            "enhancement": ["Increases Turns: Immortality duration becomes 3 turn(s)."],
+            "transcendence2": ["Adds Effect: Skill Cooldown Reset upon gaining Immortality."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP",
@@ -239,9 +394,85 @@
         "title": "Empress of Fodina",
         "faction": "Seven Knights",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Eileene.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/eileene/Eileene.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/eileene/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "Deals additional damage equal to 45% of Physical Attack against targets inflicted with [Shock]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 130% of Physical Attack.",
+                "Increases Damage: To 55% of Physical Attack against targets inflicted with [Shock]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Empress's Wrath",
+            "image": "/7knights/heroes/eileene/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 113% of Physical Attack 3 time(s).",
+                        "Each attack has a 35% chance to inflict Shock. [Duration: 3 turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 136% of Physical Attack.",
+                "Increases Chance: Shock chance becomes 45%."
+            ],
+            "transcendence2": ["Add Effect: Pierce."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Heavens's Wrath",
+            "image": "/7knights/heroes/eileene/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 62% of Physical Attack 2 time(s).",
+                        "Each attack has a 30% chance to inflict Shock. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 75% of Physical Attack."],
+            "transcendence2": ["Add Effect: Pierce."],
+            "transcendence6": ["Increases Chance: Shock chance becomes 40%."]
+        },
+        "passive":{
+            "name": "Wrath of Fodina",
+            "image": "/7knights/heroes/eileene/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Increases Physical Attack by 19%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Revives with 80% HP upon falling in battle. [Once per Battle]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Physical Attack Boost to 25%.",
+                "Increases Effect: HP gained upon revival becomes 100%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP CC",
@@ -321,9 +552,91 @@
         "title": "Phoenix Incarnate",
         "faction": "Seven Knights",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Rachel.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/rachel/Rachel.webp",
         "transcend": "Weakness Chance +20%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/rachel/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "40% chance to inflict Burn. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Physical Attack.",
+                "Increases Chance: Burn chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Blazing Strike",
+            "image": "/7knights/heroes/rachel/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 102% of Physical Attack 2 time(s).",
+                        "100% chance to inflict All Attack Reduction by 22%. [Duration: 5 Turn(s)].",
+                        "100 chance to inflict Damage Reduction by 17%. [Duration: 5 Turn(s)].",
+                        "100% chance to inflict Burn. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 122% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To 3 Enemies."]
+        },
+        "skill2":{
+            "name": "Phoenix Strike",
+            "image": "/7knights/heroes/rachel/skill_2.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "100% chance to inflict Defense Reduction by 29%. [Duration: 3 Turn(s)].",
+                        "100% chance to inflict Physical Vulnerability by 22%. [Duration: 3 Turn(s)].",
+                        "Deals damage equal to 160% of Physical Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Defense Reduction to 36%.",
+                "Increases Effect: Physical Vulnerability to 28%."
+            ],
+            "transcendence2": [
+                "Increases Turns: Defense Reduction duration becomes 4 turn(s).",
+                "Increases Turns: Physical Vulnerability duration becomes 4 turn(s)."
+            ],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Power of Flames",
+            "image": "/7knights/heroes/rachel/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Weakness Hit Chance Boost by 22%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Revives with 80% HP upon falling in battle. [Once per Battle]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: HP gained upon revival becomes 100%.",
+                "Increases Effect: Weakness Hit Chance Boost to 27%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "GENERAL SUPPORT",
@@ -403,9 +716,82 @@
         "title": "Ruler of Death",
         "faction": "Seven Knights",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Dellons.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/dellons/Dellons.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/dellons/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Physical Attack.",
+                "Add Effect: 45% chance to inflict Silence. [Duration: 1 Turn(s).]"
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Reaper's Advent",
+            "image": "/7knights/heroes/dellons/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 115% of Physical Attack 1 time(s).",
+                        "50% chance to inflict Silence. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 135% of Physical Attack.",
+                "Increases Chance: Silence chance becomes 60%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Deathly Slice",
+            "image": "/7knights/heroes/dellons/skill_2.webp",
+            "cd": 108,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 119% of Physical Attack 5 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 158% of Physical Attack."],
+            "transcendence2": ["Add Effect: Activates again up to 1 time(s) with 100% power upon defeating an enemy with this skill."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Beyond the Veil",
+            "image": "/7knights/heroes/dellons/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Physical Damage Boost by 17%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants All Damage Nullification. [Ends After: Taking 3 Hit(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Physical Damage Boost to 20%.",
+                "Increases Stacks: All Damage Nullification ends after 4 hit(s)."
+            ],
+            "transcendence2": null,
+            "transcendence6": [
+                "Adds Effect: All Damage Nullification when an ally falls in battle. [Self] [Ends After: Taken 1 Hit(s)].",
+                "Adds Effect: 39% Physical Attack Boost when an ally falls in battle. [Self] [Duration: 2 Turn(s)]"
+            ]
+        },
         "builds":[
             {
                 "name": "SUB DAMAGE DEALER",
@@ -520,9 +906,102 @@
         "title": "Blizzard Tyrant",
         "faction": "Seven Knights",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Spike.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/spike/Spike.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/spike/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Physical Attact plus 12% of the caster's Max HP 1 time(s)."]
+                },
+                {
+                    "desc": "3 Allies",
+                    "effects": ["Grants 1 Debuff Removal(s) upon using a basic attack 2 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 65% of Physical Attack plus 15% of the caster's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Frozen Strike",
+            "image": "/7knights/heroes/spike/skill_1.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 195% of Physical Attack plus 47% of the caster's Max HP 1 time(s).",
+                        "100% chance to inflict Freeze. [Duration: 3 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Enemies in Row w/ Main Target",
+                    "effects": [
+                        "Deals damage equal to 65% of Physical Attack plus 15% of the caster's Max HP 1 time(s).",
+                        "60% chance to inflict Freeze. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 75% of Physical Attack plus 18% of the caster's Max HP. [Enemies in Row].",
+                "Increases Chance: Freeze chance becomes 70%. [Enemies in Row]"
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Healing: Heals HP equal to 40% of Max HP. [Self]."]
+        },
+        "skill2":{
+            "name": "Icequake",
+            "image": "/7knights/heroes/spike/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 32% of Physical Attack plus 8% of the caster's Max HP 2 time(s).",
+                        "Each attack has a 40% chance to inflict Freeze. [Duration: 2 turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 40% of Physical Attack plus 9% of the caster's Max HP.",
+                "Increases Chance: Freeze chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Healing: Heals HP equal to 40% of Max HP. [Self]."]
+        },
+        "passive":{
+            "name": "Heart of Ice",
+            "image": "/7knights/heroes/spike/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Max HP-Based Attack Boost. [Increases Attack by 120 for every 1,000 Max HP. (Max Increase: 1,080)] [Always Active].",
+                        "Deals additional damage equal to 15% of the caster's Max HP against targets inflicted with [Freeze]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Effect Hit Rate Boost by 28%. [Always Active]",
+                        "Grants Effect Resist Boost by 28%. [Always Active]"
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Max HP-Based Attack max becomes 1,320.",
+                "Increases Effect: Effect Hit Rate Boost to 34%."
+            ],
+            "transcendence2": [
+                "Adds Effect: Guts. [Self] [Once por Battle].",
+                "Adds Healing: Heals HP equal to 60% of Max HP upon triggering Guts. [Self]."
+            ],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "HP-CENTERED TANK + CC",
@@ -602,9 +1081,94 @@
         "title": "Guardian of the Dragons",
         "faction": "Seven Knights",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Jave.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/jave/Jave.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/jave/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "40% chance to inflict Burn. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Physical Attack.",
+                "Increases Chance: Burn chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Furious Descent",
+            "image": "/7knights/heroes/jave/skill_1.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 115% of Physical Attack 1 time(s).",
+                        "Grants an additional 15% Damage Boost each time the number of targets is reduced by 1.",
+                        "45% chance to inflict Stun. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 150% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Draconic Fury",
+            "image": "/7knights/heroes/jave/skill_2.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 70% of Physical Attack 2 time(s).",
+                        "Each attack grants an additional 8% Damage Boost each time the number of targets is reduced by 1.",
+                        "Each attack has a 40% chance to inflict Burn. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 80% of Physical Attack.",
+                "Increases Chance: Burn chance becomes 55%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Vengeful Armor",
+            "image": "/7knights/heroes/jave/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Attack-Based Defense Boost. [Increases Defense by 125 for every 300 Attack. (Max Increase: 1,125)] [Always Active].",
+                        "38% chance to do a Counterattack. [Always Active]."
+                    ]
+                },
+                {
+                    "desc": "3 Enemies When Counterattacking",
+                    "effects": [
+                        "Deals damage equal to 40% of Physical Attack 1 time(s).",
+                        "35% chance to inflict Burn. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Attack-Based Defense max becomes 1,375.",
+                "Increases Counterattack Damage: To 50% of Physical Attack.",
+                "Increases Chance: Burn chance becomes 40%."
+            ],
+            "transcendence2": ["Adds Effect: Crowd Control Immunity. [Self] [Duration: 3 Turn(s)]."],
+            "transcendence6": ["Changes Effect: Changes Burn into [Dragonflame], dealing damage equal to 120% of Attack every turn."]
+        },
         "builds":[
             {
                 "name": "FARMING (CRIT)",
@@ -684,9 +1248,82 @@
         "title": "Witness of the Ephemeral",
         "faction": "Seven Knights",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Vanessa.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/vanessa/Vanessa.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/vanessa/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Sandstorm",
+            "image": "/7knights/heroes/vanessa/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 95% of Magic Attack 2 time(s).",
+                        "70% chance to inflict Skill Cooldown Increase. [Increased by: 19s]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 110% of Magic Attack.",
+                "Increases Effect: Skill Cooldown Increase becomes 23s."
+            ],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 2 Buff Removal(s)."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Waves of Sand",
+            "image": "/7knights/heroes/vanessa/skill_2.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": [
+                        "Deals damage equal to 70% of Magic Attack 2 time(s).",
+                        "40% chance to inflict Petrify. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 82% of Magic Attack.",
+                "Increases Chance: Petrify chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Mage of the Desert",
+            "image": "/7knights/heroes/vanessa/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants All Damage Immunity. [Duration: 2 Turn(s)]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts Defense Reduction by 20%. [Always Active]"]
+                }
+            ],
+            "enhancement": [
+                "Increases Turns: All Damage Immunity duration becomes 3 turn(s).",
+                "Increases Effect: Defense Reduction to 24%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% chance to inflict 24% Magic Vulnerability upon using a skill 1 time(s). [All Enemies] [Duration: 2 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "PVP SUPPORT",

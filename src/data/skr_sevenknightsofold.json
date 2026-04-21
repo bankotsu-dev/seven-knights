@@ -5,9 +5,96 @@
         "title": "Desert Blaze",
         "faction": "Seven Knights of Old",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Fai.webp",
+        "grade": "Legendary++",
+        "portrait": "/7knights/heroes/fai/Fai.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/fai/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["35% chance to inflict Burn. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Spear of Agnia",
+            "image": "/7knights/heroes/fai/skill_1.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Each attack has a 60% chance to inflict Burn. [Duration: 2 Turn(s)].",
+                        "Deals damage equal to 57% of Physical Attack 2 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Adds Effect: 100% chance to inflict 29% Defense Reduction. [Duration: 3 Turn(s)].",
+                "Increases Chance: Burn chance becomes 70%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Flame Dragon's Greetings",
+            "image": "/7knights/heroes/fai/skill_2.webp",
+            "cd": 0,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "100% chance to inflict 3 Buff Removal(s).",
+                        "100% chance to inflict Burn. [Duration: 3 Turn(s)].",
+                        "Deals damage equal to 340% of Physical Attack plus 20% of the target's Max HP 1 time(s). (HP-Based damage limited to 300% of caster's Attack).",
+                        "Instant Execution of an enemy with 24% or lower HP."
+                    ]
+                },
+                {
+                    "desc": "Enemies in Row w/ Main Target",
+                    "effects": [
+                        "60% chance to inflict Burn. [Duration: 2 Turn(s)].",
+                        "Deals damage equal to 125% of Physical Attack plus 14% of the target's Max HP 1 time(1). (HP-Based damage limited to 150% of caster's Attack)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 410% of Physical Attack plus 26% of the target's Max HP."],
+            "transcendence2": ["Increases Effect: Execution condition becomes 30% of HP."],
+            "transcendence6": ["Adds Effect: Execution targets enemies that share a row with the target."]
+        },
+        "passive":{
+            "name": "Surging Flames",
+            "image": "/7knights/heroes/fai/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflict Physical Vulnerability by 17%. [Always Active]"]
+                },
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Revives with 80% HP falling in battle. [Once per Battle].",
+                        "Grants a Barrier equal to 135% of Physical Attack upon revival. [Duration: 3 Turn(s)] [Once per Battle].",
+                        "Deals additional damage equal to 70% of Physical Attack againts targets inflicted with [Burn]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Physical Vulnerability to 20%",
+                "Adds Effect: HP gained upon revival becomes 100%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PASSIVE SUPPORTER",
@@ -122,9 +209,83 @@
         "title": "Hermit Paladin",
         "faction": "Seven Knights of Old",
         "role": "Support",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Rosie.webp",
+        "grade": "Legendary++",
+        "portrait": "/7knights/heroes/rosie/Rosie.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/rosie/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "2 Enemies",
+                    "effects": ["Deals damage equal to 30% of Magic Attack plus 7% of the caster's Max HP 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 100% chance to inflict 16% Effect Resist Reduction. [Duration: 2 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Judgment of Moonlight",
+            "image": "/7knights/heroes/rosie/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 30% of Magic Attack plus 7% of the caster's Max HP 2 time(s).",
+                        "25% chance to inflict Death. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 37% of Magic Attack plus 10% of the caster's Max HP.",
+                "Increases Chance: Death chance becomes 35%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Holy Prayer",
+            "image": "/7knights/heroes/rosie/skill_2.webp",
+            "cd": 112,
+            "effects": [
+                {
+                    "desc": "2 Allies",
+                    "effects": ["Revives fallen target(s) with 40% HP."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: HP gained upon revival becomes 55%",
+                "Adds Effect: Guts upon revival. [2 Allies] [Duration: 2 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To All Allies."]
+        },
+        "passive":{
+            "name": "Blessing of the Dead",
+            "image": "/7knights/heroes/rosie/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Max HP-Based Defense Boost. [Increases Defense by 100 for evey 1,000 Max HP. (Max Increase: 900)] [Always Active].",
+                        "Grants All Damage Immunity when HP falls to 50% or lower. [Duration: 2 Turn(s)] [Once per Battle]."
+                    ]
+                },
+                {
+                    "desc": "Allies (Defense and Universal)",
+                    "effects": ["Grants Effect Probability Boost by 20%. [Always Active]"]
+                }
+            ],
+            "enhancement": ["Increases Turns: All Damage Immunity duration becomes 3 turn(s)."],
+            "transcendence2": ["Increases Effect: Effect Probability Boost to 26%."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SUPPORT",
@@ -204,9 +365,86 @@
         "title": "Utmost Justice",
         "faction": "Seven Knights of Old",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Juri.webp",
+        "grade": "Legendary++",
+        "portrait": "/7knights/heroes/juri/Juri.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/juri/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "2 Enemies",
+                    "effects": ["Deals damage equal to 55% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 70% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Celestial Judgment",
+            "image": "/7knights/heroes/juri/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 65% of Magic Attack 2 time(s).",
+                        "100% chance to inflict Defense Reduction by 20%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 77% of Magic Attack.",
+                "Increases Effect: Defense Reduction to 29%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Ultimate Verdict",
+            "image": "/7knights/heroes/juri/skill_2.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "60% chance to inflict Souldeath. [Duration: 2 Turn(s)].",
+                        "Deals damage equal to 70% of Magic Attack 2 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: to 80% of Magic Attack.",
+                "Increases Chance: Souldeath chance becomes 70%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Divine Scale",
+            "image": "/7knights/heroes/juri/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "25% chance to do a Follow-Up Attack. [Always Active].",
+                        "Grants All Damage Nullification. [Ends After: Taking 2 Hit(s)].",
+                        "Revives with Immortality upon falling in battle. [Duration: 2 Turn(s)] [Once per Battle]."
+                    ]
+                },
+                {
+                    "desc": "3 Enemies When Doing a Follow-Up",
+                    "effects": ["Deals damage equal to 40% of Magic Attack plus 7% of the target's Max HP 1 time(s). (HP-Based damage limited to 300% of caster's Attack)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Turns: Immortality duration becomes 3 turn(s).",
+                "Increases Follow-Up Attack Damage: To 50% of Magic Attack plus 9% of the target's Max HP."
+            ],
+            "transcendence2": ["Increases Chance: Follow-Up Attack chance becomes 35%."],
+            "transcendence6": ["Adds Effect: Crowd Control Immunity upon gaining Immunity. [Self] [Duration: 3 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "INSTANT NUKE",
@@ -321,9 +559,92 @@
         "title": "Crystal Dragon of Fate",
         "faction": "Seven Knights of Old",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Melia.webp",
+        "grade": "Legendary++",
+        "portrait": "/7knights/heroes/melia/Melia.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/melia/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "2 Enemies",
+                    "effects": [
+                        "Deals damage equal to 30% of Magic Attack plus 35% of Defense 1 time(s).",
+                        "[Magic Bond - 3 Target(s)]: 30% chance to inflict Crystal Cluster. [Ends After: Taking 6 Hit(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Chance: Crystal Cluster chance becomes 35%."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Crystal Cluster hit count becomes 5."]
+        },
+        "skill1":{
+            "name": "Crystal Dragon's Mirrors",
+            "image": "/7knights/heroes/melia/skill_1.webp",
+            "cd": 100,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 30% of Magic Attack plus 32% of Defense 2 time(s).",
+                        "[Magic Bond - 3 Target(s)]: 50% chance to inflict Crystal Cluster. [Ends After: Taking 6 Hit(s)].",
+                        "100% chance to inflict Crystal Resonance. [Reduced by: 4 Hit(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Chance: Crystal Cluster chance becomes 65%."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Effect: Crystal Cluster hit count becomes 5."]
+        },
+        "skill2":{
+            "name": "Crystalline Breath",
+            "image": "/7knights/heroes/melia/skill_2.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 30% of Magic Attack plus 32% of Defense 2 time(s).",
+                        "100% chance to inflict Increased Miss Chance by 36%. [Duration: 3 Turn(s)].",
+                        "[Magic Bond - 3 Target(s)]: Each attack has a 35% chance to inflict Crystal Cluster. [Ends After: Taking 4 Hit(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Increased Miss Chance to 48%.",
+                "Increases Chance: Crystal Cluster chance becomes 45%."
+            ],
+            "transcendence2": ["Adds Effect: Taunt. [Self] [Duration: 2 Turn(s)]."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Glittering Crystal Scales",
+            "image": "/7knights/heroes/melia/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Physical Enhancement - Crystal Dragon (Increases Melia's basic Defense and HP). [Always Active].",
+                        "Revives with 80% HP upon falling in battle. [Once per Battle].",
+                        "[Magic Bond - 4 Target(s)]: Grants Crowd Control Immunity. [Duration: 3 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts Magic Vulnerability by 17%. [Always Active]."]
+                },
+                {
+                    "desc": "All Magic Allies",
+                    "effects": ["[Magic Bond - 5 Target(s)]: Using any attack 1 time(s) grants a Barrier equal to 45% of the caster's Defense. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: HP gained upon revival becomes 100%.",
+                "Increases Effect: Magic Vulnerabilty to 20%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "TANK BLOCK-FOCUSED",
@@ -403,9 +724,96 @@
         "title": "Strongman of the Bitter Cold",
         "faction": "Seven Knights of Old",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Gelidus.webp",
+        "grade": "Legendary++",
+        "portrait": "/7knights/heroes/gelidus/Gelidus.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/gelidus/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 50% of Physical Attack plus 60% of Defense 1 time(s).",
+                        "45% chance to inflict Extreme Chill. [Duration: 1 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 60% of Physical Attack plus 70% of Defense.",
+                "Increases Chance: Extreme Chill chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Change Number of Targets: To 3 Enemies with Extreme Chill."]
+        },
+        "skill1":{
+            "name": "Tyrant's Memories",
+            "image": "/7knights/heroes/gelidus/skill_1.webp",
+            "cd": 75,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 65% of Physical Attack plus 70% of Defense 1 time(s).",
+                        "60% chance to inflict Extreme Chill. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 75% of Physical Attack plus 85% of Defense.",
+                "Increases Chance: Extreme Chill chance becomes 70%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Tyrant of the Skies",
+            "image": "/7knights/heroes/gelidus/skill_2.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals Defense-Ignoring damage equal to 30% of Physical Attack plus 33% of Defense 2 time(s).",
+                        "60% chance to inflict Extreme Chill. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 35% of Physical Attack plus 38% of Defense.",
+                "Increases Chance: Extreme Chill chance becomes 70%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Ice Queen's Blessing",
+            "image": "/7knights/heroes/gelidus/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "When starting battles with at least 3 Universal hero(es) on your team, HP falling to 50% or lower will heal HP equal to 165% of the caster's Defense. [2 Time(s) per Battle].",
+                        "Grants Damage Resistance by 16%. [Always Active].",
+                        "Grants Defense-Based Block Rate Boost. [Increases Block Rate by 3% for every 150 Defense. (Max increase: 27%)] [Always Active]"
+                    ]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts Effect Probability Reduction by 20%. [Always Active]."]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 60% of Physical Attack and 65% of Defense 1 time(s) upon using any attack 2 timw(s).",
+                        "Using any attack 2 time(s) has a 75% chance of inflicting Extreme Chill. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Defense-Based Block Rate max becomes 33%."],
+            "transcendence2": ["Increases Effect: Effect Probability Reduction becomes 26%."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "RESISTANCE TANK",

@@ -12,10 +12,6 @@ const uid = crypto.randomUUID();
 let bcolor = "";
 let bgcolor = "";
 switch (hero.data?.grade) {
-  case "Legendary":
-    bcolor = "border-amber-500";
-    bgcolor = "bg-amber-500";
-    break;
   case "Rare":
     bcolor = "border-indigo-500";
     bgcolor = "bg-indigo-500";
@@ -29,8 +25,8 @@ switch (hero.data?.grade) {
     bgcolor = "bg-gray-500";
     break;
   default:
-    bcolor = "border-red-500";
-    bgcolor = "bg-red-500";
+    bcolor = "border-amber-500";
+    bgcolor = "bg-amber-500";
 }
 
 ---

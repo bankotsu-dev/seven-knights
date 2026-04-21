@@ -1,34 +1,6 @@
 import { defineCollection, z } from "astro:content";
 import { file } from 'astro/loaders';
 
-const dd_regiones = defineCollection({
-    schema: z.object({
-        nombre: z.string(),
-        frase: z.string(),
-        img: z.string(),
-        desc: z.string(),
-        url: z.string(),
-    })
-})
-
-const dd_items = defineCollection({
-    schema: z.object({
-        nombre: z.string(),
-        efecto: z.string(),
-        img: z.string(),
-        tipo: z.string(),
-    })
-})
-
-const dd_clases = defineCollection({
-    schema: z.object({
-        nombre: z.string(),
-        desc: z.string(),
-        portrait: z.string(),
-        guild_header: z.string(),
-    })
-})
-
 const skr_rings = defineCollection({
     loader: file("src/data/skr_rings.json"),
     schema: z.object({
@@ -117,9 +89,9 @@ const skr_aisha = defineCollection({
 
 
 export const collections = { 
-    dd_regiones, dd_items, dd_clases, skr_sevenknights, skr_sevenknightsofold, 
-    skr_sets, skr_rings, skr_darkknights, skr_fourlords, skr_fourlordsofold,
-    skr_nightcrows, skr_luminousrevolutionaries, skr_hiddenmasters, skr_celestialguardians,
-    skr_evanexpedition, skr_adventurers, skr_terra, skr_holycrosscrusaders, skr_shadowclan,
-    skr_asgar, skr_aisha
+    skr_sevenknights, skr_sevenknightsofold, skr_sets, skr_rings, 
+    skr_darkknights, skr_fourlords, skr_fourlordsofold, skr_nightcrows, 
+    skr_luminousrevolutionaries, skr_hiddenmasters, skr_celestialguardians,
+    skr_evanexpedition, skr_adventurers, skr_terra, skr_holycrosscrusaders, 
+    skr_shadowclan, skr_asgar, skr_aisha
 }

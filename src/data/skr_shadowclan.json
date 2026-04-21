@@ -6,8 +6,74 @@
         "faction": "Shadow Clan",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Jane.webp",
+        "portrait": "/7knights/heroes/jane/Jane.webp",
         "transcend": "Effect Hit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/jane/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "40% chance to inflict Poison. [Duration: 2 Turn(s).]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": ["Increases Chance: Poison chance becomes 50%."],
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Ambush",
+            "image": "/7knights/heroes/jane/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 135% of Physical Attack 2 time(s).",
+                        "Each attack has a 70% chance to inflict Poison. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 162% of Physical Attack.",
+                "Increases Chance: Poison chance becomes 85%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Lethal Blow",
+            "image": "/7knights/heroes/jane/skill_2.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 285% of Physical Attack 1 time(s).",
+                        "Deals additional damage equal to 190% of Phsical Attack against targets inflicted with [Poison]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 340% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Damage: To 230% of Physical Attack against targets iflicted with [Poison]."]
+        },
+        "passive":{
+            "name": "Hide",
+            "image": "/7knights/heroes/jane/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Camouflage. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Turns: Camouflage duration becomes 3 turn(s)."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "WATER POWER UP DUNGEON",
@@ -53,8 +119,69 @@
         "faction": "Shadow Clan",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Black_Rose.webp",
+        "portrait": "/7knights/heroes/black-rose/Black_Rose.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/black-rose/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Ambuscade",
+            "image": "/7knights/heroes/black-rose/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 340% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 410% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Falling Roses",
+            "image": "/7knights/heroes/black-rose/skill_2.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "100% chance to inflict 1 Buff Removal(s).",
+                        "Deals damage equal to 125% of Physical Attack 1 time(s)",
+                        "Can be used only if the target has a removable buff."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 150% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 20% All Attack Boost. [All Allies] [Duration: 2 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Assassin's Adaptability",
+            "image": "/7knights/heroes/black-rose/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Petrify Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Petrify Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Healing: Heals HP equal to 90% of Physical Attack upon using a skill 1 time(s). [Self]."],
+            "transcendence2": ["Adds Effect: 31% Physical Attack Boost. [Self] [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "OX KING RAID",
@@ -135,8 +262,65 @@
         "faction": "Shadow Clan",
         "role": "Magic",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Sera.webp",
+        "portrait": "/7knights/heroes/sera/Sera.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/sera/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Gloating Wraiths",
+            "image": "/7knights/heroes/sera/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 60% of Magic Attack 2 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 72% of Magic Attack."],
+            "transcendence2": ["Adds Damage: Each attack deals additional damage equal to 32% of Magic Attack upon landing a Critical Hit."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Shadow Wraiths",
+            "image": "/7knights/heroes/sera/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "Deals damage equal to 145% of Magic Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 175% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Damage: Deals additional damage equal to 80% of Magic Attack upon landing a Critical Hit."]
+        },
+        "passive":{
+            "name": "Shadow Lightning",
+            "image": "/7knights/heroes/sera/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Crit Rate Boost by 21%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Crit Rate Boost to 27%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -217,8 +401,66 @@
         "faction": "Shadow Clan",
         "role": "Attack",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Ballista.webp",
+        "portrait": "/7knights/heroes/ballista/Ballista.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/ballista/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":null,
+        "skill2":{
+            "name": "Shadow of Death",
+            "image": "/7knights/heroes/ballista/skill_2.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 95% of Physical Attack 2 time(s).",
+                        "Activates again up to 1 time(s) with 100% power upon defeating an enemy with this skill."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 110% of Physical Attack.",
+                "Adds Effect: 28% Follow-Up Chance Boost. [Duration: 3 Turn(s)]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Deathbringer's Daughter",
+            "image": "/7knights/heroes/ballista/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Camouflage. [Duration: 2 Turn(s)].",
+                        "25% chance to do a Follow-Up Attack. [Always Active]."
+                    ]
+                },
+                {
+                    "desc": "1 Enemy When Doing a Follow-Up",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals 1,285 Fixed, Piercing damage 1 time(s) upon performing any attack 3 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Chance: Follow-Up Attack chance becomes 30%."],
+            "transcendence2": ["Increases Damage: To 1,485 Fixed damage."],
+            "transcendence6": ["Adds Effect: All Damage Nullification 1 time(s) upon using any attack 2 time(s). [Self]."]
+        },
         "builds":[
             {
                 "name": "GENERAL",

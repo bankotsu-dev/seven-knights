@@ -6,8 +6,69 @@
         "faction": "Adventurers",
         "role": "Support",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Karon.webp",
+        "portrait": "/7knights/heroes/karon/Karon.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/karon/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Nature's Healing",
+            "image": "/7knights/heroes/karon/skill_1.webp",
+            "cd": 98,
+            "effects": [
+                {
+                    "desc": "Single Ally",
+                    "effects": ["Heals HP equal to 200% of the caster's Magic Attack."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes 230% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To 3 Allies."]
+        },
+        "skill2":{
+            "name": "Nature's Breath",
+            "image": "/7knights/heroes/karon/skill_2.webp",
+            "cd": 124,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 105% of the caster's Magic Attack."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes 125% of Magic Attack."],
+            "transcendence2": ["Reduces Cooldown: To 91s."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Nature's Protection",
+            "image": "/7knights/heroes/karon/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Bleed Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Bleed Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants a Barrier equal to 115% of the caster's Magic Attack upon using a skill 1 time(s). [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Barrier absorption becomes to 135% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "OX KING RAID",
@@ -88,8 +149,68 @@
         "faction": "Adventurers",
         "role": "Universal",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Victoria.webp",
+        "portrait": "/7knights/heroes/victoria/Victoria.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/victoria/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Pistol Shot",
+            "image": "/7knights/heroes/victoria/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 285% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Magic Vulnerability by 22%. [Duration: 5 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 340% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Raise Morale",
+            "image": "/7knights/heroes/victoria/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Magic Attack Boost by 29%. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Attack Boost to 35%."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Turns: Magic Attack Boost duration becomes 4 turn(s)."]
+        },
+        "passive":{
+            "name": "Pirate Queen",
+            "image": "/7knights/heroes/victoria/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Paralysis Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Paralysis Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Healing: Heals HP equal to 90% of Magic Attack upon using a skill 1 time(s). [Self]."],
+            "transcendence2": ["Adds Effect: 22% Physical Resistance. [Back Row Allies] [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "IRON DEVOURER RAID",
@@ -135,8 +256,72 @@
         "faction": "Adventurers",
         "role": "Support",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Lucy.webp",
+        "portrait": "/7knights/heroes/lucy/Lucy.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/lucy/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 50% of Magic Attack plus 60% of Defense 1 time(s).",
+                        "100% chance to inflict Physical Attack Reduction by 9%. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Physical Attack Reduction to 11%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Mystic Dance",
+            "image": "/7knights/heroes/lucy/skill_1.webp",
+            "cd": 95,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 100% of the caster's Defense."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes 120% of Defense."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Skill Cooldown Reduction of 15s. [Back Row Allies (Magic)]."]
+        },
+        "skill2":{
+            "name": "Dancer's Prayer",
+            "image": "/7knights/heroes/lucy/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants 2 Debuff Removal(s).",
+                        "Grants Defense Boost by 18%. [Duration: 3 Turn(s)].",
+                        "Can be used only if the ally has a removable buff."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Defense Boost to 22%."],
+            "transcendence2": ["Increases Effect: Debuff Removal count becomes 3."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Spirit Dancer",
+            "image": "/7knights/heroes/lucy/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Poison Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Poison Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Healing: Heals HP equal to 92% of Defense upon using a skill 1 time(s). [Self]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "IRON DEVOURER RAID",
@@ -182,8 +367,96 @@
         "faction": "Adventurers",
         "role": "Magic",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Velika.webp",
+        "portrait": "/7knights/heroes/velika/Velika.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/velika/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Reduces skill cooldowns by 9s in Infinite Tower and Tower of Trials."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Increases Effect: Skill Cooldown Reduction becomes 12s."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Summon Meteor",
+            "image": "/7knights/heroes/velika/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 105% of Magic Attack 1 time(s).",
+                        "Deals additional damage equal to 40% of Magic Attack upon landing a Critical Hit.",
+                        "60% chance to inflict Burn. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Adds Damage: Deals additional damage equal to 50% of Magic Attack upon landing a Critical Hit."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Apparitions of Darkness",
+            "image": "/7knights/heroes/velika/skill_2.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 105% of Magic Attack 1 time(s).",
+                        "Deals additional damage equal to 55% of Magic Attack upon landing a Critical Hit.",
+                        "100% chance to inflict Magic Vulnerability by 17%. [Duration: 3 Turns(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Increases Effect: Magic Vulnerability to 22%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 60% chance to inflict Silence. [Duration: 2 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Black Moon's Blessing",
+            "image": "/7knights/heroes/velika/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Crit Rate Boost by 27%. [Always Active].",
+                        "Grants a Barrier equal to 160% of the caster's Magic Attack. [Duration: 3 Turn(s)] [Once per Round]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Magic Damage Boost by 28% in Infinite Tower and Tower of Trials. [Always Active]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Crit Rate Boost to 33%.",
+                "Increases Effect: Magic Damage Boost to 31%."
+            ],
+            "transcendence2": [
+                "Increases Effect: Barrier absorption becomes 185% of Magic Attack.",
+                "Adds Effect: Grants a Barrier equal to 185% of the caster's Magic Attack when HP falls to 50% or lower. [Duration: 3 Turn(s)] [Once per Battle]."
+            ],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SUPPORT",
@@ -264,8 +537,68 @@
         "faction": "Adventurers",
         "role": "Magic",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Sylvia.webp",
+        "portrait": "/7knights/heroes/sylvia/Sylvia.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/sylvia/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Unleash Souls",
+            "image": "/7knights/heroes/sylvia/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals Piercing damage equal to 150% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 180% of Magic Attack."],
+            "transcendence2": ["Adds Effect: Ignore Defense."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Debilitating Curse",
+            "image": "/7knights/heroes/sylvia/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 95% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Defense Reduction by 18%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 115% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Glittering Souls",
+            "image": "/7knights/heroes/sylvia/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Magic Attack Boost by 25%. [Duration: 3 Turn(s)].",
+                        "Revives with Immortality upon falling in battle. [Duration: 2 Turn(s)] [Once per Battle]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Attack Boost to 31%."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Turns: Immortality duration becomes 3 turn(s)."]
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -311,8 +644,71 @@
         "faction": "Adventurers",
         "role": "Magic",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Joker.webp",
+        "portrait": "/7knights/heroes/joker/Joker.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/joker/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Magic Attack 2 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 60% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Full House",
+            "image": "/7knights/heroes/joker/skill_1.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 28% of Magic Attack 7 time(s).",
+                        "85% chance to inflict Stun. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 34% of Magic Attack.",
+                "Increases Chance: Stun chance becomes 100%."
+            ],
+            "transcendence2": ["Increases Turns: Stun duration becomes 4 turn(s)."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Magic Hat",
+            "image": "/7knights/heroes/joker/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies (By Highest No. of Buffs)",
+                    "effects": [
+                        "Deals damage equal to 40% of Magic Attack 3 time(s).",
+                        "100% chance to inflict 2 Buff Removal(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 48% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 100% chance to inflict 23% Crit Rate Reduction. [Duration: 3 Turn(s)]."]
+        },
+        "passive":{
+            "name": "Lucky Coin",
+            "image": "/7knights/heroes/joker/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Crit Damage Boost by 19%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Crit Damage Boost to 25%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "LIGHT POWER UP DUNGEON",
@@ -358,8 +754,76 @@
         "faction": "Adventurers",
         "role": "Attack",
         "grade": "Rare",
-        "portrait": "/7knights/heroes/Xiao.webp",
+        "portrait": "/7knights/heroes/xiao/Xiao.webp",
         "transcend": "Crit Rate +14%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/xiao/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Life Drain",
+            "image": "/7knights/heroes/xiao/skill_1.webp",
+            "cd": 78,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 230% of Physical Attack 1 time(s).",
+                        "Deals additional damage equal to 180% of Physical Attack against targets inflicted with [Bleed]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants a Barrier equal to 160% of the caster's Physical Attack. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 270% of Physical Attack."],
+            "transcendence2": ["Adds Effect: 100% chance to inflict 39% Defense Reduction. [Single Enemy] [Duration: 5 Turn(s)]."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Rise, Zombies!",
+            "image": "/7knights/heroes/xiao/skill_2.webp",
+            "cd": 60,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 170% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Bleed. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 205% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Jiangshi Charm",
+            "image": "/7knights/heroes/xiao/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Death Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Death Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)].",
+                        "Heals HP equal to 40% of the caster's Physical Attack when HP falls to 50% or lower. [1 Time(s) per Battle]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes 45% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 23% Single-Target Attack Damage Boost. [All Allies] [Always Active]."]
+        },
         "builds":[
             {
                 "name": "POWER UP DUNGEON",

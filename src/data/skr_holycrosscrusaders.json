@@ -6,8 +6,77 @@
         "faction": "Holy Cross Crusaders",
         "role": "Magic",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Ruri.webp",
+        "portrait": "/7knights/heroes/ruri/Ruri.webp",
         "transcend": "Weakness Chance +20%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/ruri/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Point Blank Barrage",
+            "image": "/7knights/heroes/ruri/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 75% of Magic Attack 2 time(s).",
+                        "Each attack deals additional damage equal to 35% of Magic Attack upon landing a Weakness Hit."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 90% of Magic Attack.",
+                "Increases Damage: To 42% of Magic Attack to each attack upon landing a Weakness Hit."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Fire Support",
+            "image": "/7knights/heroes/ruri/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 145% of Magic Attack 1 time(s).",
+                        "Deals additional damage equal to 130% of Magic Attack upon landing a Weakness Hit."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 170% of Magic Attack.",
+                "Increases Damage: To 155% of Magic Attack upon landing a Weakness Hit."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignore Defense."]
+        },
+        "passive":{
+            "name": "Bounty Hunter",
+            "image": "/7knights/heroes/ruri/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Magic Damage Boost by 24%. [Always Active].",
+                        "Heals HP equal to 95% of the caster's Magic Attack upon using a skill 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Damage Boost to 29%."],
+            "transcendence2": ["Adds Effect: 39% Weakness Hit Chance Boost. [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "CASTLE RUSH/ADVENT EXPEDITION (PRE T4)",
@@ -88,8 +157,84 @@
         "faction": "Holy Cross Crusaders",
         "role": "Universal",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Nia.webp",
+        "portrait": "/7knights/heroes/nia/Nia.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/nia/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "30% chance to inflict Shock. [Duration: 1 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Increases Chance: Shock chance becomes 35%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Megavolt",
+            "image": "/7knights/heroes/nia/skill_1.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 90% of Magic Attack 1 time(s).",
+                        "40% chance to inflict Shock. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 110% of Magic Attack."],
+            "transcendence2": ["Increases Chance: Shock chance becomes 50%."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Time Leap",
+            "image": "/7knights/heroes/nia/skill_2.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 115% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "60% chance to inflict Skill Cooldown Increase. [Increased by: 16s]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 135% of Magic Attack.",
+                "Increases Effect: Skill Cooldown Increase becomes 19s."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Increases Chance: Skill Cooldown Increase chance becomes 70%."]
+        },
+        "passive":{
+            "name": "Auxiliary Power",
+            "image": "/7knights/heroes/nia/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants a Barrier equal to 160% of the caster's Magic Attack. [Duration: 3 Turn(s)] [Once per Round].",
+                        "Grants Effect Hit Rate Boost by 40%. [Always Active]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Effect Hit Rate Boost to 49%.",
+                "Increases Effect: Barrier absorption becomes equal to 185% of Magic Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP/GUILD WAR",
@@ -135,8 +280,68 @@
         "faction": "Holy Cross Crusaders",
         "role": "Magic",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Espada.webp",
+        "portrait": "/7knights/heroes/espada/Espada.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/espada/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Purging Shot",
+            "image": "/7knights/heroes/espada/skill_1.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 340% of Magic Attack 1 time(s).",
+                        "100% chance to inflict Magic Vulnerability by 26%. [Duration: 5 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Vulnerability to 33%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Goddess's Judgment",
+            "image": "/7knights/heroes/espada/skill_2.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Consumes 4 stack(s) of [Purified Magic] to deal additional damage equal to 26% of the target's Max HP. [Limit: 1,300% of Espada's Attack].",
+                        "Deals damage equal to 425% of Magic Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 515% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Damage: To 32% of the target's Max HP. (HP-Based damage limited to 1,600% of caster's Attack)."]
+        },
+        "passive":{
+            "name": "Purified Magic",
+            "image": "/7knights/heroes/espada/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants 1 stack(s) of Purified Magic when 1 enemy falls in battle. [Increases Magic damage dealt by 8% and Crit Rate by 10%] [Max 4 Stack(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Magic Damage Boost to 10%."],
+            "transcendence2": ["Adds Effect: 29% Magic Resistance. [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "OX KING RAID",
@@ -217,8 +422,59 @@
         "faction": "Holy Cross Crusaders",
         "role": "Attack",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Shane.webp",
+        "portrait": "/7knights/heroes/shane/Shane.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/shane/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":null,
+        "skill2":{
+            "name": "Demon Slaying",
+            "image": "/7knights/heroes/shane/skill_2.webp",
+            "cd": 38,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 570% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 690% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Damage: Grants an additional 50% Damage Boost for each debuff on the target. [Max 4 Stack(s)]."]
+        },
+        "passive":{
+            "name": "Demonic Power",
+            "image": "/7knights/heroes/shane/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Magic Resistance by 24%. [Always Active].",
+                        "Grants Crit Rate Boost by 35%. [Always Active]."
+                    ]
+                },
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s) upon using any attack 3 time(s)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Magic Resistance to 29%.",
+                "Increases Effect: Crit Rate Boost to 41%."
+            ],
+            "transcendence2": ["Adds Damage: Grants an additional 20% Damage Boost for each debuff on the target. [Max 4 Stack(s)]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "DESTROYER GAZE RAID",
@@ -299,8 +555,82 @@
         "faction": "Holy Cross Crusaders",
         "role": "Universal",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Sieg.webp",
+        "portrait": "/7knights/heroes/sieg/Sieg.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/sieg/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Devastating Blow",
+            "image": "/7knights/heroes/sieg/skill_1.webp",
+            "cd": 78,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 375% of Physical Attack 1 time(s).",
+                        "100% chance to inflict Damage Reduction by 17%. [Duration: 5 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Damage Reduction to 23%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Unleashed Blade",
+            "image": "/7knights/heroes/sieg/skill_2.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 545% of Physical Attack 1 time(s)."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 25% of the caster's Physical Attack"]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 655% of Physical Attack.",
+                "Increases Healing: HP Recovery amount becomes 30% of Physical Attack."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignore Defense."]
+        },
+        "passive":{
+            "name": "Stalwart Ally",
+            "image": "/7knights/heroes/sieg/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Stun Immunity. [Duration: 2 Turn(s)].",
+                        "Grants Stun Immunity upon using a basic attack 1 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Back Row Allies",
+                    "effects": [
+                        "Grants Physical Attack Boost by 23%. [Duration: 2 Turn(s)].",
+                        "Grants Physical Attack Boost by 23% upon using any attack 2 time(s). [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Physical Attack Boost to 27%."],
+            "transcendence2": ["Increases Turns: Physical Attack Boost duration becomes 3 turn(s)."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "BULKY SUPPORT",

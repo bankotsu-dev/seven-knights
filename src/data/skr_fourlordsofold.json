@@ -5,9 +5,82 @@
         "title": "Night Crow",
         "faction": "Four Lord of Old",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Teo.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/teo/Teo.webp",
         "transcend": "Crit DMG +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/teo/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Talon Strike",
+            "image": "/7knights/heroes/teo/skill_1.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Deals Piercing damage equal to 150% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 170% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Corvus Eclipse",
+            "image": "/7knights/heroes/teo/skill_2.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "Deals damage equal to 77% of Physical Attack 2 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 90% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Crow's Eyes",
+            "image": "/7knights/heroes/teo/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants All Damage Nullification. [Ends After: Taking 3 Hit(s)].",
+                        "Grants Crit Rate Boost by 27%. [Always Active].",
+                        "Revives with Immortality upon falling in battle. [Duration: 2 Turn(s)] [Once per Battle]."
+                    ]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Grants [Corvus Eclipse] when 4 enemies fall in battle. [Once per Round].",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "Deals damage equal to 77% of Physical Attack 2 time(s).",
+                        "*Skills triggered this way are treated as separate from the original skill."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Adds Effect: 39% Physical Attack Boost upon triggering Immortality. [Self] [Duration: 2 Turn(s)].",
+                "Increases Damage: To 90% of Physical Attack. [All Enemies]."
+            ],
+            "transcendence2": ["Adds Effect: Skill Cooldown Reset upon gaining Immortality. [Self]."],
+            "transcendence6": ["Increases Effect: Crit Rate Boost to 100%. [Self]."]
+        },
         "builds":[
             {
                 "name": "GENERAL T0-T5",
@@ -122,9 +195,76 @@
         "title": "Doomsday Herald",
         "faction": "Four Lord of Old",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Yeonhee.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/yeonhee/Yeonhee.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/yeonhee/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attac 1 time(s).",
+                        "40% chance to inflict Sleep. [Duration: 1 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Magic Attack."],
+            "transcendence2": ["Changes Number of Targets: To 2 Enemies."],
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Calamitous Gesture",
+            "image": "/7knights/heroes/yeonhee/skill_1.webp",
+            "cd": 91,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals damage equal to 43% of Magic Attack plus 6% of the target's Max HP 3 time(s). (HP-Based damage limited to 100% of caster's Attack)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 51% of Magic Attack plus 7% of the target's Max HP."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Eternal Slumber",
+            "image": "/7knights/heroes/yeonhee/skill_2.webp",
+            "cd": 120,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals Defense-Ignoring damage equal to 41% of Magic Attack 3 time(s).",
+                        "50% chance to inflict Sleep. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 55% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Otherworldly Insight",
+            "image": "/7knights/heroes/yeonhee/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Magic Attack Boost bt 19%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants All Damage Nullification. [Ends After: Taking 3 Hit(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Magic Attack Boost to 25%.",
+                "Increases Stacks: All Damage Nullification ends after 4 hit(s)."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: 35% Magic Damage Boost. [Self] [Duration: 3 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "PVE DAMAGE DEALER",
@@ -239,9 +379,84 @@
         "title": "Sage of Despair",
         "faction": "Four Lord of Old",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Karma.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/karma/Karma.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/karma/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 50% of Magic Attack plus 60% of Defense 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 100% chance to inflict 6% Damage Reduction. [3 Enemies] [Duration: 2 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Infernal Redemption",
+            "image": "/7knights/heroes/karma/skill_1.webp",
+            "cd": 105,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": ["Deals Defense-Ignoring damage equal to 25% of Magic Attack plus 28% of Defense 3 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 28% of Magic Attack plus 33% of Defense."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Agonizing Tempest",
+            "image": "/7knights/heroes/karma/skill_2.webp",
+            "cd": 105,
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 31% of damage dealt."]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 20% of Magic Attack plus 23% of Defense 3 time(s).",
+                        "Consumes 4 stack(s) of [Perseverance] to deal additional Piercing damage qual to 39% of Magic Attack plus 45% of Defense during each attack."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 23% of Magic Attack plus 26% of Defense.",
+                "Increases Effect: HP Recovery amount becomes 37% of Damage."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Changes Number of Targets: To All Enemies."]
+        },
+        "passive":{
+            "name": "Fallen Sage",
+            "image": "/7knights/heroes/karma/passive.webp",
+            "effects": [
+                {
+                    "desc": "Allies (Universal)",
+                    "effects": ["Grants Damage boost by 12%. [Always Active]."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants 1 stack(s) of Perseverance upon being hit by an enemy's attack 1 time(s). [Max 4 Stack(s)]."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Damage Resistance by 20%. [Ends After: Taking 3 Hit(s)].",
+                        "Grants Damage Resistance by 20% upon using any attack 2 time(s). [Ends After: Taking 3 Hit(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Damage Boost to 15%."],
+            "transcendence2": ["Adds Effect: 33% Block Rate Boost. [Self] [Always Active]"],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "T0",
@@ -356,9 +571,95 @@
         "title": "Night Chaser",
         "faction": "Four Lord of Old",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Kyle.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/kyle/Kyle.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/kyle/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "Does 1 additional attack(s) that deal(s) damage equal to 130% of Physical Attack upon using a basic attack 2 time(s)."
+                    ]
+                },
+                {
+                    "desc": "Single Enemy (Eyes of the Strong)",
+                    "effects": ["30% chance to grant 1 Buff Removal(s) upon doing an additional attack."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Chain Suppression",
+            "image": "/7knights/heroes/kyle/skill_1.webp",
+            "cd": 90,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": ["Deals damage equal to 60% of Physical Attack plus 8% of the target's Max HP 2 time(s). (Damage increases by up to 50%, proportional to the target's lost HP) (HP-Based damage limited to 75% of caster's Attack)."]
+                },
+                {
+                    "desc": "Single Enemy (Eyes of the Strong)",
+                    "effects": ["Deals additional damage equal to 65% of Physical Attack."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 72% of Physical Attack plus 10% of the target's Max HP."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignore Defense."]
+        },
+        "skill2":{
+            "name": "Chain Burial",
+            "image": "/7knights/heroes/kyle/skill_2.webp",
+            "cd": 94,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": [
+                        "100% chance to inflict 2 Buff Removal(s).",
+                        "Deals Piercing damage equal to 70% of Physical Attack 2 time(s)."
+                    ]
+                },
+                {
+                    "desc": "Single Enemy (Eyes of the Strong)",
+                    "effects": ["Deals additional damage equal to 65% of Physical Attack."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 90% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignore Defense."]
+        },
+        "passive":{
+            "name": "Master of Chains",
+            "image": "/7knights/heroes/kyle/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Crit Rate Boost by 27%. [Always Active].",
+                        "Starting battles with at least 3 Attack hero(es) on your team grants All Damage Nullification. [Ends After: Taking 3 Hit(s)]."
+                    ]
+                },
+                {
+                    "desc": "Enemy with the Highest Attack",
+                    "effects": ["Grants Eyes of the Strong. [Always Active]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Deals Defense-Ignoring damage equal to 23% of the target's Max HP 1 time(s) upon using any attack 2 time(s). (HP-Based damage limited to 100% of caster's Attack)."]
+                }
+            ],
+            "enhancement": [
+                "Increases Stacks: All Damage Nullification ends after 4 hit(s).",
+                "Increases Damage: To 32% of the target's Max HP."
+            ],
+            "transcendence2": ["Adds Effect: Grants All Damage Nullification when HP falls to 70% or lower. [Ends After: 3 Hit(s)] [Once per Battle] (If deployed to a team with 3 or more Attack heroes)."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVE DAMAGE DEALER",

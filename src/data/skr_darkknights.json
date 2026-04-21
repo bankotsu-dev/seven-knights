@@ -5,9 +5,82 @@
         "title": "Purifier of Destruction",
         "faction": "Dark Knights",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Silvesta.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/silvesta/Silvesta.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/silvesta/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Condemnation",
+            "image": "/7knights/heroes/silvesta/skill_1.webp",
+            "cd": 84,
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Life Drain. [Recovers HP equal to 21% of damage dealt] [Duration: 3 Turn(s)]."]
+                },
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 72% of Magic Attack 2 time(s).",
+                        "Activates again up to 1 time(s) with 100% power upon defeating an enemy with this skill."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Life Drain to 24%.",
+                "Increases Damage: To 85% of Magic Attack."
+            ],
+            "transcendence2": ["Adds Effect: Ignore Defense."],
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Purifying Strike",
+            "image": "/7knights/heroes/silvesta/skill_2.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 60% of Magic Attack 2 time(s).",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 75% of Magic Attack."],
+            "transcendence2": ["Adds Effect: Ignore Defense."],
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Knight's Will",
+            "image": "/7knights/heroes/silvesta/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Blessing. [Caps damage taken from a single hit to 40% of Max HP] [Always Active].",
+                        "Grants Guts. [Once per Battle]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Blessing cap becomes 25% of Max HP."],
+            "transcendence2": null,
+            "transcendence6": [
+                "Adds Effect: Grants All Debuff Removal upon triggering Guts.",
+                "Adds Healing: Heals HP equal to 100% of Max HP upon triggering Guts."
+            ]
+        },
         "builds":[
             {
                 "name": "CRIT-INCLINED",
@@ -87,9 +160,90 @@
         "title": "Shadow Knight of Chaos",
         "faction": "Dark Knights",
         "role": "Magic",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Mercure.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/mercure/Mercure.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/mercure/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
+                        "Starting battles with at least 3 Magic hero(es) on your team grants a 45% chance to inflict Magic Reflux. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 120% of Magic Attack.",
+                "Increases Chance: Magic Reflux chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Changes Effect: Changes Magic Reflux Damage to 15% and changes the number of targets to 4."]
+        },
+        "skill1":{
+            "name": "Dark Larceny",
+            "image": "/7knights/heroes/mercure/skill_1.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 60% of Magic Attack 1 time(s).",
+                        "45% chance to inflict Stun. [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Magic Allies",
+                    "effects": ["Grants a Barrier equal to 40% of the caster's Magic Attack. [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 70% of Magic Attack.",
+                "Increases Chance: Stun chance becomes 55%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Forbidden Experiments",
+            "image": "/7knights/heroes/mercure/skill_2.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 52% of Magic Attack 2 time(s).",
+                        "When starting battles with at least 3 Magic hero(es) on your team, each attack has a 40% chance to inflict Magic Reflux. [Duration: 2 Turn(s)].",
+                        "100% chance to inflict Incoming Healing Reduction by 44%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 60% of Magic Attack.",
+                "Increases Chance: Magic Reflux chance becomes 50%."
+            ],
+            "transcendence2": null,
+            "transcendence6": ["Changes Effect: Changes Magic Reflux Damage to 15% and changes the number of targets to 4."]
+        },
+        "passive":{
+            "name": "Depraved Mage",
+            "image": "/7knights/heroes/mercure/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Blessing. [Caps damage taken from a single hit to 40% of Max HP] [Always Active]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Inflicts Effect Resist Reduction by 28%. [Always Active]."]
+                }
+            ],
+            "enhancement": ["Increases Effect: Blessing cap becomes 25% of Max HP."],
+            "transcendence2": ["Add Effect: When starting battles with at least 3 Magic hero(es) on your team, using any attack 3 time(s) has a 100% chance to inflict Magic Reflux. [3 Enemies] [Duration: 1 Turn(s)]"],
+            "transcendence6": ["Changes Effect: Changes Magic Reflux Damage to 15% and changes the number of targets to 4."]
+        },
         "builds":[
             {
                 "name": "GENERAL",
@@ -169,9 +323,90 @@
         "title": "Military Official",
         "faction": "Dark Knights",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Colt.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/colt/Colt.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/colt/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "2 Enemies",
+                    "effects": ["Deals damage equal to 55% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 70% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Quick n' Easy",
+            "image": "/7knights/heroes/colt/skill_1.webp",
+            "cd": 72,
+            "effects": [
+                {
+                    "desc": "4 Enemies",
+                    "effects": [
+                        "Deals damage equal to 40% of Physical Attack 2 time(s).",
+                        "Each attack has a 35% chance to inflict Bomb. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 50% of Physical Attack.",
+                "Increases Chance: Bomb chance becomes 45%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Time for a Show",
+            "image": "/7knights/heroes/colt/skill_2.webp",
+            "cd": 104,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 125% of Physical Attack 1 time(s).",
+                        "50% chance to inflict Bomb. [Duration: 3 Turn(s)].",
+                        "Detonates Bombs at 150% of their power. [Max 3 Bomb(s)].",
+                        "100% chance to inflict All Attack Reduction by 13%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 150% of Physical Attack.",
+                "Increases Effect: All Attack Reduction to 18%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Wandering Gunslinger",
+            "image": "/7knights/heroes/colt/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Camouflage. [Duration: 2 Turn(s)].",
+                        "Grants Speed-Based Attack Boost. [Increases Attack by 120 for every 7 Speed. (Max increase: 1,080)] [Always Active]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Effect Hit Rate Boost by 28%. [Always Active]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Speed-Based Attack max becomes 1,320.",
+                "Increases Effect: Effect Hit Rate Boost to 34%."
+            ],
+            "transcendence2": [
+                "Adds Effect: Guts. [Self] [Once per Battle].",
+                "Adds Effect: Barrier equal to 155% of the caster's Physical Attack upon triggering Guts. [Self] [Duration: 3 Turn(s)]."
+            ],
+            "transcendence6": ["Adds Effect: 23s Skill Cooldown Reduction when an enemy falls in battle. [Self]."]
+        },
         "builds":[
             {
                 "name": "EFFECT-BASED",
@@ -251,9 +486,83 @@
         "title": "High Priest of Darkness",
         "faction": "Dark Knights",
         "role": "Support",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Platin.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/platin/Platin.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/platin/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 50% of Magic Attack plus 60% of Defense 1 time(s).",
+                        "100% chance to inflict All Attack Reduction by 7%. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 65% of Magic Attack plus 75% of Defense.",
+                "Increases Effect: All Attack Reduction to 9%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Apostle's Judgment",
+            "image": "/7knights/heroes/platin/skill_1.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Deals damage equal to 42% of Magic Attack plus 47% of Defense 2 time(s)."]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Heals HP equal to 32% of damage dealt."]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 50% of Magic Attack plus 55% of Defense.",
+                "Increases Effect: HP Recovery amount becomes 43% of Damage."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Otherworldly Light",
+            "image": "/7knights/heroes/platin/skill_2.webp",
+            "cd": 91,
+            "effects": [
+                {
+                    "desc": "2 Enemies (By Highest No. of Buffs)",
+                    "effects": [
+                        "100% chance to inflict 2 Buff Removal(s).",
+                        "32% HP ALteration."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: HP Alteration to 25%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Nestra's Blessing",
+            "image": "/7knights/heroes/platin/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Heals HP equal to 165% of the caster's Defense when HP falls to 50% or lower. [2 Time(s) per Battle]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Deals 1,100 Fixed damage 1 time(s) upon being hit by an enemy's attack 4 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Healing: HP Recovery amount becomes 190% of Defense."],
+            "transcendence2": ["Increases Stacks: Heals HP more times per battle. [3 Time(s) per Battle]."],
+            "transcendence6": ["Increases Damage: To 1,485 Fixed damage."]
+        },
         "builds":[
             {
                 "name": "PVP",
@@ -333,9 +642,89 @@
         "title": "Guardians of the Ruins",
         "faction": "Dark Knights",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Branze_Bransel.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/branze-bransel/Branze_Bransel.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/branze-bransel/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 60% of Physical Attack 2 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 75% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Uncontrollable Power",
+            "image": "/7knights/heroes/branze-bransel/skill_1.webp",
+            "cd": 105,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals Piercing damage equal to 38% of Physical Attack 3 time(s).",
+                        "Each attack has a 30% chance to inflict Bleed. [Duration: 2 Turn(s)].",
+                        "Activates again up to 1 time(s) with 100% power upon defeating an enemy with this skill."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 45% of Physical Attack.",
+                "Increases Chance: Bleed chance becomes 35%."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Saviors' Condemnation",
+            "image": "/7knights/heroes/branze-bransel/skill_2.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "1 Enemy (Back Row First)",
+                    "effects": [
+                        "Deals damage equal to 247% of Physical Attack 2 time(s).",
+                        "Instant Execution of an enemy with 24% or lower HP."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Increases Damage: To 297% of Physical Attack.",
+                "Adds Effect: 100% chance to inflict Buff Duration Reduction. [Reduced by: 3 Turn(s)]."
+            ],
+            "transcendence2": ["Adds Healing: Heals HP equal to 110% of Physical Attack. [Self]."],
+            "transcendence6": [
+                "Adds Effect: Revives a fallen target with 40% HP upon defeating an enemy with damage from this skill. (If deployed to a team with 3 or more Attack heroes). [Single Ally].",
+                "Adds Effect: Grants All Damage Nullification upon revival. [Single Ally] [2 Hit(s)]."
+            ]
+        },
+        "passive":{
+            "name": "Judges of Good and Evil",
+            "image": "/7knights/heroes/branze-bransel/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Guts. [Once per Battle].",
+                        "Grants All Damage Immunity. [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Physical Attack Boost by 25% when an ally falls in battle. [Duration: 2 Turn(s)] (If deployed to a team with 3 or more Attack heroes).",
+                        "Grants a Barrier equal to 45% of the caster's Physical Attack when an enemy falls in battle. [Duration: 2 Turn(s)]. (If deployed to a team with 3 or more Attack heroes)."
+                    ]
+                }
+            ],
+            "enhancement": ["Adds Effect: Grants All Damage Immunity upon triggering Guts. [Self] [2 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "DMG FOCUSED AVENGER",
@@ -415,9 +804,98 @@
         "title": "Destroyed Glory",
         "faction": "Dark Knights",
         "role": "Universal",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Pallanus.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/pallanus/Pallanus.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/pallanus/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": [
+                        "Deals damage equal to 100% of Physical Attack 1 time(s).",
+                        "Converts to Defense-Ignoring damage if the target has at least 2 stack(s) of [Mark: Energia's Saturation]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 17% of damage dealt if the target has at least 1 stack(s) of [Mark: Energia's Saturation]."]
+                }
+            ],
+            "enhancement": ["Adds Effect: Starting battles with at least 1 of both Defense and Support hero(es) on your team has a 50% chance to inflict 1 stack(s) of [Mark: Energia's Saturation]. [Single Enemy] [Max: 2 stack(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Formidable Strike",
+            "image": "/7knights/heroes/pallanus/skill_1.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Starting battles with at least 1 of both Defense and Support hero(es) on your team has a 100% chance to inflict 1 stack(s) of [Mark: Energia's Saturation]. [Max: 2 stack(s)].",
+                        "Deals Piercing damage equal to 57% of Physical Attack 2 time(s).",
+                        "Converts to Defense-Ignoring damage if the target has at least 2 stack(s) of [Mark: Energia's Saturation].",
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 24% of damage dealt if the target has at least 1 stack(s) of [Mark: Energia's Saturation]."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 67% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Additional 100% Weakness Hit Chance. [All Enemies]."]
+        },
+        "skill2":{
+            "name": "Operation: Annihilation",
+            "image": "/7knights/heroes/pallanus/skill_2.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Starting battles with at least 1 of both Defense and Support hero(es) on your team has a 100% chance to inflict 1 stack(s) of [Mark: Energia's Saturation]. [Max: 2 stack(s)].",
+                        "Deals damage equal to 77% of Physical Attack 2 time(s).",
+                        "Converts to Defense-Ignoring damage if the target has at least 2 stack(s) of [Mark: Energia's Saturation]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Heals HP equal to 24% of damage dealt if the target has at least 1 stack(s) of [Mark: Energia's Saturation]."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 90% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Additional 100% Weakness Hit Chance. [All Enemies]."]
+        },
+        "passive":{
+            "name": "Commander's Strength",
+            "image": "/7knights/heroes/pallanus/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Attack-Based Reduced Damage Taken Boost. [Increases Reduced Damage Taken by 1.5% for every 300 Attack. (Max Increase: 13.5%)] [Always Active].",
+                        "Grants Guts. [Once per Battle]."
+                    ]
+                },
+                {
+                    "desc": "Enemy with the highest current HP",
+                    "effects": ["Grants HP Swap upon triggering Guts."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants All Debuff Removal when HP falls to 30% or lower. [1 time(s) per Battle]."]
+                }
+            ],
+            "enhancement": ["Adds Effect: Grants All Damage Immunity upon triggering Guts. [Self] [2 Turn(s)]."],
+            "transcendence2": ["Adds Effect: 28% Incoming Healing Boost. [Allies (Self, Defense, Support)] [Always Active]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "SURVIVAL-FOCUSED",

@@ -5,9 +5,73 @@
         "title": "Muay Thai Master",
         "faction": "Hidden Masters",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Klahan.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/klahan/Klahan.webp",
         "transcend": "Crit Rate +18%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes//basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Flying Tiger Whirlwind",
+            "image": "/7knights/heroes//skill_1.webp",
+            "cd": 76,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals additional Piercing damage equal to 100% of Physical Attack when target's current HP is 50% or lower.",
+                        "Deals Piercing damage equal to 115% of Physical Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 150% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Damage: When the target's current HP is 50% or lower, damage increases by 115% of Physical Attack."]
+        },
+        "skill2":{
+            "name": "Gale Blast",
+            "image": "/7knights/heroes//skill_2.webp",
+            "cd": 96,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals aaditional Piercing damage equal to 115% of Physical Attack when the target's current HP is 50% or higher.",
+                        "Deals Piercing damage equal to 125% of Physical Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 165% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Increases Damage: When the target's current HP is 50% or higher, damage increases by 135% of Physical Attack."]
+        },
+        "passive":{
+            "name": "Tiger's Courage",
+            "image": "/7knights/heroes//passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Physical Attack Boost by 27%. [Always Active].",
+                        "Grants All Damage Immunity. [Duration: 2 Turn(s)].",
+                        "Heals HP equal to 30% of the caster's Physical Attack when an enemy falls in battle."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Physical Attack Boost to 33%."],
+            "transcendence2": ["Adds Effect: 33% Physical Damage Boost. [Self] [Duration: 3 Turn(s)]."],
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "FARMER ASSASSIN",
@@ -87,9 +151,77 @@
         "title": "Guardian of the Eight Serpents Sword",
         "faction": "Hidden Masters",
         "role": "Attack",
-        "grade": "Legendary",
-        "portrait": "/7knights/heroes/Kagura.webp",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/kagura/Kagura.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/kagura/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 130% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Unleashed - Eight Serpents' Sword",
+            "image": "/7knights/heroes/kagura/skill_1.webp",
+            "cd": 88,
+            "effects": [
+                {
+                    "desc": "4 Enemies (Front Row First)",
+                    "effects": [
+                        "Deals damage equal to 62% of Physical Attack 2 time(s).",
+                        "100% chance to inflict Incoming Healing Reduction by 52%. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Incoming Healing Reduction to 68%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Unleashed - Snake Hunting",
+            "image": "/7knights/heroes/kagura/skill_2.webp",
+            "cd": 80,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Deals damage equal to 57% of Physical Attack 2 time(s).",
+                        "45% chance to inflict Petrify. [Duration: 2 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Chance: Petrify chance becomes 55%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "passive":{
+            "name": "Eight Serpents' Curse",
+            "image": "/7knights/heroes/kagura/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Revives with Indomitable upon falling in battle. [Ends After: Taking 8 Hit(s)] [Once per Battle]."]
+                },
+                {
+                    "desc": "Allies (Attack, Universal)",
+                    "effects": [
+                        "Grants Crit Damage Boost by 28%. [Always Active].",
+                        "Grants 2 Debuff Removal(s) upon triggering Indomitable.",
+                        "Grants Physical Damage Boost by 20% upon triggering Indomitable. [Duration: 3 Turn(s)]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Crit Damage Boost to 34%."],
+            "transcendence2": ["Adds Effect: HP equal to 65% of the caster's Physical Attack upon triggering Indomitable. [Attack, Universal Allies]."],
+            "transcendence6": ["Adds Effect: 100% chance to inflict 24% Physical Vulnerability upon using a skill 1 time(s). [All Enemies] [Duration: 2 Turn(s)]."]
+        },
         "builds":[
             {
                 "name": "PVP",
@@ -135,8 +267,74 @@
         "faction": "Hidden Masters",
         "role": "Magic",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Miho.webp",
+        "portrait": "/7knights/heroes/miho/Miho.webp",
         "transcend": "Weakness Chance +20%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/miho/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Violent Dance",
+            "image": "/7knights/heroes/miho/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "100% chance to inflict Magic Vulnerability by 22%. [Duration: 3 Turn(s)].",
+                        "Deals damage equal to 145% of Magic Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 170% of Magic Attack."],
+            "transcendence2": ["Adds Effect: 2 Debuff Removal(s). [Back Row Allies]."],
+            "transcendence6": ["Adds Damage: Deals additional damage equal to 75% of Magic Attack upon landing a Weakness Hit."]
+        },
+        "skill2":{
+            "name": "Overconfident Blow",
+            "image": "/7knights/heroes/miho/skill_2.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "Deals damage equal to 160% of Magic Attack 1 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 185% of Magic Attack."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Damage: Deals additional damage equal to 85% of Magic Attack upon landing a Weakness Hit."]
+        },
+        "passive":{
+            "name": "Opportunist",
+            "image": "/7knights/heroes/miho/passive.webp",
+            "effects": [
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Life Drain upon using a skill 2 time(s). [Duration: 2 Turn(s)].",
+                        "Grants Weakness Hit Damage Boost by 23%. [Always Active]."
+                    ]
+                }
+            ],
+            "enhancement": [
+                "Adds Effect: Guts. [Self] [Once per Battle].",
+                "Adds Healing: Heals HP equal to 30% of Max HP upon triggering Guts. [Self]."
+            ],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "BEGINNING GEARS",
@@ -219,8 +417,82 @@
         "faction": "Hidden Masters",
         "role": "Attack",
         "grade": "Legendary",
-        "portrait": "/7knights/heroes/Amelia.webp",
+        "portrait": "/7knights/heroes/amelia/Amelia.webp",
         "transcend": "Effect Hit Rate +24%",
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/amelia/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Physical Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 120% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Entry Denied!",
+            "image": "/7knights/heroes/amelia/skill_1.webp",
+            "cd": 70,
+            "effects": [
+                {
+                    "desc": "3 Enemies",
+                    "effects": [
+                        "Deals damage equal to 60% of Physical Attack 1 time(s).",
+                        "60% chance to inflict Concussion. [Duration: 2 Turn(s)]."
+                    ]
+                },
+                {
+                    "desc": "Self",
+                    "effects": ["Grants a Barrier equal to 55% of the caster's Physical Attack. [Duration: 3 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 70% of Physical Attack."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Save the Day!",
+            "image": "/7knights/heroes/amelia/skill_2.webp",
+            "cd": 45,
+            "effects": [
+                {
+                    "desc": "Enemy with the Highest Defense",
+                    "effects": [
+                        "100% chance to inflict Unable to Recover. [Duration: 4 Turn(s)].",
+                        "Deals damage equal to 135% of Physical Attack 2 time(s)."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 165% of Physical Attack."],
+            "transcendence2": ["Changes Number of Targets: To 2 Enemies with the highest Defense."],
+            "transcendence6": ["Adds Effect: 55% HP Alteration."]
+        },
+        "passive":{
+            "name": "Advanced Nanosuit",
+            "image": "/7knights/heroes/amelia/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": [
+                        "Grants Effect Hit Rate Boost by 40%. [Always Active].",
+                        "Revives with 55% HP upon falling in battle. [Once per Battle]."
+                    ]
+                },
+                {
+                    "desc": "2 Allies (Excluding Self)",
+                    "effects": [
+                        "Grants a Barrier equal to 90% of the caster's Physical Attack upon falling in battle. [Duration: 2 Turn(s)] [2 Time(s) per Battle].",
+                        "Grants 3 Debuff Removal(s) upon falling in battle. [2 Time(s) per Battle]."
+                    ]
+                }
+            ],
+            "enhancement": ["Increases Effect: Effect Hit Rate Boost to 49%."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
         "builds":[
             {
                 "name": "PVP/GUILD WAR",
