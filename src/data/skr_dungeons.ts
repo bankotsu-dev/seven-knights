@@ -12,31 +12,31 @@ export const dungeons = [
                 hero1: {
                     role: "Burn Immunity",
                     url: "ryan",
-                    img: "Ryan.webp",
+                    img: "ryan/Ryan.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "Freeze",
                     url: "heavenia",
-                    img: "Heavenia.webp",
+                    img: "heavenia/Heavenia.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Freeze",
                     url: "spike",
-                    img: "Spike.webp",
+                    img: "spike/Spike.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero4: {
                     role: "Freeze",
                     url: "lania",
-                    img: "Lania.webp",
+                    img: "lania/Lania.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero5: {
                     role: "Freeze",
                     url: "gelidus",
-                    img: "Gelidus.webp",
+                    img: "gelidus/Gelidus.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -46,31 +46,31 @@ export const dungeons = [
                 hero1: {
                     role: "Burn Immunity",
                     url: "yui",
-                    img: "Yui.webp",
+                    img: "yui/Yui.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero2: {
                     role: "Barrier",
                     url: "evan",
-                    img: "Evan.webp",
+                    img: "evan/Evan.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Freeze",
                     url: "lania",
-                    img: "Lania.webp",
+                    img: "lania/Lania.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero5: {
                     role: "Freeze",
                     url: "heavenia",
-                    img: "Heavenia.webp",
+                    img: "heavenia/Heavenia.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -80,31 +80,31 @@ export const dungeons = [
                 hero1: {
                     role: "Burn Immunity",
                     url: "ariel",
-                    img: "Ariel.webp",
+                    img: "ariel/Ariel.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "Buffer",
                     url: "victoria",
-                    img: "Victoria.webp",
+                    img: "victoria/Victoria.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero3: {
                     role: "Support",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "ST DPS",
                     url: "pascal",
-                    img: "Pascal.webp",
+                    img: "pascal/Pascal.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             }
@@ -113,7 +113,7 @@ export const dungeons = [
             {
                 role: "Support",
                 url: "rosie",
-                img: "Rosie.webp"
+                img: "rosie/Rosie.webp"
             }
         ]
     },
@@ -130,31 +130,31 @@ export const dungeons = [
                 hero1: {
                     role: "Freeze Immunity",
                     url: "feng-yan",
-                    img: "Feng_Yan.webp",
+                    img: "feng-yan/Feng_Yan.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "Poison",
                     url: "jane",
-                    img: "Jane.webp",
+                    img: "jane/Jane.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Poison",
                     url: "cleo",
-                    img: "Cleo.webp",
+                    img: "cleo/Cleo.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero5: {
                     role: "Poison",
                     url: "bai-jiao",
-                    img: "Bai_Jiao.webp",
+                    img: "bai-jiao/Bai_Jiao.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -164,31 +164,31 @@ export const dungeons = [
                 hero1: {
                     role: "Freeze Immunity",
                     url: "feng-yan",
-                    img: "Feng_Yan.webp",
+                    img: "feng-yan/Feng_Yan.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "Barrier",
                     url: "evan",
-                    img: "Evan.webp",
+                    img: "evan/Evan.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Poison",
                     url: "jane",
-                    img: "Jane.webp",
+                    img: "jane/Jane.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero5: {
                     role: "Poison",
                     url: "bai-jiao",
-                    img: "Bai_Jiao.webp",
+                    img: "bai-jiao/Bai_Jiao.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -198,31 +198,31 @@ export const dungeons = [
                 hero1: {
                     role: "Freeze Immunity",
                     url: "feng-yan",
-                    img: "Feng_Yan.webp",
+                    img: "feng-yan/Feng_Yan.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "Unable to Recover",
                     url: "chloe",
-                    img: "Chloe.webp",
+                    img: "chloe/Chloe.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "ST DPS",
                     url: "pascal",
-                    img: "Pascal.webp",
+                    img: "pascal/Pascal.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -231,12 +231,12 @@ export const dungeons = [
             {
                 role: "Poison",
                 url: "jupy",
-                img: "Jupy.webp"
+                img: "jupy/Jupy.webp"
             },
             {
                 role: "Freeze Immunity",
                 url: "lania",
-                img: "Lania.webp"
+                img: "lania/Lania.webp"
             },
         ]
     },
@@ -253,31 +253,31 @@ export const dungeons = [
                 hero1: {
                     role: "Stun Immunity",
                     url: "sieg",
-                    img: "Sieg.webp",
+                    img: "sieg/Sieg.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero2: {
                     role: "Burn",
                     url: "rachel",
-                    img: "Rachel.webp",
+                    img: "rachel/Rachel.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "Burn",
                     url: "fai",
-                    img: "Fai.webp",
+                    img: "fai/Fai.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -287,31 +287,31 @@ export const dungeons = [
                 hero1: {
                     role: "Stun Immunity",
                     url: "evan",
-                    img: "Evan.webp",
+                    img: "evan/Evan.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero2: {
                     role: "Burn",
                     url: "yuri",
-                    img: "Yuri.webp",
+                    img: "yuri/Yuri.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "Burn",
                     url: "rachel",
-                    img: "Rachel.webp",
+                    img: "rachel/Rachel.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -321,31 +321,31 @@ export const dungeons = [
                 hero1: {
                     role: "Stun Immunity",
                     url: "evan",
-                    img: "Evan.webp",
+                    img: "evan/Evan.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero2: {
                     role: "+Weakness DMG",
                     url: "miho",
-                    img: "Miho.webp",
+                    img: "miho/Miho.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "ST DPS",
                     url: "pascal",
-                    img: "Pascal.webp",
+                    img: "pascal/Pascal.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -354,22 +354,22 @@ export const dungeons = [
             {
                 role: "Burn",
                 url: "jave",
-                img: "Jave.webp"
+                img: "jave/Jave.webp"
             },
             {
                 role: "Burn",
                 url: "radgrid",
-                img: "Radgrid.webp"
+                img: "radgrid/Radgrid.webp"
             },
             {
                 role: "Burn",
                 url: "velika",
-                img: "Velika.webp"
+                img: "velika/Velika.webp"
             },
             {
                 role: "Burn",
                 url: "snipper",
-                img: "Snipper.webp"
+                img: "snipper/Snipper.webp"
             },
         ]
     },
@@ -386,31 +386,31 @@ export const dungeons = [
                 hero1: {
                     role: "Shock Immunity / Buff Remove",
                     url: "chloe",
-                    img: "Chloe.webp",
+                    img: "chloe/Chloe.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "Multi-Hit",
                     url: "kyle",
-                    img: "Kyle.webp",
+                    img: "kyle/Kyle.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Multi-Hit",
                     url: "ling-ling",
-                    img: "Ling_Ling.webp",
+                    img: "ling-ling/Ling_Ling.webp",
                     icnSet: "Icn_Vanguard.webp"
                 },
                 hero4: {
                     role: "Multi-Hit",
                     url: "sun-wukong",
-                    img: "Sun_Wukong.webp",
+                    img: "sun-wukong/Sun_Wukong.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero5: {
                     role: "DoT",
                     url: "bai-jiao",
-                    img: "Bai_Jiao.webp",
+                    img: "bai-jiao/Bai_Jiao.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -420,31 +420,31 @@ export const dungeons = [
                 hero1: {
                     role: "Shock Immunity / Buff Remove",
                     url: "chloe",
-                    img: "Chloe.webp",
+                    img: "chloe/Chloe.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "Heal",
                     url: "lucy",
-                    img: "Lucy.webp",
+                    img: "lucy/Lucy.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero3: {
                     role: "DoT",
                     url: "rachel",
-                    img: "Rachel.webp",
+                    img: "rachel/Rachel.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero4: {
                     role: "DoT",
                     url: "bai-jiao",
-                    img: "Bai_Jiao.webp",
+                    img: "bai-jiao/Bai_Jiao.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero5: {
                     role: "Multi-Hit",
                     url: "ling-ling",
-                    img: "Ling_Ling.webp",
+                    img: "ling-ling/Ling_Ling.webp",
                     icnSet: "Icn_Vanguard.webp"
                 }
             },
@@ -454,31 +454,31 @@ export const dungeons = [
                 hero1: {
                     role: "Shock Immunity / Buff Remove",
                     url: "chloe",
-                    img: "Chloe.webp",
+                    img: "chloe/Chloe.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "Heal",
                     url: "lucy",
-                    img: "Lucy.webp",
+                    img: "lucy/Lucy.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero3: {
                     role: "Barrier",
                     url: "evan",
-                    img: "Evan.webp",
+                    img: "evan/Evan.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero4: {
                     role: "Multi-Hit - Buff Remove",
                     url: "joker",
-                    img: "Joker.webp",
+                    img: "joker/Joker.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "Multi-Hit",
                     url: "ling-ling",
-                    img: "Ling_Ling.webp",
+                    img: "ling-ling/Ling_Ling.webp",
                     icnSet: "Icn_Vanguard.webp"
                 }
             },
@@ -487,17 +487,17 @@ export const dungeons = [
             {
                 role: "DoT",
                 url: "fai",
-                img: "Fai.webp"
+                img: "fai/Fai.webp"
             },
             {
                 role: "DoT",
                 url: "cleo",
-                img: "Cleo.webp"
+                img: "cleo/Cleo.webp"
             },
             {
                 role: "DoT",
                 url: "may",
-                img: "May.webp"
+                img: "may/May.webp"
             },
         ]
     },
@@ -514,31 +514,31 @@ export const dungeons = [
                 hero1: {
                     role: "Death Immunity / Bleed",
                     url: "xiao",
-                    img: "Xiao.webp",
+                    img: "xiao/Xiao.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero2: {
                     role: "Bleed",
                     url: "freyja",
-                    img: "Freyja.webp",
+                    img: "freyja/Freyja.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Bleed",
-                    url: "bid-am",
-                    img: "Bi_Dam.webp",
+                    url: "bid-dam",
+                    img: "bid-dam/Bi_Dam.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero5: {
                     role: "Bleed",
                     url: "bai-jiao",
-                    img: "Bai_Jiao.webp",
+                    img: "bai-jiao/Bai_Jiao.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -548,31 +548,31 @@ export const dungeons = [
                 hero1: {
                     role: "Death Immunity / Bleed",
                     url: "xiao",
-                    img: "Xiao.webp",
+                    img: "xiao/Xiao.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero2: {
                     role: "Bleed",
                     url: "soi",
-                    img: "Soi.webp",
+                    img: "soi/Soi.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Cleanse",
                     url: "lucy",
-                    img: "Lucy.webp",
+                    img: "lucy/Lucy.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero5: {
                     role: "Bleed",
                     url: "zhao-yun",
-                    img: "Zhao_Yun.webp",
+                    img: "zhao-yun/Zhao_Yun.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -582,31 +582,31 @@ export const dungeons = [
                 hero1: {
                     role: "DMG Buffer",
                     url: "kyrielle",
-                    img: "Kyrielle.webp",
+                    img: "kyrielle/Kyrielle.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero2: {
                     role: "+Weakness DMG",
                     url: "miho",
-                    img: "Miho.webp",
+                    img: "miho/Miho.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Healer",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "ST DPS",
                     url: "pascal",
-                    img: "Pascal.webp",
+                    img: "pascal/Pascal.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -615,12 +615,12 @@ export const dungeons = [
             {
                 role: "Bleed",
                 url: "branze-bransel",
-                img: "Branze_Bransel.webp"
+                img: "branze-bransel/Branze_Bransel.webp"
             },
             {
                 role: "Bleed",
                 url: "rei",
-                img: "Rei.webp"
+                img: "rei/Rei.webp"
             },
         ]
     },
@@ -637,31 +637,31 @@ export const dungeons = [
                 hero1: {
                     role: "Magic Vul",
                     url: "melia",
-                    img: "Melia.webp",
+                    img: "melia/Melia.webp",
                     icnSet: "Icn_Guardian.webp"
                 },
                 hero2: {
                     role: "+Weakness DMG",
                     url: "miho",
-                    img: "Miho.webp",
+                    img: "miho/Miho.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Buffer",
                     url: "xiao-qiao",
-                    img: "Xiao_Qiao.webp",
+                    img: "xiao-qiao/Xiao_Qiao.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "ST DPS",
                     url: "pascal",
-                    img: "Pascal.webp",
+                    img: "pascal/Pascal.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -671,31 +671,31 @@ export const dungeons = [
                 hero1: {
                     role: "+Weakness DMG",
                     url: "miho",
-                    img: "Miho.webp",
+                    img: "miho/Miho.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero2: {
                     role: "Debuffer",
                     url: "rachel",
-                    img: "Rachel.webp",
+                    img: "rachel/Rachel.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Support",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "ST DPS",
                     url: "bai-long",
-                    img: "Bai_Long.webp",
+                    img: "bai-long/Bai_Long.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -705,31 +705,31 @@ export const dungeons = [
                 hero1: {
                     role: "DMG Buffer",
                     url: "ariel",
-                    img: "Ariel.webp",
+                    img: "ariel/Ariel.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero2: {
                     role: "MATK Buffer",
                     url: "noho",
-                    img: "Noho.webp",
+                    img: "noho/Noho.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero3: {
                     role: "Support",
                     url: "lina",
-                    img: "Lina.webp",
+                    img: "lina/Lina.webp",
                     icnSet: "Icn_Paladin.webp"
                 },
                 hero4: {
                     role: "Buffer",
                     url: "biscuit",
-                    img: "Biscuit.webp",
+                    img: "biscuit/Biscuit.webp",
                     icnSet: "Icn_Gatekeeper.webp"
                 },
                 hero5: {
                     role: "ST DPS",
                     url: "xiao-qiao",
-                    img: "Xiao_Qiao.webp",
+                    img: "xiao-qiao/Xiao_Qiao.webp",
                     icnSet: "Icn_Avenger.webp"
                 }
             },
@@ -738,22 +738,22 @@ export const dungeons = [
             {
                 role: "DMG Buffer",
                 url: "orly",
-                img: "Orly.webp"
+                img: "orly/Orly.webp"
             },
             {
                 role: "DMG Buffer",
                 url: "kyrielle",
-                img: "Kyrielle.webp"
+                img: "kyrielle/Kyrielle.webp"
             },
             {
                 role: "DMG Buffer",
                 url: "espada",
-                img: "Espada.webp"
+                img: "espada/Espada.webp"
             },
             {
                 role: "DMG Buffer",
                 url: "vanessa",
-                img: "Vanessa.webp"
+                img: "vanessa/Vanessa.webp"
             },
         ]
     }

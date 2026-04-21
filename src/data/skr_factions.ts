@@ -72,7 +72,7 @@ export const factions = [
         tittle: "Celestial Guardians",
         faction: "skr_celestialguardians",
         icon: "Celestial_Guardians_icon.webp",
-        unknown: 2
+        unknown: 1
     },
     {
         tittle: "Evan Expedition",
@@ -115,6 +115,6 @@ export const factions = [
         tittle: "Aisha",
         faction: "skr_aisha",
         icon: "Aisha_icon.webp",
-        unknown: 5
+        unknown: 6
     }
 ];
