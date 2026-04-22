@@ -7,6 +7,7 @@
         "role": "Universal",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/trude/Trude.webp",
+        "box_image": "/7knights/heroes/trude/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -204,6 +205,7 @@
         "role": "Magic",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/freyja/Freyja.webp",
+        "box_image": "/7knights/heroes/freyja/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -408,6 +410,7 @@
         "role": "Defense",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/radgrid/Radgrid.webp",
+        "box_image": "/7knights/heroes/radgrid/box.webp",
         "transcend": "Block Rate +18%",
         "skins": [
             {
@@ -623,6 +626,7 @@
         "role": "Magic",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/reginleif/Reginleif.webp",
+        "box_image": "/7knights/heroes/reginleif/box.webp",
         "transcend": "Weakness Chance +20%",
         "skins": [
             {
@@ -825,6 +829,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/randgrid/Randgrid.webp",
+        "box_image": "/7knights/heroes/randgrid/box.webp",
         "transcend": "Weakness Chance +20%",
         "skins": [
             {
@@ -996,6 +1001,7 @@
         "role": "Universal",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/mist/Mist.webp",
+        "box_image": "/7knights/heroes/mist/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {

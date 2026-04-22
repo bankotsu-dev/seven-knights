@@ -7,6 +7,7 @@
         "role": "rol",
         "grade": "grade",
         "portrait": "/7knights/heroes/.webp",
+        "box_image": "/7knights/heroes//box.webp",
         "transcend": "",
         "skins": [
             {

@@ -7,6 +7,7 @@
         "role": "Defense",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/rook/Rook.webp",
+        "box_image": "/7knights/heroes/rook/box.webp",
         "transcend": "Block Rate +18%",
         "skins": [
             {
@@ -191,6 +192,7 @@
         "role": "Universal",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/chancellor/Chancellor.webp",
+        "box_image": "/7knights/heroes/chancellor/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -357,6 +359,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/may/May.webp",
+        "box_image": "/7knights/heroes/may/box.webp",
         "transcend": "Effect Hit Rate +18%",
         "skins": [
             {
@@ -483,6 +486,7 @@
         "role": "Support",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/alice/Alice.webp",
+        "box_image": "/7knights/heroes/alice/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -670,6 +674,7 @@
         "role": "Defense",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/aragon/Aragon.webp",
+        "box_image": "/7knights/heroes/aragon/box.webp",
         "transcend": "Block Rate +18%",
         "skins": [
             {
@@ -809,6 +814,7 @@
         "role": "Magic",
         "grade": "Rare",
         "portrait": "/7knights/heroes/noho/Noho.webp",
+        "box_image": "/7knights/heroes/noho/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -919,6 +925,7 @@
         "role": "Support",
         "grade": "Rare",
         "portrait": "/7knights/heroes/chloe/Chloe.webp",
+        "box_image": "/7knights/heroes/chloe/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -1035,6 +1042,7 @@
         "role": "Support",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/biscuit/Biscuit.webp",
+        "box_image": "/7knights/heroes/biscuit/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -1221,6 +1229,7 @@
         "role": "Attack",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/deo/Deo.webp",
+        "box_image": "/7knights/heroes/deo/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {

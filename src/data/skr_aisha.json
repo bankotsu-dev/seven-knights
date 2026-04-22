@@ -7,6 +7,7 @@
         "role": "Support",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/lina/Lina.webp",
+        "box_image": "/7knights/heroes/lina/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -204,6 +205,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/catty/Catty.webp",
+        "box_image": "/7knights/heroes/catty/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -315,6 +317,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/jin/Jin.webp",
+        "box_image": "/7knights/heroes/jin/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -472,6 +475,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/rei/Rei.webp",
+        "box_image": "/7knights/heroes/rei/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -623,6 +627,7 @@
         "role": "Magic",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/daisy/Daisy.webp",
+        "box_image": "/7knights/heroes/daisy/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -785,6 +790,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/soi/Soi.webp",
+        "box_image": "/7knights/heroes/soi/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -908,6 +914,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/feng-yan/Feng_Yan.webp",
+        "box_image": "/7knights/heroes/feng-yan/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -1092,6 +1099,7 @@
         "role": "Magic",
         "grade": "Rare",
         "portrait": "/7knights/heroes/ling-ling/Ling_Ling.webp",
+        "box_image": "/7knights/heroes/ling-ling/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -1275,6 +1283,7 @@
         "role": "Attack",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/bai-long/Bai_Long.webp",
+        "box_image": "/7knights/heroes/bai-long/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -1389,6 +1398,7 @@
         "role": "Magic",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/yu-shin/Yu_Shin.webp",
+        "box_image": "/7knights/heroes/yu-shin/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {
@@ -1554,6 +1564,7 @@
         "role": "Attack",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/bi-dam/Bi_Dam.webp",
+        "box_image": "/7knights/heroes/bi-dam/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -1720,6 +1731,7 @@
         "role": "Universal",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/bai-jiao/Bai_Jiao.webp",
+        "box_image": "/7knights/heroes/bai-jiao/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {
@@ -1882,6 +1894,7 @@
         "role": "Magic",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/xiao-qiao/Xiao_Qiao.webp",
+        "box_image": "/7knights/heroes/xiao-qiao/box.webp",
         "transcend": "Weakness Chance +20%",
         "skins": [
             {
@@ -2046,6 +2059,7 @@
         "role": "Magic",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/nezha/Nezha.webp",
+        "box_image": "/7knights/heroes/nezha/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -2167,6 +2181,7 @@
         "role": "Universal",
         "grade": "Rare",
         "portrait": "/7knights/heroes/asura/Asura.webp",
+        "box_image": "/7knights/heroes/asura/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -2284,6 +2299,7 @@
         "role": "Magic",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/pascal/Pascal.webp",
+        "box_image": "/7knights/heroes/pascal/box.webp",
         "transcend": "Crit DMG +24%",
         "skins": [
             {
@@ -2432,6 +2448,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/zhao-yun/Zhao_Yun.webp",
+        "box_image": "/7knights/heroes/zhao-yun/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -2591,6 +2608,7 @@
         "role": "Support",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/diaochan/Diaochan.webp",
+        "box_image": "/7knights/heroes/diaochan/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -2796,6 +2814,7 @@
         "role": "Universal",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/guan-yu/Guan_Yu.webp",
+        "box_image": "/7knights/heroes/guan-yu/box.webp",
         "transcend": "Weakness Chance +20%",
         "skins": [
             {

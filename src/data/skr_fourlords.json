@@ -138,6 +138,7 @@
         "role": "Magic",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/rin/Rin.webp",
+        "box_image": "/7knights/heroes/rin/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -338,6 +339,7 @@
         "role": "Universal",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/sun-wukong/Sun_Wukong.webp",
+        "box_image": "/7knights/heroes/sun-wukong/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -576,6 +578,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/lu-bu/Lu_Bu.webp",
+        "box_image": "/7knights/heroes/lu-bu/box.webp",
         "transcend": "Weakness Hit Chance +20%",
         "skins": [
             {

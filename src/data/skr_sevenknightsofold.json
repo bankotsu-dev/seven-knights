@@ -7,6 +7,7 @@
         "role": "Attack",
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/fai/Fai.webp",
+        "box_image": "/7knights/heroes/fai/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -217,6 +218,7 @@
         "role": "Support",
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/rosie/Rosie.webp",
+        "box_image": "/7knights/heroes/rosie/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -379,6 +381,7 @@
         "role": "Magic",
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/juri/Juri.webp",
+        "box_image": "/7knights/heroes/juri/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -579,6 +582,7 @@
         "role": "Magic",
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/melia/Melia.webp",
+        "box_image": "/7knights/heroes/melia/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {
@@ -750,6 +754,7 @@
         "role": "Universal",
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/gelidus/Gelidus.webp",
+        "box_image": "/7knights/heroes/gelidus/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {

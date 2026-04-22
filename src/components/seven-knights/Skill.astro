@@ -1,0 +1,43 @@
+---
+import type { Skill, Effect } from "@/types/skr";
+
+interface Props {
+    skill: Skill;
+}
+
+const {skill} = Astro.props;
+---
+<div class="">
+    <div class="flex">
+        <img src={skill.image} alt={skill.image} class="w-16 h-16 rounded-md">
+        <div class="ml-2">
+            <h5 class="font-bold text-lg">{skill.name}</h5>
+            {skill.cd ? <p>CD: {skill.cd}</p> : ""}
+        </div>
+    </div>
+    <div class="flex-col mt-1">
+        {
+            skill.effects.map((effect: Effect) => (
+                <div>
+                    <p class="font-semibold">{effect.desc}</p>
+                    {
+                        effect.effects.map((effect) => (
+                            <p>- {effect}</p>
+                        ))
+                    }
+                </div>
+            ))
+        }
+        <div class="rounded-md border border-emerald-700/60 bg-emerald-950/50 p-2 my-2">
+            <p class="font-semibold text-emerald-300 flex items-center">
+                <span class="pr-1"><img src="/7knights/assets/Skill_Enhancement.webp" alt="Skill_Enhancement.webp" class="w-6 h-6"></span>
+                Skill Enhancement Effect
+            </p>
+            {
+                skill.enhancement.map((e) => (
+                    <p>{e}</p>
+                ))
+            }
+        </div>
+    </div>
+</div>

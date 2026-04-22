@@ -12,15 +12,35 @@ export interface Hero {
 }
 
 export interface HeroData {
-    name:      string;
-    title:     string;
-    faction:   string;
-    role:      string;
-    grade:     string;
-    portrait:  string;
-    transcend: string;
-    skins:     Skin[];
-    builds:    Build[];
+    name:           string;
+    title:          string;
+    faction:        string;
+    role:           string;
+    grade:          string;
+    portrait:       string;
+    box_image:      string;
+    transcend:      string;
+    skins:          Skin[];
+    basic_attack:   Skill;
+    skill1?:        Skill;
+    skill2:         Skill;
+    passive:        Skill;
+    builds:         Build[];
+}
+
+export interface Skill {
+    name:               string;
+    image:              string;
+    cd?:                number;
+    effects:            Effect[];
+    enhancement:        string[];
+    transcendence2:     string[];
+    transcendence6:     string[];
+}
+
+export interface Effect {
+    desc: string;
+    effects: string[];
 }
 
 export interface Skin {
@@ -61,13 +81,13 @@ export interface Rings {
 }
 
 export interface Dungeon {
-    id: string;
-    name: string;
-    boss: string;
-    bossImg: string;
-    effects: string[];
-    comps: Comp[];
-    otherHeroes: OtherHero[] | null;
+    id:             string;
+    name:           string;
+    boss:           string;
+    bossImg:        string;
+    effects:        string[];
+    comps:          Comp[];
+    otherHeroes:    OtherHero[] | null;
 }
 
 export interface Comp {

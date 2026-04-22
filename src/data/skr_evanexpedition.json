@@ -7,6 +7,7 @@
         "role": "Defense",
         "grade": "Rare",
         "portrait": "/7knights/heroes/evan/Evan.webp",
+        "box_image": "/7knights/heroes/evan/box.webp",
         "transcend": "Block Rate +14%",
         "skins": [
             {
@@ -159,6 +160,7 @@
         "role": "Support",
         "grade": "Rare",
         "portrait": "/7knights/heroes/karin/Karin.webp",
+        "box_image": "/7knights/heroes/karin/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -307,6 +309,7 @@
         "role": "Magic",
         "grade": "Rare",
         "portrait": "/7knights/heroes/yuri/Yuri.webp",
+        "box_image": "/7knights/heroes/yuri/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -458,6 +461,7 @@
         "role": "Universal",
         "grade": "Rare",
         "portrait": "/7knights/heroes/li/Li.webp",
+        "box_image": "/7knights/heroes/li/box.webp",
         "transcend": "Block Rate +14%",
         "skins": [
             {
@@ -651,6 +655,7 @@
         "role": "Support",
         "grade": "Rare",
         "portrait": "/7knights/heroes/yui/Yui.webp",
+        "box_image": "/7knights/heroes/yui/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -799,6 +804,7 @@
         "role": "Magic",
         "grade": "Rare",
         "portrait": "/7knights/heroes/ariel/Ariel.webp",
+        "box_image": "/7knights/heroes/ariel/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -916,6 +922,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/jupy/Jupy.webp",
+        "box_image": "/7knights/heroes/jupy/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -1081,6 +1088,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/snipper/Snipper.webp",
+        "box_image": "/7knights/heroes/snipper/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -1229,6 +1237,7 @@
         "role": "Defense",
         "grade": "Rare",
         "portrait": "/7knights/heroes/hellenia/Hellenia.webp",
+        "box_image": "/7knights/heroes/hellenia/box.webp",
         "transcend": "Block Rate +14%",
         "skins": [
             {
@@ -1347,6 +1356,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/heavenia/Heavenia.webp",
+        "box_image": "/7knights/heroes/heavenia/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {

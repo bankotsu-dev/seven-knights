@@ -7,6 +7,7 @@
         "role": "Magic",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/ruri/Ruri.webp",
+        "box_image": "/7knights/heroes/ruri/box.webp",
         "transcend": "Weakness Chance +20%",
         "skins": [
             {
@@ -164,6 +165,7 @@
         "role": "Universal",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/nia/Nia.webp",
+        "box_image": "/7knights/heroes/nia/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {
@@ -293,6 +295,7 @@
         "role": "Magic",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/espada/Espada.webp",
+        "box_image": "/7knights/heroes/espada/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -441,6 +444,7 @@
         "role": "Attack",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/shane/Shane.webp",
+        "box_image": "/7knights/heroes/shane/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -580,6 +584,7 @@
         "role": "Universal",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/sieg/Sieg.webp",
+        "box_image": "/7knights/heroes/sieg/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {

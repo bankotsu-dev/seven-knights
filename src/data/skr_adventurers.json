@@ -7,6 +7,7 @@
         "role": "Support",
         "grade": "Rare",
         "portrait": "/7knights/heroes/karon/Karon.webp",
+        "box_image": "/7knights/heroes/karon/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -156,6 +157,7 @@
         "role": "Universal",
         "grade": "Rare",
         "portrait": "/7knights/heroes/victoria/Victoria.webp",
+        "box_image": "/7knights/heroes/victoria/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -269,6 +271,7 @@
         "role": "Support",
         "grade": "Rare",
         "portrait": "/7knights/heroes/lucy/Lucy.webp",
+        "box_image": "/7knights/heroes/lucy/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -386,6 +389,7 @@
         "role": "Magic",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/velika/Velika.webp",
+        "box_image": "/7knights/heroes/velika/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -562,6 +566,7 @@
         "role": "Magic",
         "grade": "Rare",
         "portrait": "/7knights/heroes/sylvia/Sylvia.webp",
+        "box_image": "/7knights/heroes/sylvia/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -675,6 +680,7 @@
         "role": "Magic",
         "grade": "Rare",
         "portrait": "/7knights/heroes/joker/Joker.webp",
+        "box_image": "/7knights/heroes/joker/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -791,6 +797,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/xiao/Xiao.webp",
+        "box_image": "/7knights/heroes/xiao/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {

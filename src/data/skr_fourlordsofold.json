@@ -7,6 +7,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/teo/Teo.webp",
+        "box_image": "/7knights/heroes/teo/box.webp",
         "transcend": "Crit DMG +24%",
         "skins": [
             {
@@ -203,6 +204,7 @@
         "role": "Magic",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/yeonhee/Yeonhee.webp",
+        "box_image": "/7knights/heroes/yeonhee/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -393,6 +395,7 @@
         "role": "Universal",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/karma/Karma.webp",
+        "box_image": "/7knights/heroes/karma/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -591,6 +594,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/kyle/Kyle.webp",
+        "box_image": "/7knights/heroes/kyle/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {

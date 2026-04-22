@@ -7,6 +7,7 @@
         "role": "Magic",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/silvesta/Silvesta.webp",
+        "box_image": "/7knights/heroes/silvesta/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -168,6 +169,7 @@
         "role": "Magic",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/mercure/Mercure.webp",
+        "box_image": "/7knights/heroes/mercure/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {
@@ -337,6 +339,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/colt/Colt.webp",
+        "box_image": "/7knights/heroes/colt/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {
@@ -506,6 +509,7 @@
         "role": "Support",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/platin/Platin.webp",
+        "box_image": "/7knights/heroes/platin/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -668,6 +672,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/branze-bransel/Branze_Bransel.webp",
+        "box_image": "/7knights/heroes/branze-bransel/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -836,6 +841,7 @@
         "role": "Universal",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/pallanus/Pallanus.webp",
+        "box_image": "/7knights/heroes/pallanus/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {

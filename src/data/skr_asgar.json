@@ -7,6 +7,7 @@
         "role": "Attack",
         "grade": "Rare",
         "portrait": "/7knights/heroes/leo/Leo.webp",
+        "box_image": "/7knights/heroes/leo/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -133,6 +134,7 @@
         "role": "Magic",
         "grade": "Rare",
         "portrait": "/7knights/heroes/cleo/Cleo.webp",
+        "box_image": "/7knights/heroes/cleo/box.webp",
         "transcend": "Crit Rate +14%",
         "skins": [
             {
@@ -255,6 +257,7 @@
         "role": "Universal",
         "grade": "Rare",
         "portrait": "/7knights/heroes/lania/Lania.webp",
+        "box_image": "/7knights/heroes/lania/box.webp",
         "transcend": "Weakness Chance +16%",
         "skins": [
             {
@@ -371,6 +374,7 @@
         "role": "Support",
         "grade": "Rare",
         "portrait": "/7knights/heroes/sarah/Sarah.webp",
+        "box_image": "/7knights/heroes/sarah/box.webp",
         "transcend": "DMG Taken Reduction +7%",
         "skins": [
             {
@@ -490,6 +494,7 @@
         "role": "Defense",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/knox/Knox.webp",
+        "box_image": "/7knights/heroes/knox/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {

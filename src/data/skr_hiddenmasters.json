@@ -7,6 +7,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/klahan/Klahan.webp",
+        "box_image": "/7knights/heroes/klahan/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -159,6 +160,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/kagura/Kagura.webp",
+        "box_image": "/7knights/heroes/kagura/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {
@@ -280,6 +282,7 @@
         "role": "Magic",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/miho/Miho.webp",
+        "box_image": "/7knights/heroes/miho/box.webp",
         "transcend": "Weakness Chance +20%",
         "skins": [
             {
@@ -436,6 +439,7 @@
         "role": "Attack",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/amelia/Amelia.webp",
+        "box_image": "/7knights/heroes/amelia/box.webp",
         "transcend": "Effect Hit Rate +24%",
         "skins": [
             {

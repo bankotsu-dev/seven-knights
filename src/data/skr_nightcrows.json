@@ -7,6 +7,7 @@
         "role": "Attack",
         "grade": "Legendary",
         "portrait": "/7knights/heroes/taka/Taka.webp",
+        "box_image": "/7knights/heroes/taka/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -161,6 +162,7 @@
         "role": "Support",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/orly/Orly.webp",
+        "box_image": "/7knights/heroes/orly/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -284,6 +286,7 @@
         "role": "Defense",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/aquila/Aquila.webp",
+        "box_image": "/7knights/heroes/aquila/box.webp",
         "transcend": "Block Rate +18%",
         "skins": [
             {

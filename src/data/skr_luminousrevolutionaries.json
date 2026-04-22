@@ -7,6 +7,7 @@
         "role": "Magic",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/kyrielle/Kyrielle.webp",
+        "box_image": "/7knights/heroes/kyrielle/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
@@ -215,6 +216,7 @@
         "role": "Universal",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/elysia/Elysia.webp",
+        "box_image": "/7knights/heroes/elysia/box.webp",
         "transcend": "DMG Taken Reduction +10%",
         "skins": [
             {
@@ -347,6 +349,7 @@
         "role": "Attack",
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/ryan/Ryan.webp",
+        "box_image": "/7knights/heroes/ryan/box.webp",
         "transcend": "Crit Rate +18%",
         "skins": [
             {
