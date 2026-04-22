@@ -8,6 +8,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/trude/Trude.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/trude/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/trude/basic_attack.webp",
@@ -199,6 +205,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/freyja/Freyja.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/freyja/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/freyja/basic_attack.webp",
@@ -397,6 +409,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/radgrid/Radgrid.webp",
         "transcend": "Block Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/radgrid/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/radgrid/basic_attack.webp",
@@ -606,6 +624,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/reginleif/Reginleif.webp",
         "transcend": "Weakness Chance +20%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/reginleif/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/reginleif/basic_attack.webp",
@@ -802,6 +826,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/randgrid/Randgrid.webp",
         "transcend": "Weakness Chance +20%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/randgrid/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/randgrid/basic_attack.webp",
@@ -967,6 +997,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/mist/Mist.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/mist/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/mist/basic_attack.webp",

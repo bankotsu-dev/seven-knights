@@ -8,6 +8,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/evan/Evan.webp",
         "transcend": "Block Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/evan/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes//basic_attack.webp",
@@ -154,6 +160,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/karin/Karin.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/karin/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/karin/basic_attack.webp",
@@ -296,6 +308,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/yuri/Yuri.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/yuri/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/yuri/basic_attack.webp",
@@ -441,6 +459,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/li/Li.webp",
         "transcend": "Block Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/li/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/li/basic_attack.webp",
@@ -628,6 +652,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/yui/Yui.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/yui/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/yui/basic_attack.webp",
@@ -770,6 +800,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/ariel/Ariel.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/ariel/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/ariel/basic_attack.webp",
@@ -881,6 +917,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/jupy/Jupy.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/jupy/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/jupy/basic_attack.webp",
@@ -1040,6 +1082,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/snipper/Snipper.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/snipper/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/snipper/basic_attack.webp",
@@ -1182,6 +1230,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/hellenia/Hellenia.webp",
         "transcend": "Block Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/hellenia/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/hellenia/basic_attack.webp",
@@ -1294,6 +1348,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/heavenia/Heavenia.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/heavenia/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/heavenia/basic_attack.webp",

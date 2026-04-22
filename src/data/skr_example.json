@@ -8,6 +8,12 @@
         "grade": "grade",
         "portrait": "/7knights/heroes/.webp",
         "transcend": "",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes//default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes//basic_attack.webp",

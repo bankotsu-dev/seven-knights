@@ -8,6 +8,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/taka/Taka.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/taka/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/taka/basic_attack.webp",
@@ -156,6 +162,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/orly/Orly.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/orly/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/orly/basic_attack.webp",
@@ -273,6 +285,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/aquila/Aquila.webp",
         "transcend": "Block Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/aquila/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/aquila/basic_attack.webp",

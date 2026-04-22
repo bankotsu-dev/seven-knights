@@ -8,6 +8,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/leo/Leo.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/leo/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/leo/basic_attack.webp",
@@ -128,6 +134,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/cleo/Cleo.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/cleo/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/cleo/basic_attack.webp",
@@ -244,6 +256,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/lania/Lania.webp",
         "transcend": "Weakness Chance +16%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/lania/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/lania/basic_attack.webp",
@@ -354,6 +372,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/sarah/Sarah.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/sarah/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/sarah/basic_attack.webp",
@@ -467,6 +491,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/knox/Knox.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/knox/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/knox/basic_attack.webp",

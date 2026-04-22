@@ -8,6 +8,12 @@
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/fai/Fai.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/fai/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/fai/basic_attack.webp",
@@ -212,6 +218,12 @@
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/rosie/Rosie.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/rosie/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/rosie/basic_attack.webp",
@@ -368,6 +380,12 @@
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/juri/Juri.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/juri/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/juri/basic_attack.webp",
@@ -562,6 +580,12 @@
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/melia/Melia.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/melia/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/melia/basic_attack.webp",
@@ -727,6 +751,12 @@
         "grade": "Legendary++",
         "portrait": "/7knights/heroes/gelidus/Gelidus.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/gelidus/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/gelidus/basic_attack.webp",

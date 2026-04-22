@@ -16,12 +16,14 @@ const set: Set = setData!.data;
   data-popover-target={`popover${uid}`}
   class="bg-zinc-800/80 border border-zinc-700 p-2 text-xs text-center rounded-lg shadow-sm hover:bg-zinc-700 transition"
 >
-  <img
-    src={equip?.image}
-    alt={equip?.type || "equip"}
-    class="w-full aspect-square object-cover mb-1 rounded"
-    draggable="false"
-  />
+  <div class="max-w-24 mx-auto">
+    <img
+      src={equip?.image}
+      alt={equip?.type || "equip"}
+      class="w-full aspect-square object-cover mb-1 rounded"
+      draggable="false"
+    />
+  </div>
   <p class="">{equip?.substat1}</p>
   <p class="text-zinc-400">{equip?.substat2}</p>
 </div>

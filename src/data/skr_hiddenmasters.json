@@ -8,6 +8,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/klahan/Klahan.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/klahan/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes//basic_attack.webp",
@@ -154,6 +160,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/kagura/Kagura.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/kagura/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/kagura/basic_attack.webp",
@@ -269,6 +281,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/miho/Miho.webp",
         "transcend": "Weakness Chance +20%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/miho/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/miho/basic_attack.webp",
@@ -419,6 +437,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/amelia/Amelia.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/amelia/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/amelia/basic_attack.webp",

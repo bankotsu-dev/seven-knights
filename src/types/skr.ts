@@ -19,7 +19,13 @@ export interface HeroData {
     grade:     string;
     portrait:  string;
     transcend: string;
+    skins:     Skin[];
     builds:    Build[];
+}
+
+export interface Skin {
+    name:   string;
+    image:  string;
 }
 
 export interface Build {

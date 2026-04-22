@@ -8,6 +8,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/lina/Lina.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/lina/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/lina/basic_attack.webp",
@@ -199,6 +205,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/catty/Catty.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/catty/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/catty/basic_attack.webp",
@@ -304,6 +316,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/jin/Jin.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/jin/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/jin/basic_attack.webp",
@@ -455,6 +473,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/rei/Rei.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/rei/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/rei/basic_attack.webp",
@@ -600,6 +624,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/daisy/Daisy.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/daisy/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/daisy/basic_attack.webp",
@@ -756,6 +786,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/soi/Soi.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/soi/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/soi/basic_attack.webp",
@@ -873,6 +909,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/feng-yan/Feng_Yan.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/feng-yan/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/feng-yan/basic_attack.webp",
@@ -1051,6 +1093,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/ling-ling/Ling_Ling.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/ling-ling/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/ling-ling/basic_attack.webp",
@@ -1228,6 +1276,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/bai-long/Bai_Long.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/bai-long/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/bai-long/basic_attack.webp",
@@ -1336,6 +1390,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/yu-shin/Yu_Shin.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/yu-shin/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/yu-shin/basic_attack.webp",
@@ -1495,6 +1555,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/bi-dam/Bi_Dam.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/bi-dam/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/bi-dam/basic_attack.webp",
@@ -1655,6 +1721,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/bai-jiao/Bai_Jiao.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/bai-jiao/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/bai-jiao/basic_attack.webp",
@@ -1811,6 +1883,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/xiao-qiao/Xiao_Qiao.webp",
         "transcend": "Weakness Chance +20%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/xiao-qiao/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/xiao-qiao/basic_attack.webp",
@@ -1969,6 +2047,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/nezha/Nezha.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/nezha/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/nezha/basic_attack.webp",
@@ -2084,6 +2168,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/asura/Asura.webp",
         "transcend": "DMG Taken Reduction +7%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/asura/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/asura/basic_attack.webp",
@@ -2195,6 +2285,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/pascal/Pascal.webp",
         "transcend": "Crit DMG +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/pascal/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/pascal/basic_attack.webp",
@@ -2337,6 +2433,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/zhao-yun/Zhao_Yun.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/zhao-yun/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/zhao-yun/basic_attack.webp",
@@ -2490,6 +2592,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/diaochan/Diaochan.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/diaochan/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/diaochan/basic_attack.webp",
@@ -2689,6 +2797,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/guan-yu/Guan_Yu.webp",
         "transcend": "Weakness Chance +20%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/guan-yu/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/guan-yu/basic_attack.webp",

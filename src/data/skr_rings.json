@@ -114,7 +114,7 @@
         "image": "/7knights/rings/ring_of_horror.webp"
     },
     {
-        "id": "ring-of-the-Snow",
+        "id": "ring-of-the-snow",
         "name": "Ring of the Snow",
         "effect": "12% chance to inflict Freeze for 1 turn upon using a basic attack",
         "image": "/7knights/rings/ring_of_the_snow.webp"

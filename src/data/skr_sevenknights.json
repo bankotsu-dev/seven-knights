@@ -8,6 +8,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/rudy/Rudy.webp",
         "transcend": "Block Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/rudy/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/rudy/basic_attack.webp",
@@ -196,6 +202,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/kris/Kris.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/kris/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/kris/basic_attack.webp",
@@ -397,6 +409,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/eileene/Eileene.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/eileene/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/eileene/basic_attack.webp",
@@ -555,6 +573,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/rachel/Rachel.webp",
         "transcend": "Weakness Chance +20%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/rachel/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/rachel/basic_attack.webp",
@@ -719,6 +743,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/dellons/Dellons.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/dellons/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/dellons/basic_attack.webp",
@@ -909,6 +939,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/spike/Spike.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/spike/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/spike/basic_attack.webp",
@@ -1084,6 +1120,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/jave/Jave.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/jave/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/jave/basic_attack.webp",
@@ -1251,6 +1293,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/vanessa/Vanessa.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/vanessa/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/vanessa/basic_attack.webp",

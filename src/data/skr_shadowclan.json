@@ -8,6 +8,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/jane/Jane.webp",
         "transcend": "Effect Hit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/jane/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/jane/basic_attack.webp",
@@ -121,6 +127,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/black-rose/Black_Rose.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/black-rose/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/black-rose/basic_attack.webp",
@@ -264,6 +276,12 @@
         "grade": "Rare",
         "portrait": "/7knights/heroes/sera/Sera.webp",
         "transcend": "Crit Rate +14%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/sera/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/sera/basic_attack.webp",
@@ -403,6 +421,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/ballista/Ballista.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/ballista/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/ballista/basic_attack.webp",

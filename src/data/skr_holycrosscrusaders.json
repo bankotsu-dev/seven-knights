@@ -8,6 +8,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/ruri/Ruri.webp",
         "transcend": "Weakness Chance +20%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/ruri/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/ruri/basic_attack.webp",
@@ -159,6 +165,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/nia/Nia.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/nia/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/nia/basic_attack.webp",
@@ -282,6 +294,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/espada/Espada.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/espada/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/espada/basic_attack.webp",
@@ -424,6 +442,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/shane/Shane.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/shane/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/shane/basic_attack.webp",
@@ -557,6 +581,12 @@
         "grade": "Legendary",
         "portrait": "/7knights/heroes/sieg/Sieg.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/sieg/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/sieg/basic_attack.webp",

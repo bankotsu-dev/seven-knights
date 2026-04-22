@@ -8,6 +8,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/kyrielle/Kyrielle.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/kyrielle/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/kyrielle/basic_attack.webp",
@@ -210,6 +216,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/elysia/Elysia.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/elysia/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/elysia/basic_attack.webp",
@@ -336,6 +348,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/ryan/Ryan.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/ryan/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/ryan/basic_attack.webp",

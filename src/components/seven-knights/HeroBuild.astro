@@ -18,7 +18,7 @@ const ring4 = await getEntry("skr_rings", build.rings.ringID4);
 ---
 
 <article
-  class="mb-8 border-2 border-gray-500 rounded-2xl pr-3 pl-3 pb-3 max-w-3xl mx-auto select-none font-bold bg-gray-900"
+  class="mb-8 border-2 border-gray-500 rounded-2xl pr-3 pl-3 pb-3 select-none font-bold bg-gray-900"
 >
   <h2
     class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
@@ -27,62 +27,47 @@ const ring4 = await getEntry("skr_rings", build.rings.ringID4);
     {build.name}
   </h2>
 
-  <div class="flex flex-col sm:flex-row gap-3">
+  <div class="flex flex-col md:flex-row gap-3">
     {/* Portrait */}
-    <div class="w-full h-auto sm:w-1/4 flex flex-col">
+    <div class="w-full h-auto md:w-1/4 flex flex-col">
       <img
         src={portrait}
         alt={portrait}
-        class="w-40 sm:w-full mx-auto object-cover aspect-square"
+        class="w-40 md:w-full mx-auto object-cover aspect-square"
         draggable="false"
       />
     </div>
 
     {/* Gear */}
-    <div class="w-full sm:w-3/4 flex flex-col gap-3">
+    <div class="w-full md:w-3/4 flex flex-col gap-3">
       {/* Weapons + Armors */}
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {
-          [build.weapon1, build.weapon2].map((weapon) => (
-            <SetItem equip={weapon} />
-          ))
-        }
-
-        {[build.armor1, build.armor2].map((armor) => <SetItem equip={armor} />)}
+      <div class="grid grid-cols-2 md:grid-cols-2 gap-2">
+        {[build.weapon1, build.armor1].map((weapon) => (<SetItem equip={weapon} />))}
+        {[build.weapon2, build.armor2].map((armor) => <SetItem equip={armor} />)}
       </div>
 
       {/* Substats */}
       <div
-        class="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm rounded text-black"
+        class="grid grid-cols-2 md:grid-cols-3 gap-1 text-sm rounded text-black"
       >
         <p class="p-1 rounded text-center bg-green-400">{build?.substats[0]}</p>
         <p class="p-1 rounded text-center bg-green-300">{build?.substats[1]}</p>
         <p class="p-1 rounded text-center bg-green-200">{build?.substats[2]}</p>
-        <p class="p-1 rounded text-center bg-yellow-200">
-          {build?.substats[3]}
-        </p>
-        <p class="p-1 rounded text-center bg-yellow-300">
-          {build?.substats[4]}
-        </p>
-        <p class="p-1 rounded text-center bg-yellow-400">
-          {build?.substats[5]}
-        </p>
-      </div>
-
-      {/* Rings */}
-      <div
-        class="bg-zinc-800/80 border border-zinc-700 p-2 rounded-lg shadow-sm"
-      >
-        <div class="grid grid-cols-4 gap-2 place-items-center">
-          {
-            [ring1, ring2, ring3, ring4]
-              .filter((ring) => ring?.data)
-              .map((ring) => <RingItem ring={ring!.data} />)
-          }
-        </div>
+        <p class="p-1 rounded text-center bg-yellow-200">{build?.substats[3]}</p>
+        <p class="p-1 rounded text-center bg-yellow-300">{build?.substats[4]}</p>
+        <p class="p-1 rounded text-center bg-yellow-400">{build?.substats[5]}</p>
       </div>
     </div>
   </div>
-
+  {/* Rings */}
+  <div class="bg-zinc-800/80 border border-zinc-700 p-2 rounded-lg shadow-sm mt-2">
+    <div class="grid grid-cols-4 place-items-center">
+      {
+        [ring1, ring2, ring3, ring4]
+          .filter((ring) => ring?.data)
+          .map((ring) => <RingItem ring={ring!.data} />)
+      }
+    </div>
+  </div>
   <p class="mt-3 text-sm">NOTE: {build.note}</p>
 </article>

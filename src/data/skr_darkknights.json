@@ -8,6 +8,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/silvesta/Silvesta.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/silvesta/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/silvesta/basic_attack.webp",
@@ -163,6 +169,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/mercure/Mercure.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/mercure/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/mercure/basic_attack.webp",
@@ -326,6 +338,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/colt/Colt.webp",
         "transcend": "Effect Hit Rate +24%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/colt/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/colt/basic_attack.webp",
@@ -489,6 +507,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/platin/Platin.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/platin/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/platin/basic_attack.webp",
@@ -645,6 +669,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/branze-bransel/Branze_Bransel.webp",
         "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/branze-bransel/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/branze-bransel/basic_attack.webp",
@@ -807,6 +837,12 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/pallanus/Pallanus.webp",
         "transcend": "DMG Taken Reduction +10%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/pallanus/default.webp"
+            }
+        ],
         "basic_attack":{
             "name": "Basic Attack",
             "image": "/7knights/heroes/pallanus/basic_attack.webp",
