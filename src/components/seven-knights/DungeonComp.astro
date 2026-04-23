@@ -2,15 +2,15 @@
 const { comp } = Astro.props;
 ---
 
-<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mt-2 text-center font-bold rounded-xl border-2 border-gray-500 select-none">
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mt-2 text-center font-bold rounded-xl border border-gray-500 select-none">
     <div class="p-2 overflow-hidden">
       <h5 class="text-sm md:text-base lg:text-xl break-words">
         { comp.name }
       </h5>
-      <img src={`/7knights/assets/${comp.formation}`}
+      <!-- <img src={`/7knights/assets/${comp.formation}`}
           alt={comp.formation} 
           class="mx-auto w-24 object-scale-down" 
-          draggable="false" />
+          draggable="false" /> -->
     </div>
 
     <div class="p-1 flex flex-col items-center overflow-hidden h-full">

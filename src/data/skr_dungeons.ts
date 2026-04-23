@@ -531,8 +531,8 @@ export const dungeons = [
                 },
                 hero4: {
                     role: "Bleed",
-                    url: "bid-dam",
-                    img: "bid-dam/Bi_Dam.webp",
+                    url: "bi-dam",
+                    img: "bi-dam/Bi_Dam.webp",
                     icnSet: "Icn_Avenger.webp"
                 },
                 hero5: {

@@ -55,7 +55,7 @@
         "skill2":{
             "name": "Flame Dragon's Greetings",
             "image": "/7knights/heroes/fai/skill_2.webp",
-            "cd": 0,
+            "cd": 90,
             "effects": [
                 {
                     "desc": "Single Enemy",
@@ -84,7 +84,7 @@
             "effects": [
                 {
                     "desc": "All Enemies",
-                    "effects": ["Inflict Physical Vulnerability by 17%. [Always Active]"]
+                    "effects": ["Inflict Physical Vulnerability by 17%. [Always Active]."]
                 },
                 {
                     "desc": "Self",
@@ -96,7 +96,7 @@
                 }
             ],
             "enhancement": [
-                "Increases Effect: Physical Vulnerability to 20%",
+                "Increases Effect: Physical Vulnerability to 20%.",
                 "Adds Effect: HP gained upon revival becomes 100%."
             ],
             "transcendence2": null,

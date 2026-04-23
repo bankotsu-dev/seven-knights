@@ -34,11 +34,11 @@ const { hero } = Astro.props;
 <Layout>
   <section>
     <Title title={ hero.data.name } />
-    <div class="grid grid-cols-4 gap-4">
+    <div class="grid grid-cols-4 gap-4 mx-2">
       <!-- Left Side -->
-      <div class="col-span-1">
-        <img src={hero.data.box_image} class="w-full h-auto object-cover border-x border-t border-gray-600 rounded-tr-xl rounded-tl-xl" draggable="false" />
-        <div class="border border-gray-600 rounded-b-xl p-2">
+      <div class="col-span-4 md:col-span-2 lg:col-span-1">
+        <img src={hero.data.box_image} class="w-full h-auto object-cover border-x border-t border-gray-600 rounded-tr-xl rounded-tl-xl bg-gray-900" draggable="false" />
+        <div class="border-x border-b border-gray-600 rounded-b-xl p-2">
           <h3 class="text-2xl font-bold">{hero.data.name}</h3>
           <p class="text-gray-400">{hero.data.title}</p>
           <div class="mt-2">
@@ -56,7 +56,7 @@ const { hero } = Astro.props;
         </div>
       </div>
       <!-- Right Side -->
-      <div class="col-span-3">
+      <div class="col-span-4 md:col-span-2 lg:col-span-3">
         <div>
           <h2
             class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
@@ -68,27 +68,40 @@ const { hero } = Astro.props;
             {hero.data.skill1 && (<Skill skill={hero.data.skill1} type="Skill 1" />)}
             <Skill skill={hero.data.skill2} type="Skill 2" />
             <Skill skill={hero.data.passive} type="Passive" />
+            <!-- Transcendence 4 -->
+            <div class="bg-zinc-800/80 p-2 md:p-4 rounded-md border border-gray-600">
+              <div class="flex-col">
+                <div class="rounded-md border border-fuchsia-700/50 bg-fuchsia-950/40 p-2 leading-5">
+                    <p class="font-semibold text-fuchsia-400 flex items-center">
+                        <span class="pr-1">
+                            <img src="/7knights/assets/transcend.webp" alt="Transcendence_02.webp" class="w-6 h-6" draggable="false" />
+                        </span>
+                        Transcendence 4 Effect
+                    </p>
+                    <p>- {hero.data.transcend}</p>
+                </div>
+              </div>
+          </div>
           </div>
         </div>
-        
-        <h2
-          class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
-          bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2 mt-8" >
-          Builds
-        </h2>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-          {
-            hero.data.builds.map((build) => (
-              <HeroBuild
-              build={build}
-              portrait={hero.data.portrait}
-              transcend={hero.data.transcend}
-              />
-            ))
-          }
-          </div>
       </div>
+    </div>
+    <h2
+      class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
+      bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2 mt-8 mx-2" >
+      Builds
+    </h2>
+        
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2 mx-2">
+      {
+        hero.data.builds.map((build) => (
+          <HeroBuild
+          build={build}
+          portrait={hero.data.portrait}
+          transcend={hero.data.transcend}
+          />
+        ))
+      }
     </div>
   </section>
 </Layout>

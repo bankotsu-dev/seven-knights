@@ -16,7 +16,7 @@ const { dungeon } = Astro.props;
   aria-labelledby={dungeon.id+"-tab"}
 >
   <div class="flex h-40 gap-2 text-sm  sm:text-base text-body transition-opacity duration-300 rounded-tl-4xl
-              bg-neutral-primary-soft border-2 border-gray-500 rounded-md shadow-xs md:mb-2">
+              bg-neutral-primary-soft border border-gray-500 rounded-md shadow-xs md:mb-2">
     <div class="h-full aspect-square flex-nowrap">
       <img
         src={"/7knights/dungeon/"+dungeon.bossImg}
@@ -43,7 +43,7 @@ const { dungeon } = Astro.props;
     }
   </div>
 
-  <div class="flex flex-wrap w-full font-bold rounded-xl border-2 border-gray-500 my-2">
+  <div class="flex flex-wrap w-full font-bold rounded-xl border border-gray-500 my-2">
     <div class="p-2 overflow-hidden w-28 h-28 text-center content-center">
       <h5 class="text-sm md:text-base lg:text-xl break-words select-none">
         OTHER HEROES
