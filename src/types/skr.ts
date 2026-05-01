@@ -25,7 +25,7 @@ export interface HeroData {
     skill1?:        Skill;
     skill2:         Skill;
     passive:        Skill;
-    builds:         Build[];
+    builds:         Build[] | null;
 }
 
 export interface Skill {

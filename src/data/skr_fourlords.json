@@ -139,7 +139,7 @@
         "grade": "Legendary+",
         "portrait": "/7knights/heroes/rin/Rin.webp",
         "box_image": "/7knights/heroes/rin/box.webp",
-        "transcend": "Crit Rate +18%",
+        "transcend": "Weakness Hit Chance +20%",
         "skins": [
             {
                 "name": "Default",
@@ -151,15 +151,15 @@
             "image": "/7knights/heroes/rin/basic_attack.webp",
             "effects": [
                 {
-                    "desc": "Single Enemy",
+                    "desc": "2 Enemies",
                     "effects": [
-                        "Deals damage equal to 100% of Magic Attack 1 time(s).",
-                        "45% chance to inflict Confusion. [Lasts for: 1 Hit(s)]."
+                        "Deals damage equal to 55% of Magic Attack 1 time(s).",
+                        "45% chance to inflict Confusion. [Lasts for: 2 Hit(s)]."
                     ]
                 }
             ],
             "enhancement": [
-                "Increases Damage: To 120% of Magic Attack.",
+                "Increases Damage: To 65% of Magic Attack.",
                 "Increases Chance: Confusion chance becomes 50%."
             ],
             "transcendence2": null,
@@ -173,12 +173,12 @@
                 {
                     "desc": "4 Enemies",
                     "effects": [
-                        "Deals damage equal to 62% of Magic Attack 2 time(s).",
-                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)]."
+                        "100% chance to inflict Buff Duration Reduction. [Reduced by: 2 Turn(s)].",
+                        "Deals damage equal to 62% of Magic Attack 2 time(s)."
                     ]
                 }
             ],
-            "enhancement": ["Adds Damage: Each attack deals additional damage equal to 37% of Magic Attack upon landing a Critical Hit."],
+            "enhancement": ["Adds Damage: Each attack deals additional damage equal to 37% of Magic Attack upon landing a Weakness Hit."],
             "transcendence2": null,
             "transcendence6": ["Adds Effect: Resets the cooldown of [Dragon's Descent] upon defeating an enemy with damage from this skill."]
         },
@@ -191,14 +191,14 @@
                     "desc": "4 Enemies",
                     "effects": [
                         "Deals damage equal to 70% of Magic Attack 2 time(s).",
-                        "Each attack deals additional damage equal to 30% of Magic Attack when the target's current HP is 50% or higher.",
-                        "100% chance to inflict Confusion. [Last for: 2 Hit(s)]."
+                        "Each attack deals additional damage equal to 42% of Magic Attack when the target's current HP is 50% or higher.",
+                        "100% chance to inflict Confusion. [Last for: 3 Hit(s)]."
                     ]
                 }
             ],
             "enhancement": [
                 "Increases Damage: To 90% of Magic Attack.",
-                "Increases Damage: When the target's current HP is 50% or higher, each attack deals damage equal to 42% of Magic Attack."
+                "Adds Effect: 100% chance to inflict 30% Weakness Hit Chance Reduction. [Duration: 3 Turn(s)]."
             ],
             "transcendence2": null,
             "transcendence6": null
@@ -210,13 +210,28 @@
                 {
                     "desc": "Self",
                     "effects": [
+                        "Grants All Damage Nullification. [Ends After: Taking 2 Hit(s)].",
                         "Revives with 80% HP upon falling in battle. [Once per Battle].",
-                        "Grants a Barrier equal to 67% of the caster's Magic Attack upon using a skill 1 time(s). [Duration: 3 Turn(s)].",
-                        "Grants Attack-Based Crit Rate Boost. [Increases Crit Rate by 3% for every 350 Attack. (Max Increase: 27%)] [Always Active]."
+                        "Increases All Damage Nullification's hit count by 2 hit(s) upon activating a skill 1 time(s). [Max 6 Hit(s)]."
+                    ]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": [
+                        "Grants Weakness Hit Damage Boost by 18%. [Always Active]."
+                    ]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": [
+                        "Grants Weakness Hit Chance Reduction by 18%. [Always Active]."
                     ]
                 }
             ],
-            "enhancement": ["Increases Effect: Attack-Based Crit Rate max becomes 33%."],
+            "enhancement": [
+                "Increases Effect: Weakness Hit Damage Boost to 23%.",
+                "Increases Effect: Weakness Hit Chance Reduction to 22%."
+            ],
             "transcendence2": [
                 "Increases Effect: HP gained upon revival becomes 100%.",
                 "Adds Effect: All Damage Nullification upon revival. [Ends After: Taking 2 Hit(s)]."

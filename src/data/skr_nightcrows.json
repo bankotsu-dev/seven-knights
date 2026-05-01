@@ -447,5 +447,98 @@
                 }
             }
         ]
+    },
+    {
+        "id": "o-mok",
+        "name": "O'Mok",
+        "title": "Spirit Master's Bloodline",
+        "faction": "Night Crows",
+        "role": "Magic",
+        "grade": "Legendary+",
+        "portrait": "/7knights/heroes/o-mok/O_Mok.webp",
+        "box_image": "/7knights/heroes/o-mok/box.webp",
+        "transcend": "Crit Rate +18%",
+        "skins": [
+            {
+                "name": "Default",
+                "image": "/7knights/heroes/o-mok/default.webp"
+            }
+        ],
+        "basic_attack":{
+            "name": "Basic Attack",
+            "image": "/7knights/heroes/o-mok/basic_attack.webp",
+            "effects": [
+                {
+                    "desc": "Single Enemy",
+                    "effects": ["Deals damage equal to 100% of Magic Attack 1 time(s)."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 10% Magic Damage Boost. [2 Allies (Excluding Self)] [Duration: 2 Turn(s)]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill1":{
+            "name": "Tiger's Chivalry",
+            "image": "/7knights/heroes/o-mok/skill_1.webp",
+            "cd": 98,
+            "effects": [
+                {
+                    "desc": "Enemy with the Highest Defense",
+                    "effects": [
+                        "32% HP Alteration.",
+                        "Deals damage equal to 305% of Magic Attack 1 time(s)."
+                    ]
+                },
+                {
+                    "desc": "Allies (Magic)",
+                    "effects": ["Grants Guardian Spirit. [When the buff expires, the target gains All Damage Immunity and Crowd Control Immunity for 2 turn(s)] [Duration: 2 Turn(s)]."]
+                }
+            ],
+            "enhancement": ["Adds Effect: 2 Debuff Removal(s). [Magic Allies]."],
+            "transcendence2": null,
+            "transcendence6": null
+        },
+        "skill2":{
+            "name": "Moon Tiger Fire Carts",
+            "image": "/7knights/heroes/o-mok/skill_2.webp",
+            "cd": 136,
+            "effects": [
+                {
+                    "desc": "All Enemies",
+                    "effects": ["Deals damage equal to 70% of Magic Attack plus 7% of the target's Max HP 2 time(s) (HP-Based damage limited to 75% of caster's Attack) (Damage increases by up to 50%, proportional to the target's current HP)."]
+                }
+            ],
+            "enhancement": ["Increases Damage: To 80% of Magic Attack plus 6% of the target's Max HP."],
+            "transcendence2": null,
+            "transcendence6": ["Adds Effect: Ignores 65% of Defense."]
+        },
+        "passive":{
+            "name": "Sacred Tree's Protection",
+            "image": "/7knights/heroes/o-mok/passive.webp",
+            "effects": [
+                {
+                    "desc": "Self",
+                    "effects": ["Grants Camouflage. [Duration: 2 Turn(s)]."]
+                },
+                {
+                    "desc": "All Allies",
+                    "effects": ["Grants Magic Attack Boost by 19%. [Always Active]."]
+                },
+                {
+                    "desc": "All Enemies",
+                    "effects": ["100% chance to inflict Weakness Hit Chance Reduction by 27% and Defense Reduction by 24%. [Duration: 3 Turn(s)] [Once per Battle]."]
+                }
+            ],
+            "enhancement": [
+                "Increases Effect: Magic Attack Boost to 25%.",
+                "Increases Effect: Defense Reduction to 34%."
+            ],
+            "transcendence2": [
+                "Adds Effect: Guts. [Self] [Once per Battle].",
+                "Adds Effect: Grants a Barrier equal to 155% of the caster's Magic Attack upon trigering Guts. [Duration: 3 Turn(s)]."
+            ],
+            "transcendence6": null
+        },
+        "builds": null
     }
 ]
