@@ -54,7 +54,7 @@ export const factions = [
         tittle: "Night Crows",
         faction: "skr_nightcrows",
         icon: "Night_Crow_icon.webp",
-        unknown: 2
+        unknown: 1
     },
     {
         tittle: "Luminous Revolutionaries",
