@@ -94,13 +94,17 @@ const { hero } = Astro.props;
         
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2 mx-2">
       {
-        hero.data.builds?.map((build) => (
-          <HeroBuild
-          build={build}
-          portrait={hero.data.portrait}
-          transcend={hero.data.transcend}
-          />
-        ))
+        hero.data.builds ? (
+          hero.data.builds?.map((build) => (
+            <HeroBuild
+            build={build}
+            portrait={hero.data.portrait}
+            transcend={hero.data.transcend}
+            />
+          ))
+        ) : (
+          <img src="/7knights/assets/nothing-to-show.webp" alt="No builds available" class="max-w-xl h-auto object-cover lg:col-span-2 xl:col-span-3 mx-auto" draggable="false" />
+        )
       }
     </div>
   </section>
