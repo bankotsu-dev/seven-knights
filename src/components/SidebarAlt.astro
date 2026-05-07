@@ -7,7 +7,7 @@ const links = [
    { name: 'Castle Rush', href: '/seven-knights/cr' }
 ]
 
-const path = Astro.url.pathname;
+const path = Astro.url.pathname.replace(/\/$/, '');
 ---
 <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" 
    class="inline-flex items-center p-1 mt-1 ms-1 text-sm rounded-lg sm:hidden focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600 fixed top-1 left-1 z-10 bg-gray-800">
