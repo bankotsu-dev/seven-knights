@@ -10,7 +10,7 @@ const {skill, type} = Astro.props;
 ---
 <div class="bg-zinc-800/80 p-2 md:p-4 mb-2 rounded-md border border-gray-600">
     <div class="flex">
-        <img src={skill.image} alt={skill.image} class="w-16 h-16 rounded-md" draggable="false">
+        <img src={skill.image} alt={skill.image} class="w-16 h-16 rounded-md" draggable="false" />
         <div class="ml-2 leading-5">
             <h5 class="font-bold text-lg leading-5">{skill.name}</h5>
             <p class="text-sm text-gray-400">{type}</p>
@@ -33,19 +33,23 @@ const {skill, type} = Astro.props;
             ))
         }
         <!-- Enhancement -->
-        <div class="rounded-md border border-emerald-700/60 bg-emerald-950/50 p-2 mt-2 leading-5">
-            <p class="font-semibold text-emerald-300 flex items-center">
-                <span class="pr-1">
-                    <img src="/7knights/assets/Skill_Enhancement.webp" alt="Skill_Enhancement.webp" class="w-6 h-6" draggable="false">
-                </span>
-                Skill Enhancement Effects
-            </p>
-            {
-                skill.enhancement.map((e) => (
-                    <p>- {e}</p>
-                ))
-            }
-        </div>
+        {
+            skill.enhancement && (
+                <div class="rounded-md border border-emerald-700/60 bg-emerald-950/50 p-2 mt-2 leading-5">
+                    <p class="font-semibold text-emerald-300 flex items-center">
+                        <span class="pr-1">
+                            <img src="/7knights/assets/Skill_Enhancement.webp" alt="Skill_Enhancement.webp" class="w-6 h-6" draggable="false" />
+                        </span>
+                        Skill Enhancement Effects
+                    </p>
+                    {
+                        skill.enhancement?.map((e) => (
+                            <p>- {e}</p>
+                        ))
+                    }
+                </div>
+            )
+        }
         <!-- Transcendence 2 -->
         {
             skill.transcendence2 && (
@@ -57,7 +61,7 @@ const {skill, type} = Astro.props;
                         Transcendence 2 Effects
                     </p>
                     {
-                        skill.transcendence2.map((effect) => (
+                        skill.transcendence2?.map((effect) => (
                             <p>- {effect}</p>
                         ))
                     }
@@ -75,7 +79,7 @@ const {skill, type} = Astro.props;
                         Transcendence 6 Effects
                     </p>
                     {
-                        skill.transcendence6.map((effect) => (
+                        skill.transcendence6?.map((effect) => (
                             <p>- {effect}</p>
                         ))
                     }

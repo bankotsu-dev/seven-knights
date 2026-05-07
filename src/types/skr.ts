@@ -33,9 +33,9 @@ export interface Skill {
     image:              string;
     cd?:                number;
     effects:            Effect[];
-    enhancement:        string[];
-    transcendence2:     string[];
-    transcendence6:     string[];
+    enhancement?:        string[];
+    transcendence2?:     string[];
+    transcendence6?:     string[];
 }
 
 export interface Effect {

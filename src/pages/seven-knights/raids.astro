@@ -1,14 +1,129 @@
 ---
 import Title from "@/components/Title.astro";
 import Layout from "@/layouts/Layout.astro";
-
+import Skill from "@components/seven-knights/Skill.astro";
+import { destroyerGaze, oxKing, ironDevourer } from "@/data/skr_raids";
 ---
 
 <Layout>
     <section>
         <Title title="RAIDS" />
-        <div>Skills</div>
-        <div>Estrategia</div>
-        <div>Equipos</div>
+        <!-- Destroyer Gaze -->
+        <article data-name="destroyer-gaze">
+            <div class="grid grid-cols-5 gap-4 mx-2">
+                <!-- Left Side -->
+                <div class="col-span-5 sm:col-span-2 md:col-span-1">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        {destroyerGaze.name}
+                    </h2>
+                    <img src={destroyerGaze.image} class="w-full h-auto object-cover" draggable="false" />
+                    <p class="mt-4 tracking-tight">
+                       Destroyer Gaze uses <span class="text-orange">Burn</span> and <span class="text-orange">Stun</span>.
+                    </p>
+                    <p class="tracking-tight">
+                       Uses heroes with <span class="text-orange">Stun Immunity</span> and <span class="text-orange">Burn Immunity</span> 
+                       buffs and a hero who can inflict <span class="text-orange">All Attack Reduction</span> to reduce damage from Destroyer Gaze.
+                    </p>
+                    <p class="tracking-tight">
+                        Destroyer Gaze also has <span class="text-orange">Magic Resistance</span>, so you must deploy
+                        <span class="text-orange">Physical Damage heroes</span>.
+                    </p>
+                </div>
+                <!-- Right Side -->
+                <div class="col-span-5 sm:col-span-3 md:col-span-4">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        Skills
+                    </h2>
+                    <Skill skill={destroyerGaze.basic_attack} type="Basic Attack" />
+                    <Skill skill={destroyerGaze.skill_1} type="Skill 1" />
+                    <Skill skill={destroyerGaze.skill_2} type="Skill 2" />
+                    <Skill skill={destroyerGaze.skill_3} type="Skill 3" />
+                    <Skill skill={destroyerGaze.passive} type="Passive" />
+                </div>
+            </div>
+        </article>
+        <!-- King Ox -->
+        <article data-name="king-ox">
+            <div class="grid grid-cols-5 gap-4 mx-2">
+                <!-- Left Side -->
+                <div class="col-span-5 sm:col-span-2 md:col-span-1">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        {oxKing.name}
+                    </h2>
+                    <img src={oxKing.image} class="w-full h-auto object-cover" draggable="false" />
+                    <p class="mt-4 tracking-tight">
+                       The Ox King uses attacks that inflict <span class="text-orange">Bleed</span> and <span class="text-orange">Petrify</span>.
+                       He has <span class="text-orange">0 Defense</span>, so <span class="text-orange">Defense Reduction effects don't apply</span>. 
+                       Use heroes with <span class="text-orange">Bleed Immunity</span> and <span class="text-orange">Petrify Immunity</span>. The 
+                       <span>Red Boils</span> summoned by Ox King have <span class="text-orange">Damage Resistance</span> buffs, so you must use 
+                       heroes with <span class="text-orange">Buff Removal</span> to remove them.
+                    </p>
+                    <p class="tracking-tight">
+                        The Ox King also has <span class="text-orange">high HP</span>, so you must deploy heroes with
+                        skills that <span class="text-orange">inflict bonus damage based on target's Max HP</span>.
+                    </p>
+                </div>
+                <!-- Right Side -->
+                <div class="col-span-5 sm:col-span-3 md:col-span-4">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        Skills
+                    </h2>
+                    <Skill skill={oxKing.basic_attack} type="Basic Attack" />
+                    <Skill skill={oxKing.skill_1} type="Skill 1" />
+                    <Skill skill={oxKing.skill_2} type="Skill 2" />
+                    <Skill skill={oxKing.skill_3} type="Skill 3" />
+                    <Skill skill={oxKing.passive} type="Passive" />
+                </div>
+            </div>
+        </article>
+        <!-- Iron Devourer -->
+        <article data-name="iron-devourer">
+            <div class="grid grid-cols-5 gap-4 mx-2">
+                <!-- Left Side -->
+                <div class="col-span-5 sm:col-span-2 md:col-span-1">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        {ironDevourer.name}
+                    </h2>
+                    <img src={ironDevourer.image} class="w-full h-auto object-cover" draggable="false" />
+                    <p class="mt-4 tracking-tight">
+                       Iron Devourer uses attacks that inflict <span class="text-orange">Poison</span> and <span class="text-orange">Paralysis</span>, 
+                       and <span class="text-orange">the heads to each side greatly reduce all taken damage</span>, so when hit, they only receive 
+                       damage of 1.
+                    </p>
+                    <p class="tracking-tight">
+                        Use heroes with <span class="text-orange">Poison Immunity</span> and <span class="text-orange">Paralysis Immunity</span> buffs, 
+                        and since the center head starts with reduced energy, use a hero that can inflict <span class="text-orange">Focus Target</span> to 
+                        attack the <span class="text-orange">center head</span>.
+                    </p>
+                    <p class="tracking-tight">
+                        Iron Devourer also has <span class="text-orange">Physical Resistance</span> and <span class="text-orange">high defense</span>, so 
+                        you must deploy <span class="text-orange">Magic damage</span> heroes with <span class="text-orange">Ignore Defense</span> skills.
+                    </p>
+                </div>
+                <!-- Right Side -->
+                <div class="col-span-5 sm:col-span-3 md:col-span-4">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        Skills
+                    </h2>
+                    <Skill skill={ironDevourer.basic_attack} type="Basic Attack" />
+                    <Skill skill={ironDevourer.skill_1} type="Skill 1" />
+                    <Skill skill={ironDevourer.skill_2} type="Skill 2" />
+                    <Skill skill={ironDevourer.skill_3} type="Skill 3" />
+                    <Skill skill={ironDevourer.passive} type="Passive" />
+                </div>
+            </div>
+        </article>
     </section>
 </Layout>
