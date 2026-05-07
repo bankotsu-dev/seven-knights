@@ -67,8 +67,200 @@ export const destroyerGaze = {
             }
         ]
     },
-    comps: [],
-    otherHeroes: []
+    comps: [
+        {
+            name: "SPEED CLEAR",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Stun Immunity",
+                url: "sieg",
+                img: "sieg/Sieg.webp",
+                icnSet: "Icn_Avenger.webp"
+            },
+            hero2: {
+                role: "Burn Immunity",
+                url: "ryan",
+                img: "ryan/Ryan.webp",
+                icnSet: "Icn_Avenger.webp"
+            },
+            hero3: {
+                role: "Debuffer",
+                url: "rachel",
+                img: "rachel/Rachel.webp",
+                icnSet: "Icn_Avenger.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "shane",
+                img: "shane/Shane.webp",
+                icnSet: "Icn_Avenger.webp"
+            },
+        },
+        {
+            name: "T15",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Stun Immunity",
+                url: "sieg",
+                img: "sieg/Sieg.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero2: {
+                role: "Burn Immunity",
+                url: "yui",
+                img: "yui/Yui.webp",
+                icnSet: "Icn_Paladin.webp"
+            },
+            hero3: {
+                role: "Debuffer",
+                url: "rachel",
+                img: "rachel/Rachel.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "shane",
+                img: "shane/Shane.webp",
+                icnSet: "Icn_Avenger.webp"
+            },
+        },
+        {
+            name: "T10",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Stun Immunity",
+                url: "evan",
+                img: "evan/Evan.webp",
+                icnSet: "Icn_Guardian.webp"
+            },
+            hero2: {
+                role: "Burn Immunity",
+                url: "yui",
+                img: "yui/Yui.webp",
+                icnSet: "Icn_Paladin.webp"
+            },
+            hero3: {
+                role: "Debuffer",
+                url: "rachel",
+                img: "rachel/Rachel.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "shane",
+                img: "shane/Shane.webp",
+                icnSet: "Icn_Assassin.webp"
+            },
+        },
+        {
+            name: "PRE SHANE / EARLY GAME",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Stun Immunity",
+                url: "evan",
+                img: "evan/Evan.webp",
+                icnSet: "Icn_Guardian.webp"
+            },
+            hero2: {
+                role: "Burn Immunity",
+                url: "yui",
+                img: "yui/Yui.webp",
+                icnSet: "Icn_Paladin.webp"
+            },
+            hero3: {
+                role: "Debuffer",
+                url: "rachel",
+                img: "rachel/Rachel.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero4: {
+                role: "DEF DOWN",
+                url: "ace",
+                img: "ace/Ace.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "jupi",
+                img: "jupi/Jupi.webp",
+                icnSet: "Icn_Assassin.webp"
+            },
+        },
+        {
+            name: "PRE SHANE / EARLY GAME",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Stun Immunity",
+                url: "sieg",
+                img: "sieg/Sieg.webp",
+                icnSet: "Icn_Avenger.webp"
+            },
+            hero2: {
+                role: "Burn Immunity",
+                url: "yui",
+                img: "yui/Yui.webp",
+                icnSet: "Icn_Vanguard.webp"
+            },
+            hero3: null,
+            hero4: null,
+            hero5: {
+                role: "DPS",
+                url: "shane",
+                img: "shane/Shane.webp",
+                icnSet: "Icn_Avenger.webp"
+            },
+        }
+    ],
+    otherHeroes: [
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "fai",
+            img: "fai/Fai.webp",
+            icnSet: "Icn_Avenger.webp"
+        },
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "lu-bu",
+            img: "lu-bu/Lu_Bu.webp",
+            icnSet: "Icn_Avenger.webp"
+        },
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "trude",
+            img: "trude/Trude.webp",
+            icnSet: "Icn_Avenger.webp"
+        },
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "bai-long",
+            img: "bai-long/Bai_Long.webp",
+            icnSet: "Icn_Avenger.webp"
+        },
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "fai",
+            img: "fai/Fai.webp",
+            icnSet: "Icn_Avenger.webp"
+        }
+    ]
 }
 
 export const oxKing = {
