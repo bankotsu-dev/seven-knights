@@ -2,6 +2,7 @@
 import Title from "@/components/Title.astro";
 import Layout from "@/layouts/Layout.astro";
 import Skill from "@components/seven-knights/Skill.astro";
+import DungeonComp from "@/components/seven-knights/DungeonComp.astro";
 import { destroyerGaze, oxKing, ironDevourer } from "@/data/skr_raids";
 ---
 
@@ -45,9 +46,44 @@ import { destroyerGaze, oxKing, ironDevourer } from "@/data/skr_raids";
                     <Skill skill={destroyerGaze.passive} type="Passive" />
                 </div>
             </div>
+            <div>
+                <h2
+                    class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                    bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mt-2" >
+                    Teams
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+                    {
+                        destroyerGaze.comps.map((comp)=>(
+                            <DungeonComp comp={comp} />
+                        ))
+                    }
+                </div>
+                <div class="flex flex-wrap w-full font-bold rounded-xl border border-gray-500 my-2 bg-zinc-800/50">
+                    <div class="p-2 overflow-hidden w-28 h-28 text-center content-center">
+                    <h5 class="text-sm md:text-base lg:text-xl break-words select-none">
+                        OTHER HEROES
+                    </h5>
+                    </div>
+                    {
+                    destroyerGaze.otherHeroes?.map((hero) => (
+                    <div class="p-1 flex flex-col items-center overflow-hidden h-full text-center select-none">
+                        <p class="break-words text-sm md:text-base max-w-28">{hero.role}</p>
+                        <a href={`/seven-knights/heroes/${hero.url}`} class="mt-auto">
+                        <img src={`/7knights/heroes/${hero.img}`}
+                            alt={hero.img} 
+                            class="w-28 aspect-square p-2" 
+                            draggable="false"
+                        />
+                        </a>
+                    </div>
+                    ))
+                    }
+                </div>
+            </div>
         </article>
         <!-- King Ox -->
-        <article data-name="king-ox">
+        <article data-name="ox-king" class="mt-8">
             <div class="grid grid-cols-5 gap-4 mx-2">
                 <!-- Left Side -->
                 <div class="col-span-5 sm:col-span-2 md:col-span-1">
@@ -83,9 +119,44 @@ import { destroyerGaze, oxKing, ironDevourer } from "@/data/skr_raids";
                     <Skill skill={oxKing.passive} type="Passive" />
                 </div>
             </div>
+            <div>
+                <h2
+                    class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                    bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mt-2" >
+                    Teams
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+                    {
+                        oxKing.comps.map((comp)=>(
+                            <DungeonComp comp={comp} />
+                        ))
+                    }
+                </div>
+                <div class="flex flex-wrap w-full font-bold rounded-xl border border-gray-500 my-2 bg-zinc-800/50">
+                    <div class="p-2 overflow-hidden w-28 h-28 text-center content-center">
+                    <h5 class="text-sm md:text-base lg:text-xl break-words select-none">
+                        OTHER HEROES
+                    </h5>
+                    </div>
+                    {
+                    oxKing.otherHeroes?.map((hero) => (
+                    <div class="p-1 flex flex-col items-center overflow-hidden h-full text-center select-none">
+                        <p class="break-words text-sm md:text-base max-w-28">{hero.role}</p>
+                        <a href={`/seven-knights/heroes/${hero.url}`} class="mt-auto">
+                        <img src={`/7knights/heroes/${hero.img}`}
+                            alt={hero.img} 
+                            class="w-28 aspect-square p-2" 
+                            draggable="false"
+                        />
+                        </a>
+                    </div>
+                    ))
+                    }
+                </div>
+            </div>
         </article>
         <!-- Iron Devourer -->
-        <article data-name="iron-devourer">
+        <article data-name="iron-devourer" class="mt-8">
             <div class="grid grid-cols-5 gap-4 mx-2">
                 <!-- Left Side -->
                 <div class="col-span-5 sm:col-span-2 md:col-span-1">
@@ -122,6 +193,41 @@ import { destroyerGaze, oxKing, ironDevourer } from "@/data/skr_raids";
                     <Skill skill={ironDevourer.skill_2} type="Skill 2" />
                     <Skill skill={ironDevourer.skill_3} type="Skill 3" />
                     <Skill skill={ironDevourer.passive} type="Passive" />
+                </div>
+            </div>
+            <div>
+                <h2
+                    class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                    bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mt-2" >
+                    Teams
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+                    {
+                        ironDevourer.comps.map((comp)=>(
+                            <DungeonComp comp={comp} />
+                        ))
+                    }
+                </div>
+                <div class="flex flex-wrap w-full font-bold rounded-xl border border-gray-500 my-2 bg-zinc-800/50">
+                    <div class="p-2 overflow-hidden w-28 h-28 text-center content-center">
+                    <h5 class="text-sm md:text-base lg:text-xl break-words select-none">
+                        OTHER HEROES
+                    </h5>
+                    </div>
+                    {
+                    ironDevourer.otherHeroes?.map((hero) => (
+                    <div class="p-1 flex flex-col items-center overflow-hidden h-full text-center select-none">
+                        <p class="break-words text-sm md:text-base max-w-28">{hero.role}</p>
+                        <a href={`/seven-knights/heroes/${hero.url}`} class="mt-auto">
+                        <img src={`/7knights/heroes/${hero.img}`}
+                            alt={hero.img} 
+                            class="w-28 aspect-square p-2" 
+                            draggable="false"
+                        />
+                        </a>
+                    </div>
+                    ))
+                    }
                 </div>
             </div>
         </article>

@@ -100,7 +100,7 @@ export const destroyerGaze = {
                 url: "shane",
                 img: "shane/Shane.webp",
                 icnSet: "Icn_Avenger.webp"
-            },
+            }
         },
         {
             name: "T15",
@@ -134,7 +134,7 @@ export const destroyerGaze = {
                 url: "shane",
                 img: "shane/Shane.webp",
                 icnSet: "Icn_Avenger.webp"
-            },
+            }
         },
         {
             name: "T10",
@@ -168,7 +168,7 @@ export const destroyerGaze = {
                 url: "shane",
                 img: "shane/Shane.webp",
                 icnSet: "Icn_Assassin.webp"
-            },
+            }
         },
         {
             name: "PRE SHANE / EARLY GAME",
@@ -199,13 +199,13 @@ export const destroyerGaze = {
             },
             hero5: {
                 role: "DPS",
-                url: "jupi",
-                img: "jupi/Jupi.webp",
+                url: "jupy",
+                img: "jupy/Jupy.webp",
                 icnSet: "Icn_Assassin.webp"
-            },
+            }
         },
         {
-            name: "PRE SHANE / EARLY GAME",
+            name: "T15 3-MAN FARM",
             formation: "Protective_Formation.webp",
             hero1: {
                 role: "Stun Immunity",
@@ -226,7 +226,7 @@ export const destroyerGaze = {
                 url: "shane",
                 img: "shane/Shane.webp",
                 icnSet: "Icn_Avenger.webp"
-            },
+            }
         }
     ],
     otherHeroes: [
@@ -256,8 +256,8 @@ export const destroyerGaze = {
         },
         {
             role: "T9/T10 SOLO FARMER",
-            url: "fai",
-            img: "fai/Fai.webp",
+            url: "sieg",
+            img: "sieg/Sieg.webp",
             icnSet: "Icn_Avenger.webp"
         }
     ]
@@ -342,8 +342,182 @@ export const oxKing = {
             }
         ]
     },
-    comps: [],
-    otherHeroes: []
+    comps: [
+        {
+            name: "SPEED CLEAR",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Petrify Immunity",
+                url: "daisy",
+                img: "daisy/Daisy.webp",
+                icnSet: "Icn_Assassin.webp"
+            },
+            hero2: {
+                role: "Bleed Immunity",
+                url: "karon",
+                img: "karon/Karon.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero3: {
+                role: "Barrier",
+                url: "melia",
+                img: "melia/Melia.webp",
+                icnSet: "Icn_Guardian.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "espada",
+                img: "espada/Espada.webp",
+                icnSet: "Icn_Avenger.webp"
+            }
+        },
+        {
+            name: "T15",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Petrify Immunity",
+                url: "daisy",
+                img: "daisy/Daisy.webp",
+                icnSet: "Icn_Assassin.webp"
+            },
+            hero2: {
+                role: "Bleed Immunity",
+                url: "karon",
+                img: "karon/Karon.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero3: {
+                role: "Buffer / Healer",
+                url: "lina",
+                img: "lina/Lina.webp",
+                icnSet: "Icn_Paladin.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "espada",
+                img: "espada/Espada.webp",
+                icnSet: "Icn_Avenger.webp"
+            }
+        },
+        {
+            name: "T10",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Petrify Immunity",
+                url: "daisy",
+                img: "daisy/Daisy.webp",
+                icnSet: "Icn_Assassin.webp"
+            },
+            hero2: {
+                role: "Bleed Immunity",
+                url: "karon",
+                img: "karon/Karon.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero3: {
+                role: "Buffer / Healer",
+                url: "lina",
+                img: "lina/Lina.webp",
+                icnSet: "Icn_Paladin.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "espada",
+                img: "espada/Espada.webp",
+                icnSet: "Icn_Assassin.webp"
+            }
+        },
+        {
+            name: "PRE ESPADA / EARLY GAME",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Petrify Immunity",
+                url: "black-rose",
+                img: "black-rose/Black_Rose.webp",
+                icnSet: "Icn_Assassin.webp"
+            },
+            hero2: {
+                role: "Bleed Immunity",
+                url: "karon",
+                img: "karon/Karon.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero3: {
+                role: "Healer",
+                url: "yui",
+                img: "yui/Yui.webp",
+                icnSet: "Icn_Paladin.webp"
+            },
+            hero4: {
+                role: "Barrier",
+                url: "evan",
+                img: "evan/Evan.webp",
+                icnSet: "Icn_Guardian.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "snipper",
+                img: "snipper/Snipper.webp",
+                icnSet: "Icn_Assassin.webp"
+            }
+        },
+        {
+            name: "T15 3-MAN FARM",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Petrify Immunity",
+                url: "daisy",
+                img: "daisy/Daisy.webp",
+                icnSet: "Icn_Avenger.webp"
+            },
+            hero2: {
+                role: "Bleed Immunity",
+                url: "karon",
+                img: "karon/Karon.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero3: null,
+            hero4: null,
+            hero5: {
+                role: "DPS",
+                url: "espada",
+                img: "espada/Espada.webp",
+                icnSet: "Icn_Avenger.webp"
+            }
+        }
+    ],
+    otherHeroes: [
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "daisy",
+            img: "daisy/Daisy.webp",
+            icnSet: "Icn_Avenger.webp"
+        },
+        {
+            role: "Bleed Immunity",
+            url: "#",
+            img: "cha-hae-in/Cha_Hae-in.webp",
+            icnSet: "Icn_Gatekeeper.webp"
+        }
+    ]
 }
 
 export const ironDevourer = {
@@ -427,6 +601,181 @@ export const ironDevourer = {
             }
         ]
     },
-    comps: [],
-    otherHeroes: []
+    comps: [
+        {
+            name: "SPEED CLEAR",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Paralysis Immunity",
+                url: "xiao-qiao",
+                img: "xiao-qiao/Xiao_Qiao.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero2: {
+                role: "Poison Immunity",
+                url: "lucy",
+                img: "lucy/Lucy.webp",
+                icnSet: "Icn_Guardian.webp"
+            },
+            hero3: {
+                role: "Magic Vul",
+                url: "melia",
+                img: "melia/Melia.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "pascal",
+                img: "pascal/Pascal.webp",
+                icnSet: "Icn_Avenger.webp"
+            }
+        },
+        {
+            name: "T15",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Paralysis Immunity",
+                url: "xiao-qiao",
+                img: "xiao-qiao/Xiao_Qiao.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero2: {
+                role: "Poison Immunity",
+                url: "lucy",
+                img: "lucy/Lucy.webp",
+                icnSet: "Icn_Guardian.webp"
+            },
+            hero3: {
+                role: "Buffer / Healer",
+                url: "lina",
+                img: "lina/Lina.webp",
+                icnSet: "Icn_Paladin.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "pascal",
+                img: "pascal/Pascal.webp",
+                icnSet: "Icn_Avenger.webp"
+            }
+        },
+        {
+            name: "T10",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Paralysis Immunity",
+                url: "xiao-qiao",
+                img: "xiao-qiao/Xiao_Qiao.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero2: {
+                role: "Poison Immunity",
+                url: "lucy",
+                img: "lucy/Lucy.webp",
+                icnSet: "Icn_Guardian.webp"
+            },
+            hero3: {
+                role: "Buffer / Healer",
+                url: "lina",
+                img: "lina/Lina.webp",
+                icnSet: "Icn_Paladin.webp"
+            },
+            hero4: {
+                role: "Buffer",
+                url: "biscuit",
+                img: "biscuit/Biscuit.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS",
+                url: "xiao-qiao",
+                img: "xiao-qiao/Xiao_Qiao.webp",
+                icnSet: "Icn_Avenger.webp"
+            }
+        },
+        {
+            name: "PRE PASCAL / EARLY GAME",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "+MAtak",
+                url: "noho",
+                img: "noho/Noho.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero2: {
+                role: "Poison Immunity",
+                url: "lucy",
+                img: "lucy/Lucy.webp",
+                icnSet: "Icn_Guardian.webp"
+            },
+            hero3: {
+                role: "Focus Target",
+                url: "asura",
+                img: "asura/Asura.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero4: {
+                role: "Def Down",
+                url: "ace",
+                img: "ace/Ace.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero5: {
+                role: "DPS / Paralysis Immunity",
+                url: "xiao-qiao",
+                img: "xiao-qiao/Xiao_Qiao.webp",
+                icnSet: "Icn_Assassin.webp"
+            }
+        },
+        {
+            name: "T15 2-MAN FARM",
+            formation: "Protective_Formation.webp",
+            hero1: {
+                role: "Paralysis Immunity",
+                url: "xiao-qiao",
+                img: "xiao-qiao/Xiao_Qiao.webp",
+                icnSet: "Icn_Gatekeeper.webp"
+            },
+            hero2: null,
+            hero3: null,
+            hero4: null,
+            hero5: {
+                role: "DPS",
+                url: "pascal",
+                img: "pascal/Pascal.webp",
+                icnSet: "Icn_Avenger.webp"
+            }
+        },
+    ],
+    otherHeroes: [
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "xiao-qiao",
+            img: "xiao-qiao/Xiao_Qiao.webp",
+            icnSet: "Icn_Avenger.webp"
+        },
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "pascal",
+            img: "pascal/Pascal.webp",
+            icnSet: "Icn_Avenger.webp"
+        },
+        {
+            role: "T9/T10 SOLO FARMER",
+            url: "sun-wukong",
+            img: "sun-wukong/Sun_Wukong.webp",
+            icnSet: "Icn_Avenger.webp"
+        }
+    ]
 }
