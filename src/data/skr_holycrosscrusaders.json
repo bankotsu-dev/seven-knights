@@ -76,12 +76,16 @@
                     "desc": "Self",
                     "effects": [
                         "Grants Magic Damage Boost by 24%. [Always Active].",
+                        "Grants Weakness Hit Chance Boost by 32%. [Always Active].",
                         "Heals HP equal to 95% of the caster's Magic Attack upon using a skill 1 time(s)."
                     ]
                 }
             ],
-            "enhancement": ["Increases Effect: Magic Damage Boost to 29%."],
-            "transcendence2": ["Adds Effect: 39% Weakness Hit Chance Boost. [Always Active]."],
+            "enhancement": [
+                "Increases Effect: Magic Damage Boost to 29%.",
+                "Increases Effect: Weakness Hit Chance Boost to 39%."
+            ],
+            "transcendence2": ["Adds Effect: 48% chance to grant Weakness Hit Damage Boost by 48% upon activating a skill 1 time(s). [Duration: 5 Turn(s)]."],
             "transcendence6": null
         },
         "builds":[

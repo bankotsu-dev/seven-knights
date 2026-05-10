@@ -1,0 +1,237 @@
+---
+import Title from "@/components/Title.astro";
+import Layout from "@/layouts/Layout.astro";
+import Skill from "@components/seven-knights/Skill.astro";
+import DungeonComp from "@/components/seven-knights/DungeonComp.astro";
+import { calistra, astrea, leonid } from "@/data/skr_suddenraids";
+---
+
+<Layout>
+    <section>
+        <Title title="SUDDEN RAIDS" />
+        <!-- Calistra -->
+        <article data-name="calistra">
+            <div class="grid grid-cols-5 gap-4 mx-2">
+                <!-- Left Side -->
+                <div class="col-span-5 sm:col-span-2 md:col-span-1">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        {calistra.name}
+                    </h2>
+                    <img src={calistra.image} class="w-full h-auto object-cover" draggable="false" />
+                    <p class="mt-4 tracking-tight">
+                       Calistra uses attacks that inflict <span class="text-orange">Burn</span> and <span class="text-orange">Blind</span>.
+                    </p>
+                    <p class="tracking-tight">
+                       Uses heroes with <span class="text-orange">Burn Immunity</span> and <span class="text-orange">Blind Immunity</span> 
+                       buffs and a hero who can inflict <span class="text-orange">All Attack Reduction</span> to reduce damage from Calistra.
+                    </p>
+                    <p class="tracking-tight">
+                        Calistra also has <span class="text-orange">Magic Resistance</span>, so you must deploy
+                        <span class="text-orange">Physical Damage</span> heroes.
+                    </p>
+                </div>
+                <!-- Right Side -->
+                <div class="col-span-5 sm:col-span-3 md:col-span-4">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        Skills
+                    </h2>
+                    <Skill skill={calistra.basic_attack} type="Basic Attack" />
+                    <Skill skill={calistra.skill_1} type="Skill 1" />
+                    <Skill skill={calistra.skill_2} type="Skill 2" />
+                    <Skill skill={calistra.skill_3} type="Skill 3" />
+                    <Skill skill={calistra.passive} type="Passive" />
+                </div>
+            </div>
+            <div>
+                <h2
+                    class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                    bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mt-2" >
+                    Teams
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+                    {
+                        calistra.comps.map((comp)=>(
+                            <DungeonComp comp={comp} />
+                        ))
+                    }
+                </div>
+                <div class="flex flex-wrap w-full font-bold rounded-xl border border-gray-500 my-2 bg-zinc-800/50">
+                    <div class="p-2 overflow-hidden w-28 h-28 text-center content-center">
+                    <h5 class="text-sm md:text-base lg:text-xl break-words select-none">
+                        OTHER HEROES
+                    </h5>
+                    </div>
+                    {
+                        calistra.otherHeroes?.map((hero) => (
+                        <div class="p-1 flex flex-col items-center overflow-hidden h-full text-center select-none">
+                            <p class="break-words text-sm md:text-base max-w-28">{hero.role}</p>
+                            <a href={`/seven-knights/heroes/${hero.url}`} class="mt-auto">
+                            <img src={`/7knights/heroes/${hero.img}`}
+                                alt={hero.img} 
+                                class="w-28 aspect-square p-2" 
+                                draggable="false"
+                            />
+                            </a>
+                        </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </article>
+        <!-- Astrea -->
+        <article data-name="astrea" class="mt-8">
+            <div class="grid grid-cols-5 gap-4 mx-2">
+                <!-- Left Side -->
+                <div class="col-span-5 sm:col-span-2 md:col-span-1">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        {astrea.name}
+                    </h2>
+                    <img src={astrea.image} class="w-full h-auto object-cover" draggable="false" />
+                    <p class="mt-4 tracking-tight">
+                       Astrea uses attacks that inflict <span class="text-orange">Bleed</span> and <span class="text-orange">Petrify</span>. 
+                       She has <span class="text-orange">0 Defense</span>, so <span class="text-orange">Defense Reduction effects do not apply</span>.
+                    </p>
+                    <p class="tracking-tight">
+                        Use heroes with <span class="text-orange">Bleed Immunity</span> and <span class="text-orange">Petrify Immunity</span> buffs, 
+                        and since <span class="text-orange">Dikais</span> summoned by Astrea have <span class="text-orange">Resistance</span> buffs, 
+                        use heroes with <span class="text-orange">Buff Removal</span> to remove them.
+                    </p>
+                    <p class="tracking-tight">
+                        Astrea also has <span class="text-orange">Physical Resistance</span> and <span class="text-orange">high HP</span>, so you must 
+                        deploy heroes with skills that inflict <span class="text-orange">bonus damage based on target's Max HP</span>. She also inflicts 
+                        <span class="text-orange">All Attack Reduction</span> on back row allies, so you must deploy heroes that use Debuff Removal.
+                    </p>
+                </div>
+                <!-- Right Side -->
+                <div class="col-span-5 sm:col-span-3 md:col-span-4">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        Skills
+                    </h2>
+                    <Skill skill={astrea.basic_attack} type="Basic Attack" />
+                    <Skill skill={astrea.skill_1} type="Skill 1" />
+                    <Skill skill={astrea.skill_2} type="Skill 2" />
+                    <Skill skill={astrea.skill_3} type="Skill 3" />
+                    <Skill skill={astrea.passive} type="Passive" />
+                </div>
+            </div>
+            <div>
+                <h2
+                    class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                    bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mt-2" >
+                    Teams
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+                    {
+                        astrea.comps.map((comp)=>(
+                            <DungeonComp comp={comp} />
+                        ))
+                    }
+                </div>
+                <div class="flex flex-wrap w-full font-bold rounded-xl border border-gray-500 my-2 bg-zinc-800/50">
+                    <div class="p-2 overflow-hidden w-28 h-28 text-center content-center">
+                    <h5 class="text-sm md:text-base lg:text-xl break-words select-none">
+                        OTHER HEROES
+                    </h5>
+                    </div>
+                    {
+                        astrea.otherHeroes?.map((hero) => (
+                        <div class="p-1 flex flex-col items-center overflow-hidden h-full text-center select-none">
+                            <p class="break-words text-sm md:text-base max-w-28">{hero.role}</p>
+                            <a href={`/seven-knights/heroes/${hero.url}`} class="mt-auto">
+                            <img src={`/7knights/heroes/${hero.img}`}
+                                alt={hero.img} 
+                                class="w-28 aspect-square p-2" 
+                                draggable="false"
+                            />
+                            </a>
+                        </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </article>
+        <!-- Leonid -->
+        <article data-name="leonid" class="mt-8">
+            <div class="grid grid-cols-5 gap-4 mx-2">
+                <!-- Left Side -->
+                <div class="col-span-5 sm:col-span-2 md:col-span-1">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        {leonid.name}
+                    </h2>
+                    <img src={leonid.image} class="w-full h-auto object-cover" draggable="false" />
+                    <p class="mt-4 tracking-tight">
+                       Leonid uses attacks that inflict <span class="text-orange">Death</span> and <span class="text-orange">Shock</span>.
+                    </p>
+                    <p class="tracking-tight">
+                        Use heroes with <span class="text-orange">Death Immunity</span> and <span class="text-orange">Shock Immunity</span> buffs,
+                        and since you cannot gain points for damage dealt to Barriers, you must use heroes with <span class="text-orange">Buff 
+                        Removal</span> to remove it.
+                    </p>
+                    <p class="tracking-tight">
+                        Leonid also has <span class="text-orange">Magic Resistance</span> and <span class="text-orange">high defense</span>, 
+                        so you must deploy <span class="text-orange">Physical damage</span> heroes with <span class="text-orange">Ignore 
+                        Defense</span> skills.
+                    </p>
+                </div>
+                <!-- Right Side -->
+                <div class="col-span-5 sm:col-span-3 md:col-span-4">
+                    <h2
+                        class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none
+                        bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mb-2" >
+                        Skills
+                    </h2>
+                    <Skill skill={leonid.basic_attack} type="Basic Attack" />
+                    <Skill skill={leonid.skill_1} type="Skill 1" />
+                    <Skill skill={leonid.skill_2} type="Skill 2" />
+                    <Skill skill={leonid.skill_3} type="Skill 3" />
+                    <Skill skill={leonid.passive} type="Passive" />
+                </div>
+            </div>
+            <div>
+                <h2
+                    class="text-cyan-300 font-bold text-xl md:text-2xl text-center select-none overflow-hidden
+                    bg-gradient-to-b from-gray-800 via-gray-950 to-gray-800 rounded-xl p-2 mt-2" >
+                    Teams
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+                    {
+                        leonid.comps.map((comp)=>(
+                            <DungeonComp comp={comp} />
+                        ))
+                    }
+                </div>
+                <div class="flex flex-wrap w-full font-bold rounded-xl border border-gray-500 my-2 bg-zinc-800/50">
+                    <div class="p-2 overflow-hidden w-28 h-28 text-center content-center">
+                    <h5 class="text-sm md:text-base lg:text-xl break-words select-none">
+                        OTHER HEROES
+                    </h5>
+                    </div>
+                    {
+                        leonid.otherHeroes?.map((hero) => (
+                        <div class="p-1 flex flex-col items-center overflow-hidden h-full text-center select-none">
+                            <p class="break-words text-sm md:text-base max-w-28">{hero.role}</p>
+                            <a href={`/seven-knights/heroes/${hero.url}`} class="mt-auto">
+                            <img src={`/7knights/heroes/${hero.img}`}
+                                alt={hero.img} 
+                                class="w-28 aspect-square p-2" 
+                                draggable="false"
+                            />
+                            </a>
+                        </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </article>
+    </section>
+</Layout>
